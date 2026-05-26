@@ -48,25 +48,22 @@ export default function HybridCoachingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-            {/* ── Card 1 · Hybrid coaching (featured) ── */}
-            <div className="relative bg-green-dark rounded-2xl p-8 flex flex-col gap-6">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                <span className="font-montserrat text-[10px] font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full px-3 py-1">{t.common.bestValue}</span>
-              </div>
+            {/* ── Card 1 · Hybrid coaching (monthly) ── */}
+            <div className="bg-cream rounded-2xl border border-border p-8 flex flex-col gap-6">
               <div>
-                <h3 className="font-cormorant text-2xl font-medium text-cream">{h.card1Title}</h3>
-                <p className="font-dmsans text-sm text-gold-soft/70 mt-1">{h.card1Subtitle}</p>
+                <h3 className="font-cormorant text-2xl font-medium text-text">{h.card1Title}</h3>
+                <p className="font-dmsans text-sm text-text-muted mt-1">{h.card1Subtitle}</p>
               </div>
               <div className="flex items-end gap-1">
                 <span className="font-cormorant text-4xl font-medium text-gold">Q1,450</span>
-                <span className="font-montserrat text-xs text-gold-soft/70 mb-1.5">{t.common.perMonth}</span>
+                <span className="font-montserrat text-xs text-text-muted mb-1.5">{t.common.perMonth}</span>
               </div>
               <ul className="flex flex-col gap-3 flex-1">
                 {[h.card1F1, h.card1F2, h.card1F3, h.card1F4, h.card1F5].map((f) => (
-                  <FeaturedFeature key={f} text={f} />
+                  <Feature key={f} text={f} />
                 ))}
               </ul>
-              <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full py-3 hover:bg-gold-soft transition-colors mt-2">
+              <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase border border-gold text-gold rounded-full py-3 hover:bg-gold hover:text-cream transition-all duration-200 mt-2">
                 {t.common.getStarted}
               </Link>
             </div>
@@ -99,26 +96,26 @@ export default function HybridCoachingPage() {
               </Link>
             </div>
 
-            {/* ── Card 3 · 12-week hybrid coaching ── */}
-            <div className="relative bg-cream rounded-2xl border-2 border-gold p-8 flex flex-col gap-6">
+            {/* ── Card 3 · 12-week hybrid coaching (Best Value) ── */}
+            <div className="relative bg-green-dark rounded-2xl p-8 flex flex-col gap-6">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                <span className="font-montserrat text-[10px] font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full px-3 py-1">{t.common.twelveWeek}</span>
+                <span className="font-montserrat text-[10px] font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full px-3 py-1">{t.common.bestValue}</span>
               </div>
               <div>
-                <h3 className="font-cormorant text-2xl font-medium text-text">{h.card3Title}</h3>
-                <p className="font-dmsans text-sm text-text-muted mt-1">{h.card3Subtitle}</p>
+                <h3 className="font-cormorant text-2xl font-medium text-cream">{h.card3Title}</h3>
+                <p className="font-dmsans text-sm text-gold-soft/70 mt-1">{h.card3Subtitle}</p>
               </div>
               <div className="flex items-end gap-1">
                 <span className="font-cormorant text-4xl font-medium text-gold">Q3,999</span>
-                <span className="font-montserrat text-xs text-text-muted mb-1.5">{t.common.per12Weeks}</span>
+                <span className="font-montserrat text-xs text-gold-soft/70 mb-1.5">{t.common.per12Weeks}</span>
               </div>
               <ul className="flex flex-col gap-3 flex-1">
                 {[h.card3F1, h.card3F2, h.card3F3, h.card3F4, h.card3F5, h.card3F6].map((f) => (
-                  <Feature key={f} text={f} />
+                  <FeaturedFeature key={f} text={f} />
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full py-3 hover:bg-gold-soft transition-colors mt-2">
-                {t.common.applyTransformation}
+                {t.common.getStarted}
               </Link>
             </div>
 
