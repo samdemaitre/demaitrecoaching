@@ -116,7 +116,7 @@ export const nl: Translations = {
     cardTitle: "Online coaching", cardSubtitle: "Alles wat je nodig hebt, geen sessies",
     cardF1: "Geen persoonlijke sessies", cardF2: "Programma elke 2 weken bijgewerkt",
     cardF3: "Voeding maandelijks aangepast", cardF4: "WhatsApp toegang + wekelijkse check-in",
-    cardF5: "Maandelijkse voortgangsregistratie", cardF6: "Minimale verbintenis van 1 maand",
+    cardF5: "Maandelijkse voortgangsregistratie",
     ctaHeading: "Klaar om jouw traject te starten van", ctaItalic: "waar dan ook?", ctaNote: "Beperkte plaatsen · Meld je aan om jouw plek te reserveren",
   },
   contact: {

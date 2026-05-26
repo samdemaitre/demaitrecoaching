@@ -116,7 +116,7 @@ export const es: Translations = {
     cardTitle: "Coaching online", cardSubtitle: "Todo lo que necesitas, sin sesiones",
     cardF1: "Sin sesiones presenciales", cardF2: "Programa actualizado cada 2 semanas",
     cardF3: "Nutrición ajustada mensualmente", cardF4: "WhatsApp + check-in semanal",
-    cardF5: "Seguimiento mensual del progreso", cardF6: "Compromiso mínimo de 1 mes",
+    cardF5: "Seguimiento mensual del progreso",
     ctaHeading: "¿Listo para comenzar tu camino desde", ctaItalic: "cualquier lugar?", ctaNote: "Plazas limitadas · Solicita la tuya",
   },
   contact: {
