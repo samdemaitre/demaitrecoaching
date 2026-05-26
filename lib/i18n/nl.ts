@@ -86,7 +86,7 @@ export const nl: Translations = {
     card3Title: "Breng een vriend mee", card3Subtitle: "Train 2-op-1, ieder betaalt 75% van de solo prijs",
     card3Tier1: "4 sessies / maand", card3Tier2: "8 sessies / maand",
     card3WasLabel: "was", card3PPLabel: "p.p.", card3TotalLabel: "Totaal",
-    card3F1: "Zelfde programma & voeding voor beiden", card3F2: "Beiden moeten dezelfde sessies boeken",
+    card3F1: "Individueel programma & voedingsrichtlijnen", card3F2: "Beiden moeten dezelfde sessies boeken",
     ctaHeading: "Vragen over", ctaItalic: "welk pakket?", ctaNote: "Boek een gratis kennismakingsgesprek van 30 minuten",
   },
   hybridCoaching: {

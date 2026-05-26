@@ -86,7 +86,7 @@ export const de: Translations = {
     card3Title: "Freund mitbringen", card3Subtitle: "Trainiere 2-zu-1, jeder zahlt 75% des Solo-Preises",
     card3Tier1: "4 Sessions / Monat", card3Tier2: "8 Sessions / Monat",
     card3WasLabel: "war", card3PPLabel: "p.P.", card3TotalLabel: "Gesamt",
-    card3F1: "Gleiches Programm & Ernährung für beide", card3F2: "Beide müssen dieselben Sessions buchen",
+    card3F1: "Individuelles Programm & Ernährungsrichtlinien", card3F2: "Beide müssen dieselben Sessions buchen",
     ctaHeading: "Fragen dazu,", ctaItalic: "welches Paket das richtige ist?", ctaNote: "Kostenloses 30-minütiges Erstgespräch buchen",
   },
   hybridCoaching: {

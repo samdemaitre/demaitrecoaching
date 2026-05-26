@@ -86,7 +86,7 @@ export const fr: Translations = {
     card3Title: "Amenez un ami", card3Subtitle: "Entraînez-vous en 2 pour 1, chacun paie 75% du tarif individuel",
     card3Tier1: "4 séances / mois", card3Tier2: "8 séances / mois",
     card3WasLabel: "avant", card3PPLabel: "p.p.", card3TotalLabel: "Total",
-    card3F1: "Même programme et nutrition pour les deux", card3F2: "Les deux doivent réserver les mêmes séances",
+    card3F1: "Programme individuel et directives nutritionnelles", card3F2: "Les deux doivent réserver les mêmes séances",
     ctaHeading: "Des questions sur", ctaItalic: "quelle formule choisir ?", ctaNote: "Réservez un appel découverte gratuit de 30 minutes",
   },
   hybridCoaching: {

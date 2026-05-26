@@ -86,7 +86,7 @@ export const es: Translations = {
     card3Title: "Trae a un amigo", card3Subtitle: "Entrena 2 a 1, cada uno paga el 75% del precio individual",
     card3Tier1: "4 sesiones / mes", card3Tier2: "8 sesiones / mes",
     card3WasLabel: "antes", card3PPLabel: "c/u", card3TotalLabel: "Total",
-    card3F1: "Mismo programa y nutrición para ambos", card3F2: "Ambos deben reservar las mismas sesiones",
+    card3F1: "Programa individual y pautas de nutrición", card3F2: "Ambos deben reservar las mismas sesiones",
     ctaHeading: "¿Preguntas sobre", ctaItalic: "qué paquete elegir?", ctaNote: "Reserva una llamada gratuita de 30 minutos",
   },
   hybridCoaching: {

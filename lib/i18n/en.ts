@@ -84,7 +84,7 @@ export const en = {
     card3Title: "Bring a friend", card3Subtitle: "Train 2-on-1, each pays 75% of solo price",
     card3Tier1: "4 sessions / month", card3Tier2: "8 sessions / month",
     card3WasLabel: "was", card3PPLabel: "p.p.", card3TotalLabel: "Total",
-    card3F1: "Same program & nutrition for both", card3F2: "Both must book the same sessions",
+    card3F1: "Individual program & nutrition guidelines", card3F2: "Both must book the same sessions",
     ctaHeading: "Questions about", ctaItalic: "which package?", ctaNote: "Book a free 30-minute discovery call",
   },
   hybridCoaching: {
