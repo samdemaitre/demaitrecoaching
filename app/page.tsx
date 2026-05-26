@@ -1,16 +1,13 @@
-import type { Metadata } from "next";
+"use client";
+
 import HeroSection from "@/components/HeroSection";
 import StatsStrip from "@/components/StatsStrip";
 import PillarsSection from "@/components/PillarsSection";
 import CtaStrip from "@/components/CtaStrip";
-
-export const metadata: Metadata = {
-  title: "De Maître Coaching | Elite Personal Training Guatemala City",
-  description:
-    "Luxury personal training in Guatemala City. Tailored programmes for driven individuals. In-person, hybrid, and online coaching with Samuel de Maître.",
-};
+import { useLanguage } from "@/lib/i18n/context";
 
 export default function HomePage() {
+  const { t } = useLanguage();
   return (
     <>
       <HeroSection />
@@ -19,7 +16,7 @@ export default function HomePage() {
       <CtaStrip
         heading={
           <>
-            Ready to transform your <em className="text-gold not-italic">body?</em>
+            {t.home.ctaHeading} <em className="text-gold not-italic">{t.home.ctaItalic}</em>
           </>
         }
       />

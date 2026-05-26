@@ -1,6 +1,26 @@
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
+  {
+    label: "About",
+    href: "/about",
+    children: [
+      {
+        label: "Meet the Coach",
+        href: "/about/meet-the-coach",
+        subtitle: "Sam de Maître",
+      },
+      {
+        label: "Why Us?",
+        href: "/about/why-us",
+        subtitle: "What sets us apart",
+      },
+      {
+        label: "Our Goals",
+        href: "/about/our-goals",
+        subtitle: "Our mission & vision",
+      },
+    ],
+  },
   {
     label: "Services",
     href: "#",
@@ -22,6 +42,7 @@ export const NAV_LINKS = [
       },
     ],
   },
+  { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -38,7 +59,7 @@ export const BRAND = {
 
 export const STATS = [
   { value: "400+", label: "Clients Trained" },
-  { value: "11", label: "Years Experience" },
+  { value: "12", label: "Years Experience" },
   { value: "100%", label: "Tailored to You" },
 ];
 

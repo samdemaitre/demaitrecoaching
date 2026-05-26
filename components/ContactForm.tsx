@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLanguage } from "@/lib/i18n/context";
 
 interface FormData {
   name: string;
@@ -12,6 +13,8 @@ interface FormData {
 }
 
 export default function ContactForm() {
+  const { t } = useLanguage();
+  const c = t.contact;
   const [submitted, setSubmitted] = useState(false);
   const {
     register,
@@ -32,7 +35,7 @@ export default function ContactForm() {
   return (
     <div className="bg-cream2 rounded-2xl p-8 border border-border">
       <span className="font-montserrat text-[11px] font-semibold tracking-[0.2em] uppercase text-gold block mb-6">
-        Send a Message
+        {c.formEyebrow}
       </span>
 
       <AnimatePresence mode="wait">
@@ -48,10 +51,8 @@ export default function ContactForm() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h3 className="font-cormorant text-2xl font-medium text-text">Message Sent</h3>
-            <p className="font-dmsans text-sm text-text-soft max-w-xs">
-              Thank you for reaching out. Sam will be in touch within 24 hours.
-            </p>
+            <h3 className="font-cormorant text-2xl font-medium text-text">{c.successTitle}</h3>
+            <p className="font-dmsans text-sm text-text-soft max-w-xs">{c.successBody}</p>
           </motion.div>
         ) : (
           <motion.form
@@ -62,10 +63,10 @@ export default function ContactForm() {
             exit={{ opacity: 0 }}
           >
             <div>
-              <label className={labelClass}>Full Name</label>
+              <label className={labelClass}>{c.formName}</label>
               <input
                 type="text"
-                placeholder="Your name"
+                placeholder={c.formNamePlaceholder}
                 className={inputClass}
                 {...register("name", { required: "Name is required" })}
               />
@@ -73,10 +74,10 @@ export default function ContactForm() {
             </div>
 
             <div>
-              <label className={labelClass}>Email Address</label>
+              <label className={labelClass}>{c.formEmail}</label>
               <input
                 type="email"
-                placeholder="your@email.com"
+                placeholder={c.formEmailPlaceholder}
                 className={inputClass}
                 {...register("email", {
                   required: "Email is required",
@@ -90,26 +91,26 @@ export default function ContactForm() {
             </div>
 
             <div>
-              <label className={labelClass}>I&apos;m Interested In</label>
+              <label className={labelClass}>{c.formService}</label>
               <select
                 className={inputClass}
                 {...register("service", { required: "Please select an option" })}
                 defaultValue=""
               >
-                <option value="" disabled>Select a service...</option>
-                <option value="personal-training">Personal Training</option>
-                <option value="hybrid-coaching">Hybrid Coaching</option>
-                <option value="online-coaching">Online Coaching</option>
-                <option value="not-sure">Not sure yet</option>
+                <option value="" disabled>{c.formServicePlaceholder}</option>
+                <option value="personal-training">{c.formOptPersonal}</option>
+                <option value="hybrid-coaching">{c.formOptHybrid}</option>
+                <option value="online-coaching">{c.formOptOnline}</option>
+                <option value="not-sure">{c.formOptNotSure}</option>
               </select>
               {errors.service && <p className={errorClass}>{errors.service.message}</p>}
             </div>
 
             <div>
-              <label className={labelClass}>Message</label>
+              <label className={labelClass}>{c.formMessage}</label>
               <textarea
                 rows={4}
-                placeholder="Tell Sam a bit about your goals..."
+                placeholder={c.formMessagePlaceholder}
                 className={`${inputClass} resize-none`}
                 {...register("message", { required: "Please include a message" })}
               />
@@ -121,7 +122,7 @@ export default function ContactForm() {
               disabled={isSubmitting}
               className="w-full font-montserrat text-xs font-semibold tracking-widest uppercase bg-green-dark text-cream rounded-full py-4 hover:bg-green-mid transition-colors disabled:opacity-60 mt-2"
             >
-              {isSubmitting ? "Sending..." : "Send Message"}
+              {isSubmitting ? c.formSubmitting : c.formSubmit}
             </button>
           </motion.form>
         )}

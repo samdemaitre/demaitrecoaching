@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { PILLARS } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/context";
 
 function StrengthIcon() {
   return (
@@ -16,7 +16,6 @@ function StrengthIcon() {
 }
 
 function NutritionIcon() {
-  // Fork and knife — universally recognisable nutrition symbol
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-gold">
       <line x1="8" y1="3" x2="8" y2="21" />
@@ -36,7 +35,6 @@ function AccountabilityIcon() {
 }
 
 function LongevityIcon() {
-  // Hourglass
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-gold">
       <path d="M5 3h14" />
@@ -50,24 +48,33 @@ function LongevityIcon() {
 const PILLAR_ICONS = [StrengthIcon, NutritionIcon, AccountabilityIcon, LongevityIcon];
 
 export default function PillarsSection() {
+  const { t } = useLanguage();
+
+  const pillars = [
+    { title: t.home.strengthTitle, body: t.home.strengthBody },
+    { title: t.home.nutritionTitle, body: t.home.nutritionBody },
+    { title: t.home.accountabilityTitle, body: t.home.accountabilityBody },
+    { title: t.home.longevityTitle, body: t.home.longevityBody },
+  ];
+
   return (
     <section className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <span className="font-montserrat text-[11px] font-semibold tracking-[0.2em] uppercase text-gold">
-            The Method
+            {t.home.pillarsEyebrow}
           </span>
           <h2 className="font-cormorant text-4xl md:text-5xl font-medium text-text mt-3">
-            Four Pillars of Excellence
+            {t.home.pillarsHeading}
           </h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {PILLARS.map((pillar, i) => {
+          {pillars.map((pillar, i) => {
             const Icon = PILLAR_ICONS[i];
             return (
               <motion.div
-                key={pillar.title}
+                key={i}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

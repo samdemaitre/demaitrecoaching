@@ -2,8 +2,13 @@
 
 import { motion } from "framer-motion";
 import { STATS } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/context";
 
 export default function StatsStrip() {
+  const { t } = useLanguage();
+
+  const statLabels = [t.home.statsClients, t.home.statsYears, t.home.statsTailored];
+
   return (
     <section className="bg-cream2 py-12 px-6 border-y border-border">
       <div className="max-w-4xl mx-auto grid grid-cols-3 divide-x divide-gold/30">
@@ -20,7 +25,7 @@ export default function StatsStrip() {
               {stat.value}
             </span>
             <span className="font-montserrat text-[10px] font-medium tracking-widest uppercase text-text-muted text-center">
-              {stat.label}
+              {statLabels[i]}
             </span>
           </motion.div>
         ))}

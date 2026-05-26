@@ -1,7 +1,24 @@
+"use client";
+
 import Link from "next/link";
 import { BRAND } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/context";
 
 export default function Footer() {
+  const { t } = useLanguage();
+
+  const footerLinks = [
+    { label: t.footer.links.home, href: "/" },
+    { label: t.footer.links.meetCoach, href: "/about/meet-the-coach" },
+    { label: t.footer.links.whyUs, href: "/about/why-us" },
+    { label: t.footer.links.ourGoals, href: "/about/our-goals" },
+    { label: t.footer.links.personal, href: "/services/personal-training" },
+    { label: t.footer.links.hybrid, href: "/services/hybrid-coaching" },
+    { label: t.footer.links.online, href: "/services/online-coaching" },
+    { label: t.footer.links.faq, href: "/faq" },
+    { label: t.footer.links.contact, href: "/contact" },
+  ];
+
   return (
     <footer className="bg-green-dark">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -17,27 +34,20 @@ export default function Footer() {
               </span>
             </div>
             <p className="font-cormorant italic text-gold-soft text-lg leading-relaxed">
-              Tailored Training. Elevated Life.
+              {t.footer.tagline}
             </p>
             <p className="font-dmsans text-sm text-text-muted leading-relaxed">
-              Elite personal training in Guatemala City and online worldwide. Programmes built for driven individuals who demand results.
+              {t.footer.description}
             </p>
           </div>
 
           {/* Navigate */}
           <div className="flex flex-col gap-4">
             <h4 className="font-montserrat text-xs font-semibold tracking-widest uppercase text-gold">
-              Navigate
+              {t.footer.navigate}
             </h4>
             <nav className="flex flex-col gap-2.5">
-              {[
-                { label: "Home", href: "/" },
-                { label: "About", href: "/about" },
-                { label: "Personal Training", href: "/services/personal-training" },
-                { label: "Hybrid Coaching", href: "/services/hybrid-coaching" },
-                { label: "Online Coaching", href: "/services/online-coaching" },
-                { label: "Contact", href: "/contact" },
-              ].map((link) => (
+              {footerLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -52,7 +62,7 @@ export default function Footer() {
           {/* Get in Touch */}
           <div className="flex flex-col gap-4">
             <h4 className="font-montserrat text-xs font-semibold tracking-widest uppercase text-gold">
-              Get in Touch
+              {t.footer.getInTouch}
             </h4>
             <div className="flex flex-col gap-3">
               <a
@@ -85,10 +95,10 @@ export default function Footer() {
       <div className="bg-green-mid border-t border-green-soft">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="font-montserrat text-[11px] text-text-muted tracking-wide">
-            © {new Date().getFullYear()} De Maître Coaching. All rights reserved.
+            © {new Date().getFullYear()} De Maître Coaching. {t.footer.copyright}
           </p>
           <p className="font-cormorant italic text-text-muted text-sm">
-            Tailored Training. Elevated Life.
+            {t.footer.tagline}
           </p>
         </div>
       </div>

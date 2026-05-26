@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/lib/i18n/context";
 
 interface CtaStripProps {
   heading: React.ReactNode;
@@ -10,8 +11,11 @@ interface CtaStripProps {
 
 export default function CtaStrip({
   heading,
-  note = "No commitment · 30 minutes · Free",
+  note,
 }: CtaStripProps) {
+  const { t } = useLanguage();
+  const resolvedNote = note ?? t.common.noCommitment;
+
   return (
     <section className="py-10 px-6">
       <div className="max-w-5xl mx-auto">
@@ -30,9 +34,9 @@ export default function CtaStrip({
               href="/contact"
               className="font-montserrat text-xs font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full px-7 py-3 hover:bg-gold-soft transition-colors whitespace-nowrap"
             >
-              Book a Free Call
+              {t.common.bookFreeCall}
             </Link>
-            <span className="font-dmsans text-xs text-text-muted">{note}</span>
+            <span className="font-dmsans text-xs text-text-muted">{resolvedNote}</span>
           </div>
         </motion.div>
       </div>
