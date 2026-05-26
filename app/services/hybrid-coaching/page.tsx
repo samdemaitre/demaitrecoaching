@@ -28,13 +28,6 @@ export default function HybridCoachingPage() {
   const { t } = useLanguage();
   const h = t.hybridCoaching;
 
-  const phases = [
-    { weeks: h.phaseW1, name: h.phase1 },
-    { weeks: h.phaseW2, name: h.phase2 },
-    { weeks: h.phaseW3, name: h.phase3 },
-    { weeks: h.phaseW4, name: h.phase4 },
-  ];
-
   return (
     <>
       <ServiceHero
@@ -106,7 +99,7 @@ export default function HybridCoachingPage() {
               </Link>
             </div>
 
-            {/* ── Card 3 · 12-week transformation ── */}
+            {/* ── Card 3 · 12-week hybrid coaching ── */}
             <div className="relative bg-cream rounded-2xl border-2 border-gold p-8 flex flex-col gap-6">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                 <span className="font-montserrat text-[10px] font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full px-3 py-1">{t.common.twelveWeek}</span>
@@ -119,17 +112,6 @@ export default function HybridCoachingPage() {
                 <span className="font-cormorant text-4xl font-medium text-gold">Q3,999</span>
                 <span className="font-montserrat text-xs text-text-muted mb-1.5">{t.common.per12Weeks}</span>
               </div>
-
-              {/* Phase mini-grid */}
-              <div className="grid grid-cols-2 gap-2">
-                {phases.map((p) => (
-                  <div key={p.name} className="bg-cream2 rounded-lg px-4 py-3">
-                    <p className="font-montserrat text-[9px] tracking-widest uppercase text-text-muted mb-0.5">{p.weeks}</p>
-                    <p className="font-cormorant text-base font-medium text-text">{p.name}</p>
-                  </div>
-                ))}
-              </div>
-
               <ul className="flex flex-col gap-3 flex-1">
                 {[h.card3F1, h.card3F2, h.card3F3, h.card3F4, h.card3F5, h.card3F6].map((f) => (
                   <Feature key={f} text={f} />
