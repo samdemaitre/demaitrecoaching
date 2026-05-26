@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FAF7F2;
+  --cream2: #F0EBE1;
+  --cream3: #E8E0D4;
+  --gold: #C4A96B;
+  --gold-soft: #DCCFA0;
+  --gold-pale: #F0E8D0;
+  --green: #0C1E10;
+  --green-mid: #1A3520;
+  --green-soft: #3D6648;
+  --text: #2A2218;
+  --text-soft: #7A6E62;
+  --text-muted: #A89E94;
+  --border: #E0D8CC;
+  --border-soft: #EDE8E0;
+}
+
+body {
+  background-color: #e8e4de;
+  color: var(--text);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
