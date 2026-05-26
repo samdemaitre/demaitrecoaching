@@ -113,7 +113,7 @@ export const en = {
     includes: ["Custom Training Programme", "Nutrition Guidelines", "Weekly Video Check-ins", "24/7 Message Support"],
     cardTitle: "Online coaching", cardSubtitle: "Everything you need, no sessions",
     cardF1: "No in-person sessions", cardF2: "Program updated every 2 weeks",
-    cardF3: "Nutrition guidelines", cardF4: "WhatsApp access + weekly check-in",
+    cardF3: "Nutrition adjusted monthly", cardF4: "WhatsApp access + weekly check-in",
     cardF5: "Monthly progress tracking", cardF6: "Minimum 1-month commitment",
     ctaHeading: "Ready to start your journey from", ctaItalic: "anywhere?", ctaNote: "Limited spots · Apply to secure yours",
   },
