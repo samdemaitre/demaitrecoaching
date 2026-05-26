@@ -115,8 +115,8 @@ export const de: Translations = {
     includes: ["Individuelles Trainingsprogramm", "Ernährungsrichtlinien", "Wöchentliche Video-Check-ins", "24/7 Nachrichtensupport"],
     cardTitle: "Online-Coaching", cardSubtitle: "Alles, was du brauchst, ohne Sessions",
     cardF1: "Keine persönlichen Sessions", cardF2: "Programm alle 2 Wochen aktualisiert",
-    cardF3: "Ernährung monatlich angepasst", cardF4: "WhatsApp + wöchentlicher Check-in",
-    cardF5: "Monatliche Fortschrittsverfolgung",
+    cardF3: "Ernährung monatlich angepasst", cardF4: "24/7 Nachrichtenunterstützung",
+    cardF5: "Wöchentliche Video-Check-ins", cardF6: "App-basiertes Tracking",
     ctaHeading: "Bereit, deine Reise von", ctaItalic: "überall zu starten?", ctaNote: "Begrenzte Plätze · Bewerbe dich, um deinen zu sichern",
   },
   contact: {

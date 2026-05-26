@@ -115,8 +115,8 @@ export const fr: Translations = {
     includes: ["Programme d'Entraînement Personnalisé", "Directives Nutritionnelles", "Bilans Vidéo Hebdomadaires", "Support Messages 24h/24"],
     cardTitle: "Coaching en ligne", cardSubtitle: "Tout ce qu'il vous faut, sans séances",
     cardF1: "Pas de séances en personne", cardF2: "Programme mis à jour toutes les 2 semaines",
-    cardF3: "Nutrition ajustée mensuellement", cardF4: "WhatsApp + bilan hebdomadaire",
-    cardF5: "Suivi mensuel des progrès",
+    cardF3: "Nutrition ajustée mensuellement", cardF4: "Assistance par message 24h/24",
+    cardF5: "Bilans vidéo hebdomadaires", cardF6: "Suivi via application",
     ctaHeading: "Prêt à commencer votre parcours depuis", ctaItalic: "n'importe où ?", ctaNote: "Places limitées · Postulez pour réserver la vôtre",
   },
   contact: {

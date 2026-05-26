@@ -16,6 +16,7 @@ export default function OnlineCoachingPage() {
     { text: o.cardF3 },
     { text: o.cardF4 },
     { text: o.cardF5 },
+    { text: o.cardF6 },
   ];
 
   return (
