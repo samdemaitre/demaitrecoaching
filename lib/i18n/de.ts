@@ -100,7 +100,7 @@ export const de: Translations = {
     card2Title: "Freund mitbringen", card2Subtitle: "Trainiere 2-zu-1, teile die Kosten",
     card2PPLabel: "pro Person", card2TotalLabel: "Gesamt",
     card2Saving: "vs. Q2.900 für 2 Solo — spart zusammen Q400",
-    card2F1: "4 persönliche Sessions / Monat zusammen", card2F2: "Gleiches Programm & Ernährung für beide",
+    card2F1: "4 persönliche Sessions / Monat zusammen", card2F2: "Individuelles Programm und Ernährung",
     card2F3: "WhatsApp + wöchentlicher Check-in", card2F4: "Beide müssen dieselben Sessions buchen",
     card3Title: "12 Wochen Hybrid-Coaching", card3Subtitle: "Vollständige Hybrid-Erfahrung, mit Engagement",
     card3F1: "12 persönliche Sessions insgesamt", card3F2: "Programm alle 2 Wochen aktualisiert",

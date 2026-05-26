@@ -98,7 +98,7 @@ export const en = {
     card2Title: "Bring a friend", card2Subtitle: "Train 2-on-1, split the cost",
     card2PPLabel: "per person", card2TotalLabel: "Total",
     card2Saving: "vs. Q2,900 for 2 solo — save Q400 together",
-    card2F1: "4 in-person sessions / month together", card2F2: "Same program & nutrition for both",
+    card2F1: "4 in-person sessions / month together", card2F2: "Individualised program and nutrition",
     card2F3: "WhatsApp access + weekly check-in", card2F4: "Both must book the same sessions",
     card3Title: "12 Weeks Hybrid Coaching", card3Subtitle: "Full hybrid experience, committed",
     card3F1: "12 in-person sessions total", card3F2: "Program updated every 2 weeks",

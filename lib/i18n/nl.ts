@@ -100,7 +100,7 @@ export const nl: Translations = {
     card2Title: "Vriend meenemen", card2Subtitle: "Train 2-op-1, deel de kosten",
     card2PPLabel: "per persoon", card2TotalLabel: "Totaal",
     card2Saving: "vs. Q2.900 voor 2 solo — bespaar samen Q400",
-    card2F1: "4 persoonlijke sessies / maand samen", card2F2: "Zelfde programma & voeding voor beiden",
+    card2F1: "4 persoonlijke sessies / maand samen", card2F2: "Individueel programma en voeding",
     card2F3: "WhatsApp toegang + wekelijkse check-in", card2F4: "Beiden moeten dezelfde sessies boeken",
     card3Title: "12 Weken Hybride Coaching", card3Subtitle: "Volledige hybride ervaring, met commitment",
     card3F1: "12 persoonlijke sessies totaal", card3F2: "Programma elke 2 weken bijgewerkt",
