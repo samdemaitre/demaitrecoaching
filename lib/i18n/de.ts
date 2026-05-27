@@ -82,7 +82,7 @@ export const de: Translations = {
     eyebrow: "Persönlich · Guatemala City", title: "Personal", titleItalic: "Training",
     tagline: "Trainiere 1-zu-1 oder bring einen Freund mit und teile die Kosten.",
     body: "Jede Session wird rund um deine Ziele, deinen Zeitplan und deinen bevorzugten Standort aufgebaut. Keine Vorlagen, keine Abkürzungen — nur fokussiertes, praktisches Coaching.",
-    includes: ["Maßgeschneiderte Programmentwicklung", "Ernährungs-Coaching", "Gym-Sessions", "Fortschrittsverfolgung", "WhatsApp-Support"],
+    includes: ["Maßgeschneiderte Programmentwicklung", "Ernährungs-Coaching", "Training zuhause, im Studio oder am Ort deiner Wahl", "Fortschrittsverfolgung", "WhatsApp-Support"],
     card1Title: "Einzelne Session", card1Subtitle: "Zahle pro Session, ohne Verpflichtung",
     card1F1: "60 Min. Session", card1F2: "Standort deiner Wahl", card1F3: "Kein Programm enthalten", card1F4: "Keine Ernährung enthalten",
     card2Title: "Monatliche Pakete", card2Subtitle: "Konsequentes Training, bessere Ergebnisse",

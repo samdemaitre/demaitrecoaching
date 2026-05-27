@@ -82,7 +82,7 @@ export const nl: Translations = {
     eyebrow: "Persoonlijk · Guatemala-Stad", title: "Persoonlijke", titleItalic: "training",
     tagline: "Train 1-op-1 of breng een vriend mee en deel de kosten.",
     body: "Elke sessie is gebouwd rond jouw doelen, jouw schema en jouw voorkeurslocatie. Geen sjablonen, geen snelkoppelingen — alleen gerichte, praktische coaching.",
-    includes: ["Maatwerk programmaontwerp", "Voedingscoaching", "Gym-sessies", "Voortgangsregistratie", "WhatsApp ondersteuning"],
+    includes: ["Maatwerk programmaontwerp", "Voedingscoaching", "Training thuis, in de gym of op locatie naar keuze", "Voortgangsregistratie", "WhatsApp ondersteuning"],
     card1Title: "Enkele sessie", card1Subtitle: "Betaal per sessie, geen verplichtingen",
     card1F1: "60 min sessie", card1F2: "Locatie naar keuze", card1F3: "Geen programma inbegrepen", card1F4: "Geen voeding inbegrepen",
     card2Title: "Maandelijkse pakketten", card2Subtitle: "Consistent trainen, betere resultaten",

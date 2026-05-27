@@ -80,7 +80,7 @@ export const en = {
     eyebrow: "In-Person · Guatemala City", title: "In-person", titleItalic: "training",
     tagline: "Train 1-on-1 or bring a friend and split the cost.",
     body: "Every session is built around your goals, your schedule, and your preferred location. No templates, no shortcuts — just focused, hands-on coaching.",
-    includes: ["Bespoke Program Design", "Nutrition Coaching", "In-Gym Sessions", "Progress Tracking", "WhatsApp Support"],
+    includes: ["Bespoke Program Design", "Nutrition Coaching", "Training at home, in the gym or location of choice", "Progress Tracking", "WhatsApp Support"],
     card1Title: "Single session", card1Subtitle: "Pay per session, no commitment",
     card1F1: "60 min session", card1F2: "Location of your choice", card1F3: "No program included", card1F4: "No nutrition included",
     card2Title: "Monthly packages", card2Subtitle: "Consistent training, better results",

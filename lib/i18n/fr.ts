@@ -82,7 +82,7 @@ export const fr: Translations = {
     eyebrow: "En Personne · Guatemala City", title: "Entraînement", titleItalic: "personnel",
     tagline: "Entraînez-vous en 1 pour 1 ou amenez un ami et partagez le coût.",
     body: "Chaque séance est construite autour de vos objectifs, votre emploi du temps et votre lieu préféré. Sans modèles, sans raccourcis — rien qu'un coaching concentré et pratique.",
-    includes: ["Conception de Programme sur Mesure", "Coaching Nutritionnel", "Séances en Salle", "Suivi des Progrès", "Support WhatsApp"],
+    includes: ["Conception de Programme sur Mesure", "Coaching Nutritionnel", "Entraînement à domicile, en salle ou au lieu de votre choix", "Suivi des Progrès", "Support WhatsApp"],
     card1Title: "Séance unique", card1Subtitle: "Payez par séance, sans engagement",
     card1F1: "Séance de 60 min", card1F2: "Lieu de votre choix", card1F3: "Sans programme inclus", card1F4: "Sans nutrition incluse",
     card2Title: "Formules mensuelles", card2Subtitle: "Entraînement régulier, meilleurs résultats",

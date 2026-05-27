@@ -82,7 +82,7 @@ export const es: Translations = {
     eyebrow: "Presencial · Ciudad de Guatemala", title: "Entrenamiento", titleItalic: "personal",
     tagline: "Entrena 1 a 1 o trae a un amigo y comparte el coste.",
     body: "Cada sesión se construye en torno a tus objetivos, tu horario y tu ubicación preferida. Sin plantillas, sin atajos — solo coaching enfocado y práctico.",
-    includes: ["Diseño de Programa a Medida", "Coaching Nutricional", "Sesiones en el Gimnasio", "Seguimiento del Progreso", "Soporte por WhatsApp"],
+    includes: ["Diseño de Programa a Medida", "Coaching Nutricional", "Entrenamiento en casa, en el gimnasio o en el lugar de tu elección", "Seguimiento del Progreso", "Soporte por WhatsApp"],
     card1Title: "Sesión única", card1Subtitle: "Paga por sesión, sin compromiso",
     card1F1: "Sesión de 60 min", card1F2: "Ubicación a tu elección", card1F3: "Sin programa incluido", card1F4: "Sin nutrición incluida",
     card2Title: "Paquetes mensuales", card2Subtitle: "Entrenamiento constante, mejores resultados",
