@@ -25,7 +25,7 @@ export const nl: Translations = {
   home: {
     eyebrow: "Elite Personal Training",
     h1: "Slimmer trainen.", h1Italic: "Beter leven.",
-    tagline: "Maatwerk programma's voor gedreven mensen.",
+    tagline: "Maatwerk programma's voor iedereen die klaar is om te verschijnen.",
     body: "De Maître Coaching levert elite personal training in Guatemala-Stad en wereldwijd. Elk programma is gebouwd rond jouw doelen, jouw schema en jouw potentieel.",
     ctaPrimary: "Begin jouw traject", ctaSecondary: "Bekijk diensten", monogramSub: "De Maître",
     statsClients: "Klanten getraind", statsYears: "Jaar ervaring", statsTailored: "Op maat gemaakt",

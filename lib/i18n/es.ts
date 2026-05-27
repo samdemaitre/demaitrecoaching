@@ -25,7 +25,7 @@ export const es: Translations = {
   home: {
     eyebrow: "Entrenamiento Personal de Élite",
     h1: "Entrena Mejor.", h1Italic: "Vive Mejor.",
-    tagline: "Programas a medida para personas con ambición.",
+    tagline: "Programas a medida para cualquiera dispuesto a aparecer.",
     body: "De Maître Coaching ofrece entrenamiento personal de élite en Ciudad de Guatemala y en todo el mundo. Cada programa se construye en torno a tus objetivos, tu horario y tu potencial.",
     ctaPrimary: "Inicia Tu Camino", ctaSecondary: "Ver Servicios", monogramSub: "De Maître",
     statsClients: "Clientes Entrenados", statsYears: "Años de Experiencia", statsTailored: "100% Personalizado",

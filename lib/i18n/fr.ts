@@ -25,7 +25,7 @@ export const fr: Translations = {
   home: {
     eyebrow: "Entraînement Personnel d'Élite",
     h1: "Entraînez-vous Mieux.", h1Italic: "Vivez Mieux.",
-    tagline: "Des programmes sur mesure pour des individus ambitieux.",
+    tagline: "Des programmes sur mesure pour quiconque est prêt à se montrer.",
     body: "De Maître Coaching offre un entraînement personnel d'élite à Guatemala City et dans le monde entier. Chaque programme est conçu autour de vos objectifs, votre emploi du temps et votre potentiel.",
     ctaPrimary: "Commencez Votre Parcours", ctaSecondary: "Voir les Services", monogramSub: "De Maître",
     statsClients: "Clients Entraînés", statsYears: "Années d'Expérience", statsTailored: "100% Sur Mesure",

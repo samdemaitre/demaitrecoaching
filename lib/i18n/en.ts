@@ -23,7 +23,7 @@ export const en = {
   home: {
     eyebrow: "Elite Personal Training",
     h1: "Train Smarter.", h1Italic: "Live Better.",
-    tagline: "Tailored programs for driven individuals.",
+    tagline: "Tailored programs for anyone ready to show up.",
     body: "De Maître Coaching delivers elite personal training in Guatemala City and worldwide. Every program is built around your goals, your schedule, and your potential.",
     ctaPrimary: "Start Your Journey", ctaSecondary: "See Services", monogramSub: "De Maître",
     statsClients: "Clients Trained", statsYears: "Years Experience", statsTailored: "Tailored to You",
