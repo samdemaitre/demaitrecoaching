@@ -37,8 +37,8 @@ export const de: Translations = {
     ctaHeading: "Bereit, deinen", ctaItalic: "Körper zu transformieren?",
   },
   meetCoach: {
-    eyebrow: "Den Coach kennenlernen", heading: "Ein Jahrzehnt des Trainings.", headingItalic: "Echte Ergebnisse.",
-    body1: "Ich bin am besten, wenn ich mich bewege — ob das unter Wasser ist, auf einem Berg oder unter einer Langhantel.",
+    eyebrow: "Den Coach kennenlernen", heading: "Neuaufgebaut. Neu fokussiert.", headingItalic: "Bereit zu coachen.",
+    body1: "",
     body2: "Ich heiße Sam. Ich bin 36, ursprünglich aus Belgien, und Anfang dieses Jahres bin ich nach Guatemala gezogen — hingezogen von den Menschen, die mir am meisten bedeuten, meiner Freundin und unserer Tochter, und ehrlich gesagt von dem Gefühl, dass dies genau der Ort ist, wo ich gerade sein soll.",
     body3: "Ich arbeite seit über 10 Jahren im Fitness- und Krafttraining. Ich habe einen Bachelor in Sportwissenschaften und Bewegungslehre mit Spezialisierung auf Personal Training und habe alles trainiert — von absoluten Anfängern bis zu Leistungssportlern. Aber der Grund, warum ich in dieses Feld eingestiegen bin, ist nicht nur akademisch — er ist persönlich.",
     body4: "Ich habe 11 Jahre lang auf nationalem Niveau in der Leichtathletik in Belgien gekämpft, hauptsächlich im Zehnkampf und im Weitsprung. Der Zehnkampf besteht aus zehn Disziplinen über zwei Tage — er lehrt dich, dass du immer mehr kannst als du denkst, und dass Beständigkeit Talent jedes Mal schlägt. Dann nahm eine Verletzung das alles von mir weg. Damals fühlte es sich an, als würde ich einen großen Teil meiner Identität verlieren. Was mich durchgebracht hat, war Krafttraining — und diese Erfahrung des Wiederaufbaus, körperlich wie mental, ist etwas, das ich in jede Einheit mit jedem Klienten einbringe. Ich weiß, wie es sich anfühlt, neu anzufangen. Ich weiß, was es braucht, weiterzumachen. Diese Wende führte mich zum Powerlifting, das noch heute ein großer Teil meines Lebens ist.",

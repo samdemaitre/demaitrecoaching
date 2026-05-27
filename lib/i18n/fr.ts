@@ -37,8 +37,8 @@ export const fr: Translations = {
     ctaHeading: "Prêt à transformer votre", ctaItalic: "corps ?",
   },
   meetCoach: {
-    eyebrow: "Rencontrer le Coach", heading: "Une décennie d'entraînement.", headingItalic: "Des résultats réels.",
-    body1: "Je suis à mon meilleur quand je bouge — que ce soit sous l'eau, en montagne ou sous une barre.",
+    eyebrow: "Rencontrer le Coach", heading: "Reconstruit. Recentré.", headingItalic: "Prêt à coacher.",
+    body1: "",
     body2: "Je m'appelle Sam. J'ai 36 ans, je suis originaire de Belgique, et plus tôt cette année, j'ai déménagé au Guatemala — attiré ici par les personnes que j'aime le plus, ma compagne et notre fille, et honnêtement, par le sentiment que c'est exactement là où je dois être en ce moment.",
     body3: "Je travaille dans le fitness et le coaching de force depuis plus de 10 ans. J'ai une licence en Éducation Physique et Sciences du Mouvement avec une spécialisation en entraînement personnel, et j'ai coaché des personnes de tous niveaux, des débutants complets aux athlètes de compétition. Mais la raison pour laquelle je me suis lancé dans ce domaine n'est pas seulement académique — elle est personnelle.",
     body4: "J'ai passé 11 ans à concourir en athlétisme au niveau national en Belgique, principalement dans le décathlon et le saut en longueur. Le décathlon, c'est dix épreuves sur deux jours — il vous apprend que vous pouvez toujours faire plus que vous ne le pensez, et que la régularité bat le talent à chaque fois. Puis une blessure m'a tout pris. Sur le moment, c'était comme perdre une grande partie de mon identité. Ce qui m'a aidé à m'en sortir, c'est la musculation — et cette expérience de reconstruction, physique et mentale, est quelque chose que j'apporte dans chaque séance avec chaque client. Je sais ce que c'est de repartir de zéro. Je sais ce qu'il faut pour continuer. Cette transition m'a conduit vers le powerlifting, qui fait encore aujourd'hui une grande partie de ma vie.",

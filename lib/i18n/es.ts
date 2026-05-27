@@ -37,8 +37,8 @@ export const es: Translations = {
     ctaHeading: "¿Listo para transformar tu", ctaItalic: "cuerpo?",
   },
   meetCoach: {
-    eyebrow: "Conoce al Coach", heading: "Una década entrenando.", headingItalic: "Resultados reales.",
-    body1: "Estoy en mi mejor momento cuando me muevo — ya sea bajo el agua, en una montaña, o bajo una barra.",
+    eyebrow: "Conoce al Coach", heading: "Reconstruido. Reenfocado.", headingItalic: "Listo para entrenar.",
+    body1: "",
     body2: "Me llamo Sam. Tengo 36 años, soy originario de Bélgica y a principios de este año me mudé a Guatemala — atraído por las personas que más amo, mi novia y nuestra hija, y honestamente, por la sensación de que este es exactamente el lugar donde debo estar ahora.",
     body3: "Llevo más de 10 años trabajando en fitness y coaching de fuerza. Tengo una licenciatura en Educación Física y Ciencias del Movimiento con especialización en entrenamiento personal, y he entrenado a personas de todos los niveles, desde principiantes hasta atletas de competición. Pero la razón por la que me dediqué a este campo no es solo académica — es personal.",
     body4: "Pasé 11 años compitiendo en atletismo a nivel nacional en Bélgica, principalmente en el decatlón y el salto de longitud. El decatlón son diez pruebas en dos días — te enseña que siempre puedes hacer más de lo que crees, y que la constancia supera al talento en todo momento. Luego una lesión me lo quitó todo. En ese momento sentí que perdía una gran parte de mi identidad. Lo que me ayudó a superarlo fue el entrenamiento de fuerza — y esa experiencia de reconstrucción, física y mental, es algo que llevo a cada sesión con cada cliente. Sé lo que se siente empezar de nuevo. Sé lo que se necesita para seguir adelante. Esa transición me llevó al powerlifting, que sigue siendo una gran parte de mi vida hoy.",

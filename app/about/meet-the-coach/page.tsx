@@ -34,9 +34,7 @@ export default function MeetTheCoachPage() {
               {mc.heading}{" "}
               <em className="text-gold not-italic">{mc.headingItalic}</em>
             </h2>
-            <p className="font-dmsans text-base text-text-soft leading-relaxed">
-              {mc.body1}
-            </p>
+            {mc.body1 && <p className="font-dmsans text-base text-text-soft leading-relaxed">{mc.body1}</p>}
             <p className="font-dmsans text-base text-text-soft leading-relaxed">
               {mc.body2}
             </p>

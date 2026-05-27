@@ -35,8 +35,8 @@ export const en = {
     ctaHeading: "Ready to transform your", ctaItalic: "body?",
   },
   meetCoach: {
-    eyebrow: "Meet the Coach", heading: "A decade of training.", headingItalic: "Real results.",
-    body1: "I'm at my best when I'm moving — whether that's underwater, on a mountain, or under a barbell.",
+    eyebrow: "Meet the Coach", heading: "Rebuilt. Refocused.", headingItalic: "Ready to coach.",
+    body1: "",
     body2: "My name is Sam. I'm 36, originally from Belgium, and earlier this year I made the move to Guatemala — drawn here by the people I love most, my girlfriend and our daughter, and honestly, by a feeling that this is exactly where I'm supposed to be right now.",
     body3: "I've been working in fitness and strength coaching for over 10 years. I have a Bachelor's degree in Physical Education and Movement Science with a specialisation in personal training, and I've coached everyone from complete beginners to competitive athletes. But the reason I got into this field isn't just academic — it's personal.",
     body4: "I spent 11 years competing in track and field at a national level in Belgium, primarily in the decathlon and long jump. The decathlon is ten events across two days — it teaches you that you can always do more than you think, and that consistency beats talent every time. Then an injury took that away from me. At the time it felt like losing a big part of my identity. What pulled me through was strength training — and that experience of rebuilding, both physically and mentally, is something I carry into every session with every client. I know what it feels like to start over. I know what it takes to keep going. That transition led me into powerlifting, which is still a big part of my life today.",
