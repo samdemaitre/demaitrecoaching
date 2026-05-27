@@ -48,7 +48,7 @@ export const de: Translations = {
     quote: "Der Körper erreicht, was der Geist glaubt — aber nur mit einem Programm, das diesem Glauben würdig ist.", quoteAttr: "— Sam de Maître",
     credentialsHeading: "Qualifikationen",
     cred1Title: "Bachelor in Sportwissenschaft und Bewegungslehre", cred1Desc: "Spezialisierung in Personal Training",
-    cred2Title: "12+ Jahre Erfahrung", cred2Desc: "Training von Elite-Klienten in Guatemala und international",
+    cred2Title: "12+ Jahre Erfahrung", cred2Desc: "Training von Klienten in Guatemala und international",
     cred3Title: "400+ Klienten", cred3Desc: "Über 400 ambitionierte Menschen transformiert",
     cred4Title: "Strength Without Limits", cred4Desc: "Vom absoluten Anfänger bis zum erfahrenen Athleten — ich spezialisiere mich darauf, Menschen stärker zu machen und ihre Energie zurückzubringen.",
     testimonialQuote: "Die Zusammenarbeit mit Sam hat alles verändert. Ich hatte zuvor andere Trainer ausprobiert, aber nie die richtige Passung gefunden. Seine Liebe zum Detail und sein echtes Engagement für meinen Fortschritt sind unvergleichlich.",

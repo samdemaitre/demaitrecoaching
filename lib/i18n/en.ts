@@ -46,7 +46,7 @@ export const en = {
     quote: "The body achieves what the mind believes — but only with a program worthy of that belief.", quoteAttr: "— Sam de Maître",
     credentialsHeading: "Credentials",
     cred1Title: "Bachelor in Physical Education & Movement Science", cred1Desc: "Specialisation in Personal Training",
-    cred2Title: "12+ Years Experience", cred2Desc: "Training elite clients across Guatemala and internationally",
+    cred2Title: "12+ Years Experience", cred2Desc: "Training clients across Guatemala and internationally",
     cred3Title: "400+ Clients", cred3Desc: "Helped over 400 driven individuals transform their bodies",
     cred4Title: "Strength Without Limits", cred4Desc: "From complete beginner to seasoned athlete — I specialise in making people stronger and getting them their energy back.",
     testimonialQuote: "Working with Sam changed everything. I'd tried other trainers before but never found the right fit. His attention to detail and genuine investment in my progress is unlike anything I've experienced.",

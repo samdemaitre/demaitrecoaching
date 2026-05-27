@@ -48,7 +48,7 @@ export const nl: Translations = {
     quote: "Het lichaam bereikt wat de geest gelooft — maar alleen met een programma dat die overtuiging waardig is.", quoteAttr: "— Sam de Maître",
     credentialsHeading: "Kwalificaties",
     cred1Title: "Bachelor in Lichamelijke Opvoeding & Bewegingswetenschappen", cred1Desc: "Specialisatie in Personal Training",
-    cred2Title: "12+ jaar ervaring", cred2Desc: "Training van elite klanten in Guatemala en internationaal",
+    cred2Title: "12+ jaar ervaring", cred2Desc: "Training van klanten in Guatemala en internationaal",
     cred3Title: "400+ klanten", cred3Desc: "Meer dan 400 gedreven mensen geholpen hun lichaam te transformeren",
     cred4Title: "Strength Without Limits", cred4Desc: "Van absolute beginner tot ervaren atleet — ik specialiseer me in mensen sterker maken en hun energie terugbrengen.",
     testimonialQuote: "Samenwerken met Sam veranderde alles. Ik had eerder andere trainers geprobeerd, maar nooit de juiste match gevonden. Zijn aandacht voor detail en oprechte betrokkenheid bij mijn vooruitgang zijn ongekend.",
