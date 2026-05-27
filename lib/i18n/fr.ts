@@ -50,7 +50,7 @@ export const fr: Translations = {
     cred1Title: "Licence en Éducation Physique et Sciences du Mouvement", cred1Desc: "Spécialisation en Entraînement Personnel",
     cred2Title: "12+ Ans d'Expérience", cred2Desc: "Entraînement de clients d'élite au Guatemala et à l'international",
     cred3Title: "400+ Clients", cred3Desc: "Plus de 400 individus ambitieux transformés",
-    cred4Title: "Du débutant complet à l'athlète aguerri — je me spécialise dans le renforcement des personnes et la récupération de leur énergie.", cred4Desc: "",
+    cred4Title: "Strength Without Limits", cred4Desc: "Du débutant complet à l'athlète aguerri — je me spécialise dans le renforcement des personnes et la récupération de leur énergie.",
     testimonialQuote: "Travailler avec Sam a tout changé. J'avais essayé d'autres coachs avant, mais je n'avais jamais trouvé la bonne adéquation. Son souci du détail et son investissement sincère dans mes progrès sont incomparables.",
     testimonialAuthor: "Carlos M.", testimonialRole: "Client · Guatemala City",
     ctaHeading: "Prêt à travailler avec", ctaItalic: "Sam ?",
