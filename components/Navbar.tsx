@@ -81,7 +81,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
-            <span className="font-cormorant text-gold font-medium text-base leading-none">SM</span>
+            <span className="font-cormorant text-gold font-medium text-base leading-none">SDM</span>
           </div>
           <span className="font-cormorant text-text font-medium text-lg leading-none">
             De Maître <em className="text-gold not-italic font-medium">Coaching</em>

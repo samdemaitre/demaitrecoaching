@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
-                <span className="font-cormorant text-gold font-medium text-base">SM</span>
+                <span className="font-cormorant text-gold font-medium text-base">SDM</span>
               </div>
               <span className="font-cormorant text-cream font-medium text-lg">
                 De Maître <em className="text-gold not-italic">Coaching</em>

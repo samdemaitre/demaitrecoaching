@@ -61,7 +61,7 @@ export default function HeroSection() {
           <div className="relative w-72 h-96 md:w-80 md:h-[420px]">
             <div className="absolute inset-0 rounded-[50%] border-2 border-gold/40" />
             <div className="absolute inset-6 rounded-[50%] border border-gold/20 bg-cream2 flex flex-col items-center justify-center gap-4">
-              <span className="font-cormorant text-7xl font-light text-gold leading-none">SM</span>
+              <span className="font-cormorant text-7xl font-light text-gold leading-none">SDM</span>
               <div className="w-12 h-px bg-gold/50" />
               <span className="font-montserrat text-[10px] font-semibold tracking-[0.3em] uppercase text-text-muted">
                 {t.home.monogramSub}
