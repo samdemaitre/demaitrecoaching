@@ -4,7 +4,7 @@ export const nl: Translations = {
   nav: {
     home: "Home", about: "Over ons", services: "Diensten", faq: "FAQ", contact: "Contact", bookCall: "Boek een gesprek",
     dropdown: {
-      about: { meetCoach: "Maak kennis met de coach", meetCoachSub: "Sam de Maître", whyUs: "Waarom wij?", whyUsSub: "Wat ons onderscheidt", ourGoals: "Onze doelen", ourGoalsSub: "Onze missie & visie" },
+      about: { meetCoach: "Maak kennis met de coach", meetCoachSub: "Sam de Maître", whyUs: "Waarom ik?", whyUsSub: "Wat mij onderscheidt", ourGoals: "Onze doelen", ourGoalsSub: "Onze missie & visie" },
       services: { personal: "Personal Training", personalSub: "Persoonlijk · Guatemala-Stad", hybrid: "Hybride Coaching", hybridSub: "Persoonlijk + online", online: "Online Coaching", onlineSub: "Wereldwijd · Volledig op afstand" },
     },
   },
@@ -12,7 +12,7 @@ export const nl: Translations = {
     navigate: "Navigeer", getInTouch: "Neem contact op",
     description: "Elite personal training in Guatemala-Stad en online wereldwijd. Programma's gebouwd voor gedreven individuen die resultaten eisen.",
     tagline: "Maatwerk Training. Verheven Leven.", copyright: "Alle rechten voorbehouden.",
-    links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom wij?", ourGoals: "Onze doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
+    links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom ik?", ourGoals: "Onze doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Boek een gratis gesprek", getStarted: "Begin nu", apply: "Aanmelden",
@@ -56,15 +56,15 @@ export const nl: Translations = {
     ctaHeading: "Klaar om met", ctaItalic: "Sam te werken?",
   },
   whyUs: {
-    eyebrow: "Waarom wij?", heading: "Coaching op een niveau", headingItalic: "dat de meesten nooit ervaren.",
-    body: "Er zijn duizenden personal trainers. Er zijn er maar weinig die academische strengheid, echte personalisatie en een oncompromisloze servicestandaard combineren. Dit is wat De Maître Coaching onderscheidt.",
-    d1Title: "Nooit sjablonen.", d1Body: "Elk programma wordt van de grond af geschreven rond jouw lichaam, jouw geschiedenis, jouw doelen en jouw leven. We recyclen geen plannen en passen geen one-size-fits-all protocollen toe.",
-    d2Title: "Op bewijs gebaseerde programmering", d2Body: "Elke trainings- en voedingsbeslissing is gebaseerd op peer-reviewed onderzoek. Sam heeft een bachelor in Lichamelijke Opvoeding & Bewegingswetenschappen — de wetenschap staat altijd achter de methode.",
-    d3Title: "Een relatie, geen transactie", d3Body: "De Maître Coaching is gebouwd op langetermijnpartnerschappen. Sam investeert in het begrijpen van jou als persoon — jouw mentaliteit, jouw levensstijl, jouw druk — niet alleen jouw fitnessstatistieken.",
+    eyebrow: "Waarom ik?", heading: "Ik luister", headingItalic: "voordat ik voorschrijf.",
+    body: "Ik begin niet met een programma. Ik begin met jou — jouw levensstijl, jouw mindset, de gewoontes die hebben geholpen en de gewoontes die dat niet hebben. Pas wanneer ik het volledige plaatje echt begrijp, begint het echte werk. Zo werken de meeste trainers niet. Dat is precies wat het verschil maakt.",
+    d1Title: "Nooit sjablonen.", d1Body: "Elk programma dat ik schrijf, bouw ik van de grond af op rondom jouw lichaam, jouw geschiedenis, jouw doelen en jouw leven. Ik hergebruik geen plannen en pas geen one-size-fits-all aanpak toe.",
+    d2Title: "Op bewijs gebaseerde programmering", d2Body: "Ik gok niet. Elke trainings- en voedingsbeslissing die ik maak, is onderbouwd met onderzoek en ervaring. Je krijgt methodes die écht werken — geen trends, geen snelkoppelingen.",
+    d3Title: "Een relatie, geen transactie", d3Body: "Ik bouw langetermijnpartnerschappen. Ik investeer in het begrijpen van jou als persoon — jouw mindset, jouw levensstijl, jouw druk — niet alleen jouw fitnessstatistieken.",
     d4Title: "Aandacht op luxeniveau", d4Body: "Je zult je hier nooit een nummer voelen. Elk bericht wordt beantwoord, elke check-in wordt serieus genomen en jouw programma evolueert voortdurend naarmate jij dat ook doet.",
-    d5Title: "Resultaten die blijven", d5Body: "We bouwen duurzame gewoontes, geen kortetermijnoplossingen. Het doel is een lichaam en levensstijl die je decennialang kunt volhouden — geen 12-wekentransformatie die vervaagt.",
-    d6Title: "Discretie & Professionaliteit", d6Body: "Jouw gegevens, jouw voortgang en jouw traject zijn volledig privé. We werken met de discretie die op dit serviceniveau wordt verwacht.",
-    quote: "De meeste coaches verkopen je een programma. Wij bouwen je een proces — één dat elk 12-wekenplan overleeft.",
+    d5Title: "Resultaten die blijven", d5Body: "Ik bouw duurzame gewoontes, geen kortetermijnoplossingen. Het doel is een lichaam en levensstijl die je decennialang kunt volhouden — geen 12-wekentransformatie die vervaagt.",
+    d6Title: "Accountability die écht werkt", d6Body: "Echte verandering gebeurt niet zonder iemand in jouw hoek die de standaard hoog houdt. Ik houd je eerlijk — niet door druk, maar door een niveau van consistentie en follow-through dat het moeilijk maakt om het spoor bijster te raken.",
+    quote: "De meeste coaches verkopen je een programma. Ik bouw je een proces — één dat elk 12-wekenplan overleeft.",
     ctaHeading: "Klaar om het", ctaItalic: "verschil te ervaren?",
   },
   ourGoals: {

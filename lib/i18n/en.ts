@@ -2,7 +2,7 @@ export const en = {
   nav: {
     home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Book a Call",
     dropdown: {
-      about: { meetCoach: "Meet the Coach", meetCoachSub: "Sam de Maître", whyUs: "Why Us?", whyUsSub: "What sets us apart", ourGoals: "Our Goals", ourGoalsSub: "Our mission & vision" },
+      about: { meetCoach: "Meet the Coach", meetCoachSub: "Sam de Maître", whyUs: "Why Me?", whyUsSub: "What sets me apart", ourGoals: "Our Goals", ourGoalsSub: "Our mission & vision" },
       services: { personal: "Personal Training", personalSub: "In-person · Guatemala City", hybrid: "Hybrid Coaching", hybridSub: "In-person + online", online: "Online Coaching", onlineSub: "Worldwide · Fully remote" },
     },
   },
@@ -10,7 +10,7 @@ export const en = {
     navigate: "Navigate", getInTouch: "Get in Touch",
     description: "Elite personal training in Guatemala City and online worldwide. Programs built for driven individuals who demand results.",
     tagline: "Tailored Training. Elevated Life.", copyright: "All rights reserved.",
-    links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Us?", ourGoals: "Our Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
+    links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Me?", ourGoals: "Our Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Book a Free Call", getStarted: "Get Started", apply: "Apply Now",
@@ -54,15 +54,15 @@ export const en = {
     ctaHeading: "Ready to work with", ctaItalic: "Sam?",
   },
   whyUs: {
-    eyebrow: "Why Us?", heading: "The coach who listens", headingItalic: "before he prescribes.",
-    body: "Sam doesn't start with a program. He starts with you — your lifestyle, your mindset, the habits that have helped and the ones that haven't. Only once he truly understands the full picture does the real work begin. That's not how most trainers operate. That's exactly what makes the difference.",
-    d1Title: "No Templates. Ever.", d1Body: "Every program is written from scratch around your body, your history, your goals, and your life. We don't recycle plans or apply one-size-fits-all protocols.",
-    d2Title: "Evidence-Based Programming", d2Body: "Sam doesn't guess. Every training and nutrition decision is backed by research and experience. You get methods that actually work — not trends, not shortcuts.",
-    d3Title: "A Relationship, Not a Transaction", d3Body: "De Maître Coaching is built on long-term partnerships. Sam invests in understanding you as a person — your mindset, your lifestyle, your pressures — not just your fitness metrics.",
+    eyebrow: "Why Me?", heading: "I listen", headingItalic: "before I prescribe.",
+    body: "I don't start with a program. I start with you — your lifestyle, your mindset, the habits that have helped and the ones that haven't. Only once I truly understand the full picture does the real work begin. That's not how most trainers operate. That's exactly what makes the difference.",
+    d1Title: "No Templates. Ever.", d1Body: "Every program I write is built from scratch around your body, your history, your goals, and your life. I don't recycle plans or apply one-size-fits-all protocols.",
+    d2Title: "Evidence-Based Programming", d2Body: "I don't guess. Every training and nutrition decision I make is backed by research and experience. You get methods that actually work — not trends, not shortcuts.",
+    d3Title: "A Relationship, Not a Transaction", d3Body: "I build long-term partnerships. I invest in understanding you as a person — your mindset, your lifestyle, your pressures — not just your fitness metrics.",
     d4Title: "High-Touch Coaching", d4Body: "You will never feel like a number here. Every message is answered, every check-in is taken seriously, and your program evolves continuously as you do.",
-    d5Title: "Results That Last", d5Body: "We build sustainable habits, not short-term fixes. The goal is a body and lifestyle you can maintain for decades — not a 12-week transformation that fades.",
-    d6Title: "Accountability That Actually Works", d6Body: "Real change doesn't happen without someone in your corner holding the standard. Sam keeps you honest — not through pressure, but through a level of consistency and follow-through that makes it hard to fall off track.",
-    quote: "Most coaches sell you a program. We build you a process — one that outlasts any 12-week plan.",
+    d5Title: "Results That Last", d5Body: "I build sustainable habits, not short-term fixes. The goal is a body and lifestyle you can maintain for decades — not a 12-week transformation that fades.",
+    d6Title: "Accountability That Actually Works", d6Body: "Real change doesn't happen without someone in your corner holding the standard. I keep you honest — not through pressure, but through a level of consistency and follow-through that makes it hard to fall off track.",
+    quote: "Most coaches sell you a program. I build you a process — one that outlasts any 12-week plan.",
     ctaHeading: "Ready to experience the", ctaItalic: "difference?",
   },
   ourGoals: {

@@ -4,7 +4,7 @@ export const fr: Translations = {
   nav: {
     home: "Accueil", about: "À propos", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Réserver un appel",
     dropdown: {
-      about: { meetCoach: "Rencontrer le Coach", meetCoachSub: "Sam de Maître", whyUs: "Pourquoi nous ?", whyUsSub: "Ce qui nous distingue", ourGoals: "Nos Objectifs", ourGoalsSub: "Notre mission et vision" },
+      about: { meetCoach: "Rencontrer le Coach", meetCoachSub: "Sam de Maître", whyUs: "Pourquoi moi ?", whyUsSub: "Ce qui me distingue", ourGoals: "Nos Objectifs", ourGoalsSub: "Notre mission et vision" },
       services: { personal: "Entraînement Personnel", personalSub: "En personne · Guatemala City", hybrid: "Coaching Hybride", hybridSub: "En personne + en ligne", online: "Coaching en Ligne", onlineSub: "Mondial · 100% à distance" },
     },
   },
@@ -12,7 +12,7 @@ export const fr: Translations = {
     navigate: "Navigation", getInTouch: "Nous contacter",
     description: "Entraînement personnel d'élite à Guatemala City et en ligne dans le monde entier. Des programmes conçus pour des individus ambitieux qui exigent des résultats.",
     tagline: "Entraînement sur Mesure. Vie Élevée.", copyright: "Tous droits réservés.",
-    links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi nous ?", ourGoals: "Nos Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
+    links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi moi ?", ourGoals: "Nos Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Réserver un appel gratuit", getStarted: "Commencer", apply: "Postuler maintenant",
@@ -56,15 +56,15 @@ export const fr: Translations = {
     ctaHeading: "Prêt à travailler avec", ctaItalic: "Sam ?",
   },
   whyUs: {
-    eyebrow: "Pourquoi nous ?", heading: "Un coaching à un niveau", headingItalic: "que peu connaissent.",
-    body: "Il existe des milliers de coachs personnels. Très peu combinent rigueur académique, personnalisation authentique et un standard de service sans compromis. Voici ce qui distingue De Maître Coaching.",
-    d1Title: "Aucun modèle. Jamais.", d1Body: "Chaque programme est écrit de zéro autour de votre corps, votre historique, vos objectifs et votre vie. Nous ne recyclons pas les plans ni n'appliquons des protocoles génériques.",
-    d2Title: "Programmation Basée sur les Preuves", d2Body: "Chaque décision d'entraînement et de nutrition est fondée sur des recherches évaluées par des pairs. Sam possède une Licence en Éducation Physique et Sciences du Mouvement — la science est toujours derrière la méthode.",
-    d3Title: "Une Relation, Pas une Transaction", d3Body: "De Maître Coaching est construit sur des partenariats à long terme. Sam investit dans votre compréhension en tant que personne — votre mentalité, votre mode de vie, vos pressions — pas seulement vos métriques physiques.",
+    eyebrow: "Pourquoi moi ?", heading: "J'écoute", headingItalic: "avant de prescrire.",
+    body: "Je ne commence pas avec un programme. Je commence avec vous — votre mode de vie, votre état d'esprit, les habitudes qui vous ont aidé et celles qui n'ont pas fonctionné. Ce n'est qu'une fois que je comprends vraiment l'ensemble de la situation que le vrai travail commence. Ce n'est pas ainsi que travaillent la plupart des coachs. C'est exactement ce qui fait la différence.",
+    d1Title: "Aucun modèle. Jamais.", d1Body: "Chaque programme que j'écris est construit de zéro autour de votre corps, votre historique, vos objectifs et votre vie. Je ne recycle pas les plans ni n'applique des protocoles génériques.",
+    d2Title: "Programmation Basée sur les Preuves", d2Body: "Je ne devine pas. Chaque décision d'entraînement et de nutrition que je prends est fondée sur la recherche et l'expérience. Vous obtenez des méthodes qui fonctionnent vraiment — pas des tendances, pas des raccourcis.",
+    d3Title: "Une Relation, Pas une Transaction", d3Body: "Je construis des partenariats à long terme. J'investis dans votre compréhension en tant que personne — votre mentalité, votre mode de vie, vos pressions — pas seulement vos métriques physiques.",
     d4Title: "Une Attention de Niveau Luxe", d4Body: "Vous ne vous sentirez jamais comme un numéro ici. Chaque message reçoit une réponse, chaque bilan est pris au sérieux et votre programme évolue continuellement avec vous.",
-    d5Title: "Des Résultats Durables", d5Body: "Nous construisons des habitudes durables, pas des solutions à court terme. L'objectif est un corps et un mode de vie que vous pouvez maintenir pendant des décennies — pas une transformation de 12 semaines qui s'estompe.",
-    d6Title: "Discrétion et Professionnalisme", d6Body: "Vos données, vos progrès et votre parcours sont entièrement privés. Nous opérons avec la discrétion attendue à ce niveau de service.",
-    quote: "La plupart des coachs vous vendent un programme. Nous vous construisons un processus — un processus qui dépasse tout plan de 12 semaines.",
+    d5Title: "Des Résultats Durables", d5Body: "Je construis des habitudes durables, pas des solutions à court terme. L'objectif est un corps et un mode de vie que vous pouvez maintenir pendant des décennies — pas une transformation de 12 semaines qui s'estompe.",
+    d6Title: "Une Accountability qui Fonctionne Vraiment", d6Body: "Le vrai changement ne se produit pas sans quelqu'un dans votre coin qui maintient le niveau. Je vous garde honnête — non pas par la pression, mais par un niveau de cohérence et de suivi qui rend difficile de sortir du droit chemin.",
+    quote: "La plupart des coachs vous vendent un programme. Je vous construis un processus — un qui dure plus longtemps que n'importe quel plan de 12 semaines.",
     ctaHeading: "Prêt à faire l'expérience de la", ctaItalic: "différence ?",
   },
   ourGoals: {
