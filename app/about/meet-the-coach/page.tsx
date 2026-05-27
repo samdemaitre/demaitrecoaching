@@ -40,6 +40,18 @@ export default function MeetTheCoachPage() {
             <p className="font-dmsans text-base text-text-soft leading-relaxed">
               {mc.body2}
             </p>
+            <p className="font-dmsans text-base text-text-soft leading-relaxed">
+              {mc.body3}
+            </p>
+            <p className="font-dmsans text-base text-text-soft leading-relaxed">
+              {mc.body4}
+            </p>
+            <p className="font-dmsans text-base text-text-soft leading-relaxed">
+              {mc.body5}
+            </p>
+            <p className="font-dmsans text-sm text-gold font-medium leading-relaxed italic">
+              {mc.body6}
+            </p>
 
             <div className="pt-4 border-t border-border">
               <p className="font-cormorant italic text-3xl text-text font-medium">
