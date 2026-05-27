@@ -4,7 +4,7 @@ export const de: Translations = {
   nav: {
     home: "Startseite", about: "Über uns", services: "Leistungen", faq: "FAQ", contact: "Kontakt", bookCall: "Anruf buchen",
     dropdown: {
-      about: { meetCoach: "Den Coach kennenlernen", meetCoachSub: "Sam de Maître", whyUs: "Warum ich?", whyUsSub: "Was mich auszeichnet", ourGoals: "Unsere Ziele", ourGoalsSub: "Unsere Mission & Vision" },
+      about: { meetCoach: "Den Coach kennenlernen", meetCoachSub: "Sam de Maître", whyUs: "Warum ich?", whyUsSub: "Was mich auszeichnet", ourGoals: "Meine Ziele", ourGoalsSub: "Meine Mission & Vision" },
       services: { personal: "Personal Training", personalSub: "Persönlich · Guatemala City", hybrid: "Hybrid-Coaching", hybridSub: "Persönlich + Online", online: "Online-Coaching", onlineSub: "Weltweit · Vollständig remote" },
     },
   },
@@ -12,7 +12,7 @@ export const de: Translations = {
     navigate: "Navigation", getInTouch: "Kontakt aufnehmen",
     description: "Elite-Personal-Training in Guatemala City und weltweit online. Programme für ambitionierte Menschen, die Ergebnisse fordern.",
     tagline: "Maßgeschnecktes Training. Eleviertes Leben.", copyright: "Alle Rechte vorbehalten.",
-    links: { home: "Startseite", meetCoach: "Den Coach kennenlernen", whyUs: "Warum ich?", ourGoals: "Unsere Ziele", personal: "Personal Training", hybrid: "Hybrid-Coaching", online: "Online-Coaching", faq: "FAQ", contact: "Kontakt" },
+    links: { home: "Startseite", meetCoach: "Den Coach kennenlernen", whyUs: "Warum ich?", ourGoals: "Meine Ziele", personal: "Personal Training", hybrid: "Hybrid-Coaching", online: "Online-Coaching", faq: "FAQ", contact: "Kontakt" },
   },
   common: {
     bookFreeCall: "Kostenloses Gespräch buchen", getStarted: "Loslegen", apply: "Jetzt bewerben",
@@ -68,14 +68,14 @@ export const de: Translations = {
     ctaHeading: "Bereit, den", ctaItalic: "Unterschied zu erleben?",
   },
   ourGoals: {
-    eyebrow: "Unsere Ziele", heading: "Eine Mission, die rund um", headingItalic: "deine Transformation aufgebaut ist.",
-    body: "Bei De Maître Coaching glauben wir, dass jeder das Potenzial hat, sich zu verändern — er braucht nur die richtige Unterstützung, einen Plan, der wirklich zu seinem Leben passt, und einen Coach, der ihn zur Rechenschaft zieht. Unsere Mission ist es, ehrliches, wissenschaftlich fundiertes Coaching anzubieten, das echte, dauerhafte Ergebnisse für jeden erzielt, der bereit ist, sich zu verpflichten.",
-    body2: "Wir verfolgen einen ganzheitlichen Ansatz, weil nachhaltiger Wandel über das Fitnessstudio hinausgeht. Jedes Programm, das wir erstellen, kombiniert Training, Ernährung, Erholung und Mindset — auf dich zugeschnitten, nicht von einer Vorlage kopiert.",
-    g1Number: "01", g1Title: "Jeden Klienten transformieren", g1Body: "Unser Standard ist einfach: eine echte, bedeutungsvolle Transformation für jeden Klienten, der auftaucht und die Arbeit macht. Nicht die meisten. Alle.",
-    g2Number: "02", g2Title: "Den Standard des Coachings erhöhen", g2Body: "Die Branche ist voll von schnellen Lösungen und leeren Versprechen. De Maître Coaching existiert, um es richtig zu machen — personalisiert, gründlich und wirklich effektiv.",
-    g3Number: "03", g3Title: "Lebenslange Gewohnheiten aufbauen", g3Body: "Ein Ergebnis, das sechs Monate später verschwindet, war nie wirklich ein Ergebnis. Wir konzentrieren uns auf den Aufbau der Gewohnheiten und die Einstellung, die dich auf Kurs halten, lange nachdem das Programm endet.",
-    g4Number: "04", g4Title: "Gesundheit nicht verhandelbar machen", g4Body: "Das Leben wird hektisch und die Gesundheit ist meist das Erste, was darunter leidet. Unser Ziel ist es, dir zu helfen, sie zu einem festen Bestandteil deiner Routine zu machen — nicht zu etwas, zu dem du irgendwann zurückkommst.",
-    missionEyebrow: "Unsere Mission", missionQuote: "Ob du Kraft aufbauen, Gewicht verlieren oder dich einfach wohler in deiner Haut fühlen möchtest — De Maître Coaching ist da, um dich bei jedem Schritt zu begleiten.", missionAttr: "— De Maître Coaching",
+    eyebrow: "Meine Ziele", heading: "Meine Mission, aufgebaut rund um", headingItalic: "deine Transformation.",
+    body: "Ich glaube, dass jeder das Potenzial hat, sich zu verändern — er braucht nur die richtige Unterstützung, einen Plan, der wirklich zu seinem Leben passt, und einen Coach, der ihn zur Rechenschaft zieht. Meine Mission ist es, ehrliches, wissenschaftlich fundiertes Coaching anzubieten, das echte, dauerhafte Ergebnisse für jeden erzielt, der bereit ist, sich zu verpflichten.",
+    body2: "Ich verfolge einen ganzheitlichen Ansatz, weil nachhaltiger Wandel über das Fitnessstudio hinausgeht. Jedes Programm, das ich erstelle, kombiniert Training, Ernährung, Erholung und Mindset — auf dich zugeschnitten, nicht von einer Vorlage kopiert.",
+    g1Number: "01", g1Title: "Jeden Klienten transformieren", g1Body: "Mein Standard ist einfach: eine echte, bedeutungsvolle Transformation für jeden Klienten, der auftaucht und die Arbeit macht. Nicht die meisten. Alle.",
+    g2Number: "02", g2Title: "Den Standard des Coachings erhöhen", g2Body: "Die Branche ist voll von schnellen Lösungen und leeren Versprechen. Ich bin hier, um die Dinge richtig zu machen — personalisiert, gründlich und wirklich effektiv.",
+    g3Number: "03", g3Title: "Lebenslange Gewohnheiten aufbauen", g3Body: "Ein Ergebnis, das sechs Monate später verschwindet, war nie wirklich ein Ergebnis. Ich konzentriere mich auf den Aufbau der Gewohnheiten und die Einstellung, die dich auf Kurs halten, lange nachdem das Programm endet.",
+    g4Number: "04", g4Title: "Gesundheit nicht verhandelbar machen", g4Body: "Das Leben wird hektisch und die Gesundheit ist meist das Erste, was darunter leidet. Mein Ziel ist es, dir zu helfen, sie zu einem festen Bestandteil deiner Routine zu machen — nicht zu etwas, zu dem du irgendwann zurückkommst.",
+    missionEyebrow: "Meine Mission", missionQuote: "Ob du Kraft aufbauen, Gewicht verlieren oder dich einfach wohler in deiner Haut fühlen möchtest — ich bin da, um dich bei jedem Schritt zu begleiten.", missionAttr: "— Sam de Maître",
     ctaHeading: "Lass uns gemeinsam auf deine", ctaItalic: "Ziele hinarbeiten.",
   },
   personalTraining: {

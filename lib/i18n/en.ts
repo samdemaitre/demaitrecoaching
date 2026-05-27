@@ -2,7 +2,7 @@ export const en = {
   nav: {
     home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Book a Call",
     dropdown: {
-      about: { meetCoach: "Meet the Coach", meetCoachSub: "Sam de Maître", whyUs: "Why Me?", whyUsSub: "What sets me apart", ourGoals: "Our Goals", ourGoalsSub: "Our mission & vision" },
+      about: { meetCoach: "Meet the Coach", meetCoachSub: "Sam de Maître", whyUs: "Why Me?", whyUsSub: "What sets me apart", ourGoals: "My Goals", ourGoalsSub: "My mission & vision" },
       services: { personal: "Personal Training", personalSub: "In-person · Guatemala City", hybrid: "Hybrid Coaching", hybridSub: "In-person + online", online: "Online Coaching", onlineSub: "Worldwide · Fully remote" },
     },
   },
@@ -10,7 +10,7 @@ export const en = {
     navigate: "Navigate", getInTouch: "Get in Touch",
     description: "Elite personal training in Guatemala City and online worldwide. Programs built for driven individuals who demand results.",
     tagline: "Tailored Training. Elevated Life.", copyright: "All rights reserved.",
-    links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Me?", ourGoals: "Our Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
+    links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Me?", ourGoals: "My Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Book a Free Call", getStarted: "Get Started", apply: "Apply Now",
@@ -66,14 +66,14 @@ export const en = {
     ctaHeading: "Ready to experience the", ctaItalic: "difference?",
   },
   ourGoals: {
-    eyebrow: "Our Goals", heading: "A mission built around", headingItalic: "your transformation.",
-    body: "At De Maître Coaching, we believe everyone has the potential to change — they just need the right support, a plan that actually fits their life, and a coach who holds them accountable through the process. Our mission is to deliver honest, science-backed coaching that creates real, lasting results for anyone who's ready to commit.",
-    body2: "We take a whole-person approach because sustainable change goes beyond the gym. Every program we build combines training, nutrition, recovery, and mindset — designed around you, not copied from a template.",
-    g1Number: "01", g1Title: "Transform Every Client", g1Body: "Our standard is simple: a real, meaningful transformation for every client who shows up and does the work. Not most. All of them.",
-    g2Number: "02", g2Title: "Raise the Standard of Coaching", g2Body: "The industry is full of quick fixes and empty promises. De Maître Coaching exists to do things properly — personalised, thorough, and genuinely effective.",
-    g3Number: "03", g3Title: "Build Lifelong Habits", g3Body: "A result that disappears six months later was never really a result. We focus on building the habits and the mindset that keep you on track long after the program ends.",
-    g4Number: "04", g4Title: "Make Health Non-Negotiable", g4Body: "Life gets busy, and health is usually the first thing to go. Our goal is to help you make it a permanent part of your routine — not something you'll get back to someday.",
-    missionEyebrow: "Our Mission", missionQuote: "Whether you want to build strength, lose weight, or simply feel better in your own skin, De Maître Coaching is here to guide you every step of the way.", missionAttr: "— De Maître Coaching",
+    eyebrow: "My Goals", heading: "My mission, built around", headingItalic: "your transformation.",
+    body: "I believe everyone has the potential to change — they just need the right support, a plan that actually fits their life, and a coach who holds them accountable through the process. My mission is to deliver honest, science-backed coaching that creates real, lasting results for anyone who's ready to commit.",
+    body2: "I take a whole-person approach because sustainable change goes beyond the gym. Every program I build combines training, nutrition, recovery, and mindset — designed around you, not copied from a template.",
+    g1Number: "01", g1Title: "Transform Every Client", g1Body: "My standard is simple: a real, meaningful transformation for every client who shows up and does the work. Not most. All of them.",
+    g2Number: "02", g2Title: "Raise the Standard of Coaching", g2Body: "The industry is full of quick fixes and empty promises. I'm here to do things properly — personalised, thorough, and genuinely effective.",
+    g3Number: "03", g3Title: "Build Lifelong Habits", g3Body: "A result that disappears six months later was never really a result. I focus on building the habits and the mindset that keep you on track long after the program ends.",
+    g4Number: "04", g4Title: "Make Health Non-Negotiable", g4Body: "Life gets busy, and health is usually the first thing to go. My goal is to help you make it a permanent part of your routine — not something you'll get back to someday.",
+    missionEyebrow: "My Mission", missionQuote: "Whether you want to build strength, lose weight, or simply feel better in your own skin, I'm here to guide you every step of the way.", missionAttr: "— Sam de Maître",
     ctaHeading: "Let's work towards your", ctaItalic: "goals together.",
   },
   personalTraining: {

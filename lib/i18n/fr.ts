@@ -4,7 +4,7 @@ export const fr: Translations = {
   nav: {
     home: "Accueil", about: "À propos", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Réserver un appel",
     dropdown: {
-      about: { meetCoach: "Rencontrer le Coach", meetCoachSub: "Sam de Maître", whyUs: "Pourquoi moi ?", whyUsSub: "Ce qui me distingue", ourGoals: "Nos Objectifs", ourGoalsSub: "Notre mission et vision" },
+      about: { meetCoach: "Rencontrer le Coach", meetCoachSub: "Sam de Maître", whyUs: "Pourquoi moi ?", whyUsSub: "Ce qui me distingue", ourGoals: "Mes Objectifs", ourGoalsSub: "Ma mission et vision" },
       services: { personal: "Entraînement Personnel", personalSub: "En personne · Guatemala City", hybrid: "Coaching Hybride", hybridSub: "En personne + en ligne", online: "Coaching en Ligne", onlineSub: "Mondial · 100% à distance" },
     },
   },
@@ -12,7 +12,7 @@ export const fr: Translations = {
     navigate: "Navigation", getInTouch: "Nous contacter",
     description: "Entraînement personnel d'élite à Guatemala City et en ligne dans le monde entier. Des programmes conçus pour des individus ambitieux qui exigent des résultats.",
     tagline: "Entraînement sur Mesure. Vie Élevée.", copyright: "Tous droits réservés.",
-    links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi moi ?", ourGoals: "Nos Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
+    links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi moi ?", ourGoals: "Mes Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Réserver un appel gratuit", getStarted: "Commencer", apply: "Postuler maintenant",
@@ -68,14 +68,14 @@ export const fr: Translations = {
     ctaHeading: "Prêt à faire l'expérience de la", ctaItalic: "différence ?",
   },
   ourGoals: {
-    eyebrow: "Nos Objectifs", heading: "Une mission construite autour de", headingItalic: "votre transformation.",
-    body: "Chez De Maître Coaching, nous croyons que tout le monde a le potentiel de changer — il suffit du bon soutien, d'un plan qui s'adapte vraiment à sa vie et d'un coach qui maintient la responsabilité. Notre mission est d'offrir un coaching honnête et fondé sur la science, qui génère de vrais résultats durables pour quiconque est prêt à s'engager.",
-    body2: "Nous adoptons une approche globale car le changement durable va au-delà de la salle de sport. Chaque programme que nous élaborons combine entraînement, nutrition, récupération et état d'esprit — conçu pour vous, pas copié sur un modèle.",
-    g1Number: "01", g1Title: "Transformer Chaque Client", g1Body: "Notre standard est simple : une transformation réelle et significative pour chaque client qui se présente et fait le travail. Pas la plupart. Tous.",
-    g2Number: "02", g2Title: "Élever le Standard du Coaching", g2Body: "L'industrie est pleine de solutions rapides et de promesses vides. De Maître Coaching existe pour faire les choses correctement — personnalisé, rigoureux et véritablement efficace.",
-    g3Number: "03", g3Title: "Construire des Habitudes à Vie", g3Body: "Un résultat qui disparaît six mois plus tard n'a jamais vraiment été un résultat. Nous nous concentrons sur la construction des habitudes et de l'état d'esprit qui vous maintiennent sur la bonne voie bien après la fin du programme.",
-    g4Number: "04", g4Title: "Rendre la Santé Non Négociable", g4Body: "La vie devient chargée et la santé est généralement la première à être sacrifiée. Notre objectif est de vous aider à en faire une partie permanente de votre routine — pas quelque chose à quoi vous reviendrez un jour.",
-    missionEyebrow: "Notre Mission", missionQuote: "Que vous souhaitiez développer votre force, perdre du poids ou simplement vous sentir mieux dans votre peau, De Maître Coaching est là pour vous guider à chaque étape.", missionAttr: "— De Maître Coaching",
+    eyebrow: "Mes Objectifs", heading: "Ma mission, construite autour de", headingItalic: "votre transformation.",
+    body: "Je crois que tout le monde a le potentiel de changer — il suffit du bon soutien, d'un plan qui s'adapte vraiment à sa vie et d'un coach qui maintient la responsabilité. Ma mission est d'offrir un coaching honnête et fondé sur la science, qui génère de vrais résultats durables pour quiconque est prêt à s'engager.",
+    body2: "J'adopte une approche globale car le changement durable va au-delà de la salle de sport. Chaque programme que j'élabore combine entraînement, nutrition, récupération et état d'esprit — conçu pour vous, pas copié sur un modèle.",
+    g1Number: "01", g1Title: "Transformer Chaque Client", g1Body: "Mon standard est simple : une transformation réelle et significative pour chaque client qui se présente et fait le travail. Pas la plupart. Tous.",
+    g2Number: "02", g2Title: "Élever le Standard du Coaching", g2Body: "L'industrie est pleine de solutions rapides et de promesses vides. Je suis là pour faire les choses correctement — personnalisé, rigoureux et véritablement efficace.",
+    g3Number: "03", g3Title: "Construire des Habitudes à Vie", g3Body: "Un résultat qui disparaît six mois plus tard n'a jamais vraiment été un résultat. Je me concentre sur la construction des habitudes et de l'état d'esprit qui vous maintiennent sur la bonne voie bien après la fin du programme.",
+    g4Number: "04", g4Title: "Rendre la Santé Non Négociable", g4Body: "La vie devient chargée et la santé est généralement la première à être sacrifiée. Mon objectif est de vous aider à en faire une partie permanente de votre routine — pas quelque chose à quoi vous reviendrez un jour.",
+    missionEyebrow: "Ma Mission", missionQuote: "Que vous souhaitiez développer votre force, perdre du poids ou simplement vous sentir mieux dans votre peau, je suis là pour vous guider à chaque étape.", missionAttr: "— Sam de Maître",
     ctaHeading: "Travaillons ensemble vers vos", ctaItalic: "objectifs.",
   },
   personalTraining: {

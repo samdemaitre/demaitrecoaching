@@ -4,7 +4,7 @@ export const nl: Translations = {
   nav: {
     home: "Home", about: "Over ons", services: "Diensten", faq: "FAQ", contact: "Contact", bookCall: "Boek een gesprek",
     dropdown: {
-      about: { meetCoach: "Maak kennis met de coach", meetCoachSub: "Sam de Maître", whyUs: "Waarom ik?", whyUsSub: "Wat mij onderscheidt", ourGoals: "Onze doelen", ourGoalsSub: "Onze missie & visie" },
+      about: { meetCoach: "Maak kennis met de coach", meetCoachSub: "Sam de Maître", whyUs: "Waarom ik?", whyUsSub: "Wat mij onderscheidt", ourGoals: "Mijn doelen", ourGoalsSub: "Mijn missie & visie" },
       services: { personal: "Personal Training", personalSub: "Persoonlijk · Guatemala-Stad", hybrid: "Hybride Coaching", hybridSub: "Persoonlijk + online", online: "Online Coaching", onlineSub: "Wereldwijd · Volledig op afstand" },
     },
   },
@@ -12,7 +12,7 @@ export const nl: Translations = {
     navigate: "Navigeer", getInTouch: "Neem contact op",
     description: "Elite personal training in Guatemala-Stad en online wereldwijd. Programma's gebouwd voor gedreven individuen die resultaten eisen.",
     tagline: "Maatwerk Training. Verheven Leven.", copyright: "Alle rechten voorbehouden.",
-    links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom ik?", ourGoals: "Onze doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
+    links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom ik?", ourGoals: "Mijn doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
     bookFreeCall: "Boek een gratis gesprek", getStarted: "Begin nu", apply: "Aanmelden",
@@ -68,14 +68,14 @@ export const nl: Translations = {
     ctaHeading: "Klaar om het", ctaItalic: "verschil te ervaren?",
   },
   ourGoals: {
-    eyebrow: "Onze doelen", heading: "Een missie gebouwd rond", headingItalic: "jouw transformatie.",
-    body: "Bij De Maître Coaching geloven we dat iedereen het potentieel heeft om te veranderen — ze hebben alleen de juiste ondersteuning nodig, een plan dat echt bij hun leven past, en een coach die hen verantwoordelijk houdt. Onze missie is eerlijk, wetenschappelijk onderbouwd coaching te bieden dat echte, blijvende resultaten creëert voor iedereen die klaar is om te committeren.",
-    body2: "We hanteren een holistische aanpak, want duurzame verandering gaat verder dan de sportschool. Elk programma dat we samenstellen combineert training, voeding, herstel en mindset — op maat gemaakt voor jou, niet gekopieerd van een sjabloon.",
-    g1Number: "01", g1Title: "Elke klant transformeren", g1Body: "Onze standaard is eenvoudig: een echte, betekenisvolle transformatie voor elke klant die opdaagt en het werk doet. Niet de meeste. Allemaal.",
-    g2Number: "02", g2Title: "De standaard van coaching verhogen", g2Body: "De industrie zit vol snelle oplossingen en lege beloftes. De Maître Coaching bestaat om het goed te doen — gepersonaliseerd, grondig en écht effectief.",
-    g3Number: "03", g3Title: "Levenslange gewoontes bouwen", g3Body: "Een resultaat dat zes maanden later verdwijnt was nooit echt een resultaat. We richten ons op het opbouwen van de gewoontes en de mindset die je op koers houden, lang nadat het programma is afgelopen.",
-    g4Number: "04", g4Title: "Gezondheid niet-onderhandelbaar maken", g4Body: "Het leven wordt druk en gezondheid is meestal het eerste dat eraan gaat. Ons doel is om je te helpen er een vast onderdeel van je routine van te maken — niet iets waar je ooit nog eens naar terugkomt.",
-    missionEyebrow: "Onze missie", missionQuote: "Of je nu kracht wilt opbouwen, wilt afvallen of gewoon beter in je vel wilt zitten — De Maître Coaching staat er om je bij elke stap te begeleiden.", missionAttr: "— De Maître Coaching",
+    eyebrow: "Mijn doelen", heading: "Mijn missie, gebouwd rond", headingItalic: "jouw transformatie.",
+    body: "Ik geloof dat iedereen het potentieel heeft om te veranderen — ze hebben alleen de juiste ondersteuning nodig, een plan dat echt bij hun leven past, en een coach die hen verantwoordelijk houdt. Mijn missie is eerlijk, wetenschappelijk onderbouwd coaching te bieden dat echte, blijvende resultaten creëert voor iedereen die klaar is om te committeren.",
+    body2: "Ik hanteer een holistische aanpak, want duurzame verandering gaat verder dan de sportschool. Elk programma dat ik samenstel combineert training, voeding, herstel en mindset — op maat gemaakt voor jou, niet gekopieerd van een sjabloon.",
+    g1Number: "01", g1Title: "Elke klant transformeren", g1Body: "Mijn standaard is eenvoudig: een echte, betekenisvolle transformatie voor elke klant die opdaagt en het werk doet. Niet de meeste. Allemaal.",
+    g2Number: "02", g2Title: "De standaard van coaching verhogen", g2Body: "De industrie zit vol snelle oplossingen en lege beloftes. Ik doe de dingen goed — gepersonaliseerd, grondig en écht effectief.",
+    g3Number: "03", g3Title: "Levenslange gewoontes bouwen", g3Body: "Een resultaat dat zes maanden later verdwijnt was nooit echt een resultaat. Ik richt me op het opbouwen van de gewoontes en de mindset die je op koers houden, lang nadat het programma is afgelopen.",
+    g4Number: "04", g4Title: "Gezondheid niet-onderhandelbaar maken", g4Body: "Het leven wordt druk en gezondheid is meestal het eerste dat eraan gaat. Mijn doel is om je te helpen er een vast onderdeel van je routine van te maken — niet iets waar je ooit nog eens naar terugkomt.",
+    missionEyebrow: "Mijn missie", missionQuote: "Of je nu kracht wilt opbouwen, wilt afvallen of gewoon beter in je vel wilt zitten — ik sta er om je bij elke stap te begeleiden.", missionAttr: "— Sam de Maître",
     ctaHeading: "Laten we samenwerken aan jouw", ctaItalic: "doelen.",
   },
   personalTraining: {

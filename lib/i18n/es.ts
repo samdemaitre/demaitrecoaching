@@ -4,7 +4,7 @@ export const es: Translations = {
   nav: {
     home: "Inicio", about: "Sobre mí", services: "Servicios", faq: "Preguntas", contact: "Contacto", bookCall: "Reservar llamada",
     dropdown: {
-      about: { meetCoach: "Conoce al Coach", meetCoachSub: "Sam de Maître", whyUs: "¿Por qué yo?", whyUsSub: "Lo que me diferencia", ourGoals: "Nuestros Objetivos", ourGoalsSub: "Nuestra misión y visión" },
+      about: { meetCoach: "Conoce al Coach", meetCoachSub: "Sam de Maître", whyUs: "¿Por qué yo?", whyUsSub: "Lo que me diferencia", ourGoals: "Mis Objetivos", ourGoalsSub: "Mi misión y visión" },
       services: { personal: "Entrenamiento Personal", personalSub: "Presencial · Ciudad de Guatemala", hybrid: "Coaching Híbrido", hybridSub: "Presencial + online", online: "Coaching Online", onlineSub: "Mundial · 100% remoto" },
     },
   },
@@ -12,7 +12,7 @@ export const es: Translations = {
     navigate: "Navegar", getInTouch: "Contacto",
     description: "Entrenamiento personal de élite en Ciudad de Guatemala y online en todo el mundo. Programas creados para personas ambiciosas que exigen resultados.",
     tagline: "Entrenamiento a Medida. Vida Elevada.", copyright: "Todos los derechos reservados.",
-    links: { home: "Inicio", meetCoach: "Conoce al Coach", whyUs: "¿Por qué yo?", ourGoals: "Nuestros Objetivos", personal: "Entrenamiento Personal", hybrid: "Coaching Híbrido", online: "Coaching Online", faq: "Preguntas", contact: "Contacto" },
+    links: { home: "Inicio", meetCoach: "Conoce al Coach", whyUs: "¿Por qué yo?", ourGoals: "Mis Objetivos", personal: "Entrenamiento Personal", hybrid: "Coaching Híbrido", online: "Coaching Online", faq: "Preguntas", contact: "Contacto" },
   },
   common: {
     bookFreeCall: "Reservar llamada gratis", getStarted: "Comenzar", apply: "Solicitar ahora",
@@ -68,14 +68,14 @@ export const es: Translations = {
     ctaHeading: "¿Listo para experimentar la", ctaItalic: "diferencia?",
   },
   ourGoals: {
-    eyebrow: "Nuestros Objetivos", heading: "Una misión construida en torno a", headingItalic: "tu transformación.",
-    body: "En De Maître Coaching, creemos que todos tienen el potencial de cambiar — solo necesitan el apoyo adecuado, un plan que realmente se adapte a su vida y un coach que les exija responsabilidad. Nuestra misión es ofrecer un coaching honesto y respaldado por la ciencia que genere resultados reales y duraderos para cualquiera que esté dispuesto a comprometerse.",
-    body2: "Adoptamos un enfoque integral porque el cambio sostenible va más allá del gimnasio. Cada programa que desarrollamos combina entrenamiento, nutrición, recuperación y mentalidad — diseñado para ti, no copiado de una plantilla.",
-    g1Number: "01", g1Title: "Transformar a Cada Cliente", g1Body: "Nuestro estándar es simple: una transformación real y significativa para cada cliente que se presenta y hace el trabajo. No la mayoría. Todos.",
-    g2Number: "02", g2Title: "Elevar el Estándar del Coaching", g2Body: "La industria está llena de soluciones rápidas y promesas vacías. De Maître Coaching existe para hacer las cosas bien — personalizado, minucioso y genuinamente efectivo.",
-    g3Number: "03", g3Title: "Construir Hábitos de por Vida", g3Body: "Un resultado que desaparece seis meses después nunca fue realmente un resultado. Nos enfocamos en construir los hábitos y la mentalidad que te mantienen en el camino mucho después de que el programa termine.",
-    g4Number: "04", g4Title: "Hacer la Salud No Negociable", g4Body: "La vida se vuelve agitada y la salud suele ser lo primero que se sacrifica. Nuestro objetivo es ayudarte a convertirla en una parte permanente de tu rutina — no algo a lo que volverás algún día.",
-    missionEyebrow: "Nuestra Misión", missionQuote: "Ya sea que quieras desarrollar fuerza, perder peso o simplemente sentirte mejor en tu propia piel, De Maître Coaching está aquí para guiarte en cada paso del camino.", missionAttr: "— De Maître Coaching",
+    eyebrow: "Mis Objetivos", heading: "Mi misión, construida en torno a", headingItalic: "tu transformación.",
+    body: "Creo que todos tienen el potencial de cambiar — solo necesitan el apoyo adecuado, un plan que realmente se adapte a su vida y un coach que les exija responsabilidad. Mi misión es ofrecer un coaching honesto y respaldado por la ciencia que genere resultados reales y duraderos para cualquiera que esté dispuesto a comprometerse.",
+    body2: "Adopto un enfoque integral porque el cambio sostenible va más allá del gimnasio. Cada programa que desarrollo combina entrenamiento, nutrición, recuperación y mentalidad — diseñado para ti, no copiado de una plantilla.",
+    g1Number: "01", g1Title: "Transformar a Cada Cliente", g1Body: "Mi estándar es simple: una transformación real y significativa para cada cliente que se presenta y hace el trabajo. No la mayoría. Todos.",
+    g2Number: "02", g2Title: "Elevar el Estándar del Coaching", g2Body: "La industria está llena de soluciones rápidas y promesas vacías. Estoy aquí para hacer las cosas bien — personalizado, minucioso y genuinamente efectivo.",
+    g3Number: "03", g3Title: "Construir Hábitos de por Vida", g3Body: "Un resultado que desaparece seis meses después nunca fue realmente un resultado. Me enfoco en construir los hábitos y la mentalidad que te mantienen en el camino mucho después de que el programa termine.",
+    g4Number: "04", g4Title: "Hacer la Salud No Negociable", g4Body: "La vida se vuelve agitada y la salud suele ser lo primero que se sacrifica. Mi objetivo es ayudarte a convertirla en una parte permanente de tu rutina — no algo a lo que volverás algún día.",
+    missionEyebrow: "Mi Misión", missionQuote: "Ya sea que quieras desarrollar fuerza, perder peso o simplemente sentirte mejor en tu propia piel, estoy aquí para guiarte en cada paso del camino.", missionAttr: "— Sam de Maître",
     ctaHeading: "Trabajemos juntos hacia tus", ctaItalic: "objetivos.",
   },
   personalTraining: {
