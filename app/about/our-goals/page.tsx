@@ -66,10 +66,13 @@ export default function OurGoalsPage() {
       </section>
 
       {/* Closing statement */}
-      <section className="bg-cream2 py-16 px-6 border-y border-border">
+      <section className="bg-green-dark py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="font-dmsans text-base text-text-soft leading-relaxed">
-            {g.missionQuote}
+          <blockquote className="font-cormorant italic text-2xl md:text-3xl text-cream leading-relaxed mb-6">
+            &ldquo;{g.missionQuote}&rdquo;
+          </blockquote>
+          <p className="font-montserrat text-[10px] tracking-widest uppercase text-gold">
+            — Sam de Maître
           </p>
         </div>
       </section>
