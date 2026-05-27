@@ -90,7 +90,7 @@ export default function MeetTheCoachPage() {
                   <span className="w-2 h-2 rounded-full bg-gold mt-2 shrink-0" />
                   <div>
                     <p className="font-cormorant text-lg font-medium text-text">{cred.title}</p>
-                    <p className="font-dmsans text-sm text-text-soft">{cred.desc}</p>
+                    {cred.desc && <p className="font-dmsans text-sm text-text-soft">{cred.desc}</p>}
                   </div>
                 </div>
               ))}

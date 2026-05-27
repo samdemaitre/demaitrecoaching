@@ -48,7 +48,7 @@ export const en = {
     cred1Title: "Bachelor in Physical Education & Movement Science", cred1Desc: "Specialisation in Personal Training",
     cred2Title: "12+ Years Experience", cred2Desc: "Training elite clients across Guatemala and internationally",
     cred3Title: "400+ Clients", cred3Desc: "Helped over 400 driven individuals transform their bodies",
-    cred4Title: "Specialised in Body Recomposition", cred4Desc: "Simultaneous fat loss and muscle gain protocols",
+    cred4Title: "From complete beginner to seasoned athlete — I specialise in making people stronger and getting them their energy back.", cred4Desc: "",
     testimonialQuote: "Working with Sam changed everything. I'd tried other trainers before but never found the right fit. His attention to detail and genuine investment in my progress is unlike anything I've experienced.",
     testimonialAuthor: "Carlos M.", testimonialRole: "Client · Guatemala City",
     ctaHeading: "Ready to work with", ctaItalic: "Sam?",
