@@ -47,7 +47,7 @@ export const de: Translations = {
     cred2Title: "12+ Jahre Erfahrung", cred2Desc: "Training von Elite-Klienten in Guatemala und international",
     cred3Title: "400+ Klienten", cred3Desc: "Über 400 ambitionierte Menschen transformiert",
     cred4Title: "Spezialist für Körper-Rekomposition", cred4Desc: "Gleichzeitige Fettabbau- und Muskelaufbauprotokolle",
-    testimonialQuote: "Die Zusammenarbeit mit Sam hat alles verändert. Ich hatte drei Coaches vor ihm ausprobiert und nie solche Ergebnisse erzielt. Seine Liebe zum Detail und sein echtes Engagement für meinen Fortschritt sind unvergleichlich.",
+    testimonialQuote: "Die Zusammenarbeit mit Sam hat alles verändert. Ich hatte zuvor andere Trainer ausprobiert, aber nie die richtige Passung gefunden. Seine Liebe zum Detail und sein echtes Engagement für meinen Fortschritt sind unvergleichlich.",
     testimonialAuthor: "Carlos M.", testimonialRole: "Klient · Guatemala City",
     ctaHeading: "Bereit, mit", ctaItalic: "Sam zu arbeiten?",
   },
