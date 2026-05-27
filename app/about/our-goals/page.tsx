@@ -36,6 +36,9 @@ export default function OurGoalsPage() {
             <p className="font-dmsans text-base text-text-soft leading-relaxed max-w-2xl">
               {g.body}
             </p>
+            <p className="font-dmsans text-base text-text-soft leading-relaxed max-w-2xl">
+              {g.body2}
+            </p>
           </motion.div>
 
           {/* Goals */}
@@ -62,17 +65,11 @@ export default function OurGoalsPage() {
         </div>
       </section>
 
-      {/* Mission statement */}
+      {/* Closing statement */}
       <section className="bg-cream2 py-16 px-6 border-y border-border">
-        <div className="max-w-3xl mx-auto text-center flex flex-col gap-4">
-          <span className="font-montserrat text-[11px] font-semibold tracking-[0.2em] uppercase text-gold">
-            {g.missionEyebrow}
-          </span>
-          <p className="font-cormorant italic text-2xl md:text-3xl text-text font-medium leading-relaxed">
-            &ldquo;{g.missionQuote}&rdquo;
-          </p>
-          <p className="font-montserrat text-[10px] tracking-widest uppercase text-text-muted mt-2">
-            {g.missionAttr}
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="font-dmsans text-base text-text-soft leading-relaxed">
+            {g.missionQuote}
           </p>
         </div>
       </section>
