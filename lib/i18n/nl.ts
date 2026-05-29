@@ -144,7 +144,7 @@ export const nl: Translations = {
     {
       title: "Aan de slag",
       items: [
-        { q: "Welk pakket is het beste voor mij?", a: "Als je geen ervaring hebt met gestructureerd trainen, is online coaching een uitstekend startpunt — weinig commitment, veel waarde. Als je persoonlijke begeleiding en verantwoording wilt, kies dan voor een persoonlijk trainingspakket. Als je het beste van beide werelden wilt met dagelijkse ondersteuning, is hybride coaching de juiste keuze. Niet zeker? Stuur een berichtje en we zoeken het samen uit." },
+        { q: "Welk pakket is het beste voor mij?", a: "Als je geen ervaring hebt met gestructureerd trainen of buiten Guatemala woont, is online coaching een uitstekend startpunt — geen persoonlijke sessies vereist, alles op afstand voor Q850/maand. Als je hands-on sessies in Guatemala-Stad wilt, kies dan voor persoonlijke training — 1 maand voor flexibiliteit of 3 maanden voor een lager tarief en echte resultaten. Als je het beste van beide werelden wilt, is hybride coaching de juiste keuze. Niet zeker? Stuur een berichtje en we zoeken het samen uit." },
         { q: "In welke talen geef je coaching?", a: "Coaching vindt volledig plaats in het Engels of Nederlands. Ik heb ook een redelijk begrip van Spaans, Frans en Duits, dus als je je in een van die talen meer op je gemak voelt, neem dan gerust contact op — ik doe mijn best om te helpen.", langPills: true },
         { q: "Heb ik al trainingservaring nodig?", a: "Nee. Alle programma's worden opgebouwd rond jouw huidige fitnessniveau, of je nu een absolute beginner bent of na een lange pauze terugkeert. De eerste sessie of kennismakingsgesprek wordt altijd gebruikt om te beoordelen waar je staat en realistische doelen te stellen." },
         { q: "Hoe begin ik?", a: "Neem contact op via het contactformulier of WhatsApp. We hebben een kort kennismakingsgesprek over je doelen, kiezen het juiste pakket en plannen je eerste sessie of startdatum. Het hele proces duurt minder dan 15 minuten." },
@@ -155,7 +155,7 @@ export const nl: Translations = {
       items: [
         { q: "Waar vinden de sessies plaats?", a: "Sessies kunnen plaatsvinden in een sportschool naar keuze, buiten, of thuis als er genoeg ruimte is. We spreken de locatie af voor de boeking. Reizen binnen een redelijke afstand is inbegrepen — langere afstanden kunnen extra kosten met zich meebrengen." },
         { q: "Wat als ik een sessie moet annuleren of verzetten?", a: "Annuleringen met ten minste 24 uur vooraf kunnen kosteloos worden verzet. Annuleringen met minder dan 24 uur vooraf tellen als een gebruikte sessie. Dingen gebeuren — maar dit beleid houdt het schema eerlijk voor iedereen." },
-        { q: "Worden ongebruikte sessies overgedragen naar de volgende maand?", a: "Nee. Sessies zijn 30 dagen geldig vanaf de aankoopdatum en worden niet overgedragen. Dit zorgt ervoor dat jouw training consistent blijft en jouw voortgang op schema blijft." },
+        { q: "Worden ongebruikte sessies overgedragen naar de volgende maand?", a: "Nee. Sessies worden niet overgedragen — ze zijn vooruitbetaald en 30 dagen geldig bij een 1-maandspakket, of 90 dagen bij een 3-maandspakket. Dit zorgt ervoor dat jouw training consistent blijft en jouw voortgang op schema blijft." },
         { q: "Hoe werkt de 'breng een vriend mee' deal?", a: "Jullie trainen samen in dezelfde sessie op hetzelfde moment. Ieder betaalt 75% van de reguliere 1-op-1 prijs, samen betalen jullie 150% en besparen beiden 25%. Beide personen moeten dezelfde sessies boeken en bijwonen — de korting geldt niet als één persoon alleen traint." },
       ],
     },
@@ -164,14 +164,14 @@ export const nl: Translations = {
       items: [
         { q: "Hoe werkt online coaching in de praktijk?", a: "Je ontvangt aan het begin van elke cyclus een gepersonaliseerd trainingsprogramma, traint op jouw eigen schema en checkt wekelijks in via WhatsApp of een kort voicebericht. Je programma wordt elke twee weken beoordeeld en bijgewerkt op basis van jouw voortgang. Je hebt directe toegang tijdens vaste uren voor vragen, techniek-checks of aanpassingen." },
         { q: "Wat is het verschil tussen online en hybride coaching?", a: "Online coaching is volledig op afstand — je traint zelfstandig met een programma en wekelijkse check-ins. Hybride voegt 4 persoonlijke sessies per maand toe, zodat je techniekcoaching op locatie, real-time feedback en een sterkere verantwoordingsstructuur krijgt bovenop alles wat online coaching inhoudt." },
-        { q: "Wat omvat het 12-wekenprogramma?", a: "Het 12-wekenprogramma is een gestructureerd hybride pakket verdeeld over vier fasen: Fundament, Opbouw, Intensiteit en Piek. Het bevat in totaal 16 persoonlijke sessies, een volledig gepersonaliseerd voedingsplan, wekelijkse check-ins, WhatsApp-toegang en voor- en nafoto's. Het is ontworpen voor mensen die serieus een zichtbare verandering willen realiseren in 3 maanden." },
+        { q: "Wat is het verschil tussen een 1-maands- en 3-maandspakket?", a: "Het belangrijkste verschil is commitment en prijs. Het 1-maandspakket biedt volledige flexibiliteit — sessies zijn vooruitbetaald en 30 dagen geldig zonder langetermijnverplichting. Het 3-maandspakket biedt een lager maandtarief (Q150/maand minder voor persoonlijk, Q100/maand minder voor hybride) en sessies die 90 dagen geldig zijn. Als je klaar bent om te investeren in een serieus traject, is het 3-maandspakket de betere keuze." },
         { q: "Welke uitrusting heb ik nodig voor online coaching?", a: "Dat hangt af van je doelen en wat je beschikbaar hebt. Programma's kunnen worden geschreven voor een volledig fitnesscentrum, een thuisgym of minimale uitrusting. Laat het gewoon weten bij de intake en het programma wordt erop afgestemd." },
       ],
     },
     {
       title: "Voeding",
       items: [
-        { q: "Is een volledig maaltijdplan inbegrepen?", a: "Persoonlijke en online pakketten bevatten voedingsrichtlijnen — praktische begeleiding over calorieën, macro's, maaltijdtiming en voedselkeuzes afgestemd op jouw doelen. Het 12-wekenprogramma bevat een volledig voedingsplan. Als je een gedetailleerd maaltijdplan wilt toevoegen aan een ander pakket, vraag ernaar en we bespreken het." },
+        { q: "Is een volledig maaltijdplan inbegrepen?", a: "Alle pakketten bevatten voedingsrichtlijnen — praktische begeleiding over calorieën, macro's, maaltijdtiming en voedselkeuzes afgestemd op jouw doelen. Als je een meer gedetailleerd of gestructureerd maaltijdplan wilt, vraag ernaar en we bespreken de mogelijkheden." },
         { q: "Kun je rekening houden met voedselallergieën of dieetvoorkeuren?", a: "Ja. Alle voedingsbegeleiding is gepersonaliseerd. Of je nu vegetariër bent, intoleranties hebt of gewoon sterke voedselvoorkeuren hebt, het plan werkt rond wat je daadwerkelijk eet en lekker vindt." },
       ],
     },
@@ -180,7 +180,7 @@ export const nl: Translations = {
       items: [
         { q: "Hoe betaal ik?", a: "Betaling is mogelijk via overschrijving (Banrural, BAC of vergelijkbaar), Tigo Money of contant geld. Alle pakketten worden vooraf betaald voor de eerste sessie of startdatum. Je ontvangt een bevestiging zodra de betaling is ontvangen." },
         { q: "Kan ik mijn maandelijks pakket pauzeren of annuleren?", a: "Je kunt opzeggen met 7 dagen opzegtermijn vóór je volgende factuurdatum. Pauzeren om medische redenen of noodgevallen kan geval per geval worden geregeld." },
-        { q: "Zijn er kortingen beschikbaar?", a: "De 'breng een vriend mee' deal is de belangrijkste korting — beide personen besparen 25% ten opzichte van 1-op-1 training. Het 12-wekenprogramma is ook lager geprijsd dan maand-tot-maand betalen. Verwijzingskortingen zijn mogelijk beschikbaar — vraag ernaar bij inschrijving." },
+        { q: "Zijn er kortingen beschikbaar?", a: "De 'breng een vriend mee' deal is de belangrijkste korting — beide personen besparen 25% ten opzichte van het solo tarief, zowel voor persoonlijke als hybride pakketten. De 3-maandspakketten zijn ook lager geprijsd dan maand-tot-maand betalen: Q150/maand minder voor persoonlijk, Q100/maand minder voor hybride. Verwijzingskortingen zijn mogelijk beschikbaar — vraag ernaar bij inschrijving." },
       ],
     },
   ],

@@ -145,7 +145,7 @@ export const es: Translations = {
     {
       title: "Para empezar",
       items: [
-        { q: "¿Qué paquete es el adecuado para mí?", a: "Si eres nuevo en el entrenamiento estructurado, el coaching online es un excelente punto de partida — bajo compromiso, alto valor. Si quieres orientación práctica y responsabilidad, opta por un paquete presencial. Si quieres lo mejor de ambos mundos con soporte diario, el coaching híbrido es la opción. ¿No estás seguro? Envía un mensaje y lo averiguaremos juntos." },
+        { q: "¿Qué paquete es el adecuado para mí?", a: "Si eres nuevo en el entrenamiento estructurado o vives fuera de Guatemala, el coaching online es un excelente punto de partida — sin sesiones presenciales, todo a distancia por Q850/mes. Si quieres sesiones presenciales en Ciudad de Guatemala, opta por el entrenamiento personal — 1 mes para flexibilidad o 3 meses para un precio más bajo y resultados reales. Si quieres lo mejor de ambos mundos, el coaching híbrido es la opción. ¿No estás seguro? Envía un mensaje y lo averiguaremos juntos." },
         { q: "¿En qué idiomas realizas el coaching?", a: "El coaching se realiza completamente en inglés o neerlandés. También tengo un buen entendimiento del español, francés y alemán, así que si te sientes más cómodo en uno de esos idiomas, no dudes en contactarme — haré todo lo posible para ayudarte.", langPills: true },
         { q: "¿Necesito experiencia previa en entrenamiento?", a: "No. Todos los programas se construyen en torno a tu nivel de forma física actual, ya seas un principiante completo o estés regresando después de un largo descanso. La primera sesión o llamada de incorporación siempre se utiliza para evaluar dónde estás y establecer objetivos realistas." },
         { q: "¿Cómo empiezo?", a: "Contáctame a través del formulario de contacto o WhatsApp. Tendremos una breve llamada introductoria para hablar sobre tus objetivos, elegir el paquete adecuado y reservar tu primera sesión o fecha de inicio. Todo el proceso lleva menos de 15 minutos." },
@@ -156,7 +156,7 @@ export const es: Translations = {
       items: [
         { q: "¿Dónde tienen lugar las sesiones?", a: "Las sesiones pueden realizarse en el gimnasio de tu elección, al aire libre o en tu casa si tienes suficiente espacio. Acordaremos la ubicación antes de reservar. El desplazamiento dentro de una distancia razonable está incluido — las distancias más largas pueden conllevar un cargo adicional." },
         { q: "¿Qué pasa si necesito cancelar o reprogramar una sesión?", a: "Las cancelaciones con al menos 24 horas de aviso pueden reprogramarse sin coste. Las cancelaciones con menos de 24 horas de aviso se contabilizan como sesión utilizada. La vida pasa — pero esta política mantiene el horario justo para todos." },
-        { q: "¿Las sesiones no utilizadas se trasladan al mes siguiente?", a: "No. Las sesiones son válidas durante 30 días desde la fecha de compra y no se trasladan. Esto mantiene tu entrenamiento constante y tu progreso en camino." },
+        { q: "¿Las sesiones no utilizadas se trasladan al mes siguiente?", a: "No. Las sesiones no se trasladan — son prepagadas y válidas durante 30 días con el paquete de 1 mes, o 90 días con el paquete de 3 meses. Esto mantiene tu entrenamiento constante y tu progreso en camino." },
         { q: "¿Cómo funciona la oferta de traer a un amigo?", a: "Ambos entrenáis juntos en la misma sesión al mismo tiempo. Cada persona paga el 75% del precio regular 1 a 1, por lo que juntos pagáis el 150% y ambos ahorráis un 25%. Ambas personas deben reservar y asistir a las mismas sesiones — el descuento no se aplica si una persona entrena sola." },
       ],
     },
@@ -165,14 +165,14 @@ export const es: Translations = {
       items: [
         { q: "¿Cómo funciona el coaching online día a día?", a: "Recibes un programa de entrenamiento personalizado al inicio de cada ciclo, entrenas según tu propio horario y realizas un check-in semanal vía WhatsApp o una nota de voz corta. Tu programa se revisa y actualiza cada dos semanas según tu progreso. Tienes acceso directo durante horas establecidas para preguntas, revisiones de técnica o ajustes." },
         { q: "¿Cuál es la diferencia entre el coaching online y el híbrido?", a: "El coaching online es completamente remoto — entrenas de forma independiente con un programa y check-ins semanales. El híbrido añade 4 sesiones presenciales al mes, por lo que obtienes coaching técnico práctico, retroalimentación en tiempo real y una estructura de responsabilidad más sólida, además de todo lo que incluye el coaching online." },
-        { q: "¿Qué incluye el programa de transformación de 12 semanas?", a: "El programa de 12 semanas es un paquete híbrido estructurado dividido en cuatro fases: Base, Construcción, Intensidad y Pico. Incluye 16 sesiones presenciales en total, un plan nutricional completamente personalizado, check-ins semanales, acceso por WhatsApp y fotos de progreso antes y después. Está diseñado para personas que se toman en serio hacer un cambio visible en 3 meses." },
+        { q: "¿Cuál es la diferencia entre el paquete de 1 mes y el de 3 meses?", a: "La principal diferencia es el compromiso y el precio. El paquete de 1 mes ofrece total flexibilidad — las sesiones son prepagadas y válidas durante 30 días sin obligación a largo plazo. El paquete de 3 meses garantiza un precio mensual más bajo (Q150/mes menos para presencial, Q100/mes menos para híbrido) y sesiones válidas durante 90 días. Si estás listo para invertir en un proceso serio, el paquete de 3 meses es la mejor opción." },
         { q: "¿Qué equipamiento necesito para el coaching online?", a: "Depende de tus objetivos y de lo que tengas disponible. Los programas pueden escribirse para un gimnasio completo, un gimnasio en casa o con equipamiento mínimo. Solo indícame tu configuración durante la incorporación y el programa se construirá en torno a ella." },
       ],
     },
     {
       title: "Nutrición",
       items: [
-        { q: "¿Se incluye un plan de comidas completo?", a: "Los paquetes presenciales y online incluyen directrices nutricionales — orientación práctica sobre calorías, macros, horarios de comidas y elecciones de alimentos adaptadas a tus objetivos. El paquete de transformación de 12 semanas incluye un plan nutricional completo. Si quieres un plan de comidas detallado añadido a cualquier otro paquete, pregunta y podemos discutirlo." },
+        { q: "¿Se incluye un plan de comidas completo?", a: "Todos los paquetes incluyen directrices nutricionales — orientación práctica sobre calorías, macros, horarios de comidas y elecciones de alimentos adaptadas a tus objetivos. Si quieres un plan de comidas más detallado o estructurado además de eso, solo pregunta y podemos discutirlo." },
         { q: "¿Puedes adaptarte a alergias alimentarias o preferencias dietéticas?", a: "Sí. Toda la orientación nutricional es personalizada. Ya seas vegetariano, tengas intolerancias o simplemente tengas fuertes preferencias alimentarias, el plan se adaptará a lo que realmente comes y disfrutas." },
       ],
     },
@@ -181,7 +181,7 @@ export const es: Translations = {
       items: [
         { q: "¿Cómo pago?", a: "El pago se acepta mediante transferencia bancaria (Banrural, BAC o similar), Tigo Money o efectivo. Todos los paquetes se pagan por adelantado antes de la primera sesión o fecha de inicio. Recibirás una confirmación una vez recibido el pago." },
         { q: "¿Puedo pausar o cancelar mi paquete mensual?", a: "Puedes cancelar con 7 días de aviso antes de tu próxima fecha de facturación. La pausa por razones médicas o emergencias puede gestionarse caso por caso." },
-        { q: "¿Hay descuentos disponibles?", a: "La oferta de traer a un amigo es el principal descuento — ambas personas ahorran un 25% comparado con entrenar 1 a 1. El paquete de transformación de 12 semanas también tiene un precio inferior al de pagar mes a mes. Pueden estar disponibles descuentos por referidos — pregunta sobre ellos cuando te inscribas." },
+        { q: "¿Hay descuentos disponibles?", a: "La oferta de traer a un amigo es el principal descuento — ambas personas ahorran un 25% respecto al precio individual, aplicable a los paquetes presenciales e híbridos. Los paquetes de 3 meses también tienen un precio inferior al de pagar mes a mes: Q150/mes menos para presencial, Q100/mes menos para híbrido. Pueden estar disponibles descuentos por referidos — pregunta sobre ellos cuando te inscribas." },
       ],
     },
   ],
