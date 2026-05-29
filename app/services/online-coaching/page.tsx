@@ -45,7 +45,7 @@ export default function OnlineCoachingPage() {
                 <p className="font-dmsans text-sm text-text-muted mt-1">{o.cardSubtitle}</p>
               </div>
               <div className="flex items-end gap-1">
-                <span className="font-cormorant text-4xl font-medium text-gold">Q950</span>
+                <span className="font-cormorant text-4xl font-medium text-gold">Q850</span>
                 <span className="font-montserrat text-xs text-text-muted mb-1.5">{t.common.perMonth}</span>
               </div>
               <ul className="flex flex-col gap-3">
