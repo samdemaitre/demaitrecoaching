@@ -124,7 +124,7 @@ export const fr: Translations = {
   },
   contact: {
     eyebrow: "Nous Contacter", heading: "Parlons de", headingItalic: "vos objectifs.",
-    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, Sam sera ravi de vous entendre. Réservez un appel découverte gratuit de 30 minutes — sans discours de vente, sans pression.",
+    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, je serais ravi de vous entendre. Réservez un appel découverte gratuit de 30 minutes — sans discours de vente, sans pression.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Localisation",
     locationValue: "Guatemala City, GT · En ligne dans le monde entier",
     labelInstagram: "Instagram",

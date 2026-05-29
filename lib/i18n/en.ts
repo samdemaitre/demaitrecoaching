@@ -122,7 +122,7 @@ export const en = {
   },
   contact: {
     eyebrow: "Get in Touch", heading: "Let's talk about", headingItalic: "your goals.",
-    body: "Whether you're ready to commit to a program or just curious about what's possible, Sam would love to hear from you. Book a free 30-minute discovery call — no sales pitch, no pressure.",
+    body: "Whether you're ready to commit to a program or just curious about what's possible, I would love to hear from you. Book a free 30-minute discovery call — no sales pitch, no pressure.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Location",
     locationValue: "Guatemala City, GT · Online worldwide", labelInstagram: "Instagram",
     formEyebrow: "Send a Message", formName: "Full Name", formNamePlaceholder: "Your name",

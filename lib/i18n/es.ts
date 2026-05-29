@@ -124,7 +124,7 @@ export const es: Translations = {
   },
   contact: {
     eyebrow: "Ponerse en Contacto", heading: "Hablemos sobre", headingItalic: "tus objetivos.",
-    body: "Ya sea que estés listo para comprometerte con un programa o simplemente tengas curiosidad sobre lo que es posible, Sam estaría encantado de escucharte. Reserva una llamada gratuita de 30 minutos — sin discurso de ventas, sin presión.",
+    body: "Ya sea que estés listo para comprometerte con un programa o simplemente tengas curiosidad sobre lo que es posible, me encantaría escucharte. Reserva una llamada gratuita de 30 minutos — sin discurso de ventas, sin presión.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Ubicación",
     locationValue: "Ciudad de Guatemala, GT · Online worldwide",
     labelInstagram: "Instagram",

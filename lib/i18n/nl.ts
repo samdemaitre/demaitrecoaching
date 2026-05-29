@@ -124,7 +124,7 @@ export const nl: Translations = {
   },
   contact: {
     eyebrow: "Neem contact op", heading: "Laten we praten over", headingItalic: "jouw doelen.",
-    body: "Of je nu klaar bent om je te committeren aan een programma of gewoon nieuwsgierig bent naar wat mogelijk is, Sam hoort graag van je. Boek een gratis kennismakingsgesprek van 30 minuten — geen verkooppraatje, geen druk.",
+    body: "Of je nu klaar bent om je te committeren aan een programma of gewoon nieuwsgierig bent naar wat mogelijk is, ik hoor graag van je. Boek een gratis kennismakingsgesprek van 30 minuten — geen verkooppraatje, geen druk.",
     labelEmail: "E-mail", labelWhatsApp: "WhatsApp", labelLocation: "Locatie",
     locationValue: "Guatemala-Stad, GT · Online wereldwijd", labelInstagram: "Instagram",
     formEyebrow: "Stuur een bericht", formName: "Volledige naam", formNamePlaceholder: "Jouw naam",

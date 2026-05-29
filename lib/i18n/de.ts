@@ -124,7 +124,7 @@ export const de: Translations = {
   },
   contact: {
     eyebrow: "Kontakt aufnehmen", heading: "Lass uns über", headingItalic: "deine Ziele sprechen.",
-    body: "Ob du bereit bist, dich zu einem Programm zu verpflichten oder einfach neugierig bist, was möglich ist — Sam würde gerne von dir hören. Buche ein kostenloses 30-minütiges Erstgespräch — kein Verkaufsgespräch, kein Druck.",
+    body: "Ob du bereit bist, dich zu einem Programm zu verpflichten oder einfach neugierig bist, was möglich ist — ich würde mich freuen, von dir zu hören. Buche ein kostenloses 30-minütiges Erstgespräch — kein Verkaufsgespräch, kein Druck.",
     labelEmail: "E-Mail", labelWhatsApp: "WhatsApp", labelLocation: "Standort",
     locationValue: "Guatemala City, GT · Online weltweit",
     labelInstagram: "Instagram",
