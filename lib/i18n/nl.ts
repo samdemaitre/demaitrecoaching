@@ -47,7 +47,7 @@ export const nl: Translations = {
     signature: "Sam de Maître", role: "Jouw Coach",
     quote: "Het lichaam bereikt wat de geest gelooft — maar alleen met een programma dat die overtuiging waardig is.", quoteAttr: "— Sam de Maître",
     credentialsHeading: "Kwalificaties",
-    cred1Title: "Bachelor in Lichamelijke Opvoeding & Bewegingswetenschappen", cred1Desc: "Specialisatie in Personal Training",
+    cred1Title: "Bachelor in Lichamelijke Opvoeding & Sportwetenschappen", cred1Desc: "Specialisatie in Personal Training",
     cred2Title: "12+ jaar ervaring", cred2Desc: "Training van klanten in Guatemala en internationaal",
     cred3Title: "400+ klanten", cred3Desc: "Meer dan 400 gedreven mensen geholpen hun lichaam te transformeren",
     cred4Title: "Strength Without Limits", cred4Desc: "Van absolute beginner tot ervaren atleet — ik specialiseer me in mensen sterker maken en hun energie terugbrengen.",

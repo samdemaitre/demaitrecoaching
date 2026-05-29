@@ -47,7 +47,7 @@ export const es: Translations = {
     signature: "Sam de Maître", role: "Tu Coach",
     quote: "El cuerpo logra lo que la mente cree — pero solo con un programa a la altura de esa creencia.", quoteAttr: "— Sam de Maître",
     credentialsHeading: "Credenciales",
-    cred1Title: "Licenciatura en Educación Física y Ciencias del Movimiento", cred1Desc: "Especialización en Entrenamiento Personal",
+    cred1Title: "Licenciatura en Educación Física y Ciencias del Deporte", cred1Desc: "Especialización en Entrenamiento Personal",
     cred2Title: "12+ Años de Experiencia", cred2Desc: "Entrenando a clientes en Guatemala e internacionalmente",
     cred3Title: "400+ Clientes", cred3Desc: "Más de 400 personas con ambición transformadas",
     cred4Title: "Strength Without Limits", cred4Desc: "Desde principiante absoluto hasta atleta experimentado — me especializo en hacer a las personas más fuertes y devolverles su energía.",
