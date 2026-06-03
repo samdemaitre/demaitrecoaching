@@ -76,29 +76,34 @@ export default function Navbar() {
   );
 
   return (
-    <header className="sticky top-0 z-50 bg-cream border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <header
+      className="sticky top-0 z-50"
+      style={{
+        background: "rgba(247,242,232,0.97)",
+        backdropFilter: "blur(20px)",
+        borderBottom: "1px solid rgba(184,149,62,0.16)",
+      }}
+    >
+      <div className="mx-auto px-14 flex items-center justify-between" style={{ maxWidth: 1360, height: 72 }}>
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 shrink-0">
-          <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
-            <span className="font-cormorant text-gold font-medium text-base leading-none">SDM</span>
-          </div>
-          <span className="font-cormorant text-text font-medium text-lg leading-none">
-            De Maître <em className="text-gold not-italic font-medium">Coaching</em>
+        <Link href="/" className="flex items-center shrink-0">
+          <span className="font-cormorant text-text font-normal leading-none" style={{ fontSize: 19 }}>
+            De Maître <em className="text-gold not-italic">Coaching</em>
           </span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav ref={navRef} className="hidden md:flex items-center gap-8">
+        <nav ref={navRef} className="hidden md:flex items-center gap-10">
           {NAV.map((link) => {
             if (!link.children) {
               return (
                 <Link
                   key={link.key}
                   href={link.href}
-                  className={`font-montserrat text-xs font-medium tracking-widest uppercase transition-colors ${
-                    isActive(link.href) ? "text-gold" : "text-text-soft hover:text-text"
+                  className={`font-montserrat font-medium tracking-[0.2em] uppercase transition-colors ${
+                    isActive(link.href) ? "text-gold" : "text-text-soft hover:text-gold"
                   }`}
+                  style={{ fontSize: 10 }}
                 >
                   {link.label}
                 </Link>
@@ -118,9 +123,10 @@ export default function Navbar() {
                 <button
                   onClick={() => setOpenDropdown(isOpen ? null : link.key)}
                   aria-expanded={isOpen}
-                  className={`flex items-center gap-1 font-montserrat text-xs font-medium tracking-widest uppercase transition-colors ${
-                    active ? "text-gold" : "text-text-soft hover:text-text"
+                  className={`flex items-center gap-1 font-montserrat font-medium tracking-[0.2em] uppercase transition-colors ${
+                    active ? "text-gold" : "text-text-soft hover:text-gold"
                   }`}
+                  style={{ fontSize: 10 }}
                 >
                   {link.label}
                   <Caret open={isOpen} />
@@ -133,7 +139,8 @@ export default function Navbar() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -8 }}
                       transition={{ duration: 0.18 }}
-                      className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-60 bg-cream border border-gold rounded-xl shadow-lg overflow-hidden"
+                      className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-60 bg-cream rounded-xl shadow-lg overflow-hidden"
+                      style={{ border: "1px solid rgba(184,149,62,0.25)" }}
                     >
                       <div className="absolute -top-[7px] left-1/2 -translate-x-1/2 w-3 h-3 bg-cream border-l border-t border-gold rotate-45" />
                       <div className="py-2">
@@ -165,7 +172,12 @@ export default function Navbar() {
           <LanguageSwitcher />
           <Link
             href="/contact"
-            className="font-montserrat text-xs font-semibold tracking-widest uppercase text-gold border border-gold rounded-full px-5 py-2 hover:bg-gold hover:text-cream transition-all duration-200"
+            className="font-montserrat font-semibold tracking-[0.16em] uppercase text-text rounded-full transition-all duration-200 hover:bg-gold hover:text-white"
+            style={{
+              fontSize: 10,
+              border: "1.5px solid var(--gold)",
+              padding: "11px 28px",
+            }}
           >
             {t.nav.bookCall}
           </Link>
@@ -191,7 +203,8 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="md:hidden overflow-hidden bg-cream border-t border-border"
+            className="md:hidden overflow-hidden bg-cream"
+            style={{ borderTop: "1px solid rgba(184,149,62,0.16)" }}
           >
             <nav className="flex flex-col px-6 py-4 gap-1">
               {NAV.map((link) => {

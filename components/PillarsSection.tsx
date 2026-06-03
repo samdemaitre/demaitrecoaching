@@ -58,13 +58,19 @@ export default function PillarsSection() {
   ];
 
   return (
-    <section className="py-20 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <span className="font-montserrat text-[11px] font-semibold tracking-[0.2em] uppercase text-gold">
+    <section className="bg-cream py-24 px-6 md:px-14">
+      <div style={{ maxWidth: 1360 }} className="mx-auto">
+        <div className="text-center mb-20 flex flex-col items-center gap-3">
+          <span
+            className="font-montserrat font-bold uppercase text-terr"
+            style={{ fontSize: 9, letterSpacing: "0.32em" }}
+          >
             {t.home.pillarsEyebrow}
           </span>
-          <h2 className="font-cormorant text-4xl md:text-5xl font-medium text-text mt-3">
+          <h2
+            className="font-cormorant font-normal text-text"
+            style={{ fontSize: "clamp(36px, 4vw, 50px)" }}
+          >
             {t.home.pillarsHeading}
           </h2>
         </div>
@@ -79,12 +85,13 @@ export default function PillarsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="bg-cream2 rounded-xl p-7 flex flex-col gap-4 border border-border-soft"
+                className="bg-cream2 rounded-2xl p-7 flex flex-col gap-4"
+                style={{ border: "1px solid rgba(184,149,62,0.12)" }}
               >
                 <div className="w-10 h-10 rounded-full bg-gold-pale flex items-center justify-center">
                   <Icon />
                 </div>
-                <h3 className="font-cormorant text-2xl font-medium text-text">{pillar.title}</h3>
+                <h3 className="font-cormorant text-2xl font-normal text-text">{pillar.title}</h3>
                 <p className="font-dmsans text-sm text-text-soft leading-relaxed">{pillar.body}</p>
               </motion.div>
             );

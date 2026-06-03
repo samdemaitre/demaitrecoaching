@@ -20,30 +20,30 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-green-dark">
-      <div className="max-w-7xl mx-auto px-6 py-16">
+    <footer style={{ background: "var(--ink2)" }}>
+      <div style={{ maxWidth: 1360 }} className="mx-auto px-6 md:px-14 pt-16 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
-                <span className="font-cormorant text-gold font-medium text-base">SDM</span>
-              </div>
+            <div className="flex items-center">
               <span className="font-cormorant text-cream font-medium text-lg">
                 De Maître <em className="text-gold not-italic">Coaching</em>
               </span>
             </div>
-            <p className="font-cormorant italic text-gold-soft text-lg leading-relaxed">
+            <p className="font-cormorant italic text-lg leading-relaxed" style={{ color: "var(--gold-soft)" }}>
               {t.footer.tagline}
             </p>
-            <p className="font-dmsans text-sm text-text-muted leading-relaxed">
+            <p className="font-dmsans text-sm leading-relaxed" style={{ color: "rgba(247,242,232,0.28)" }}>
               {t.footer.description}
             </p>
           </div>
 
           {/* Navigate */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-montserrat text-xs font-semibold tracking-widest uppercase text-gold">
+            <h4
+              className="font-montserrat font-semibold uppercase text-gold"
+              style={{ fontSize: 9, letterSpacing: "0.28em" }}
+            >
               {t.footer.navigate}
             </h4>
             <nav className="flex flex-col gap-2.5">
@@ -51,7 +51,8 @@ export default function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="font-dmsans text-sm text-text-muted hover:text-cream transition-colors"
+                  className="font-dmsans text-sm transition-colors hover:text-cream"
+                  style={{ color: "rgba(247,242,232,0.28)" }}
                 >
                   {link.label}
                 </Link>
@@ -61,28 +62,38 @@ export default function Footer() {
 
           {/* Get in Touch */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-montserrat text-xs font-semibold tracking-widest uppercase text-gold">
+            <h4
+              className="font-montserrat font-semibold uppercase text-gold"
+              style={{ fontSize: 9, letterSpacing: "0.28em" }}
+            >
               {t.footer.getInTouch}
             </h4>
             <div className="flex flex-col gap-3">
               <a
                 href={`mailto:${BRAND.email}`}
-                className="font-dmsans text-sm text-text-muted hover:text-cream transition-colors"
+                className="font-dmsans text-sm transition-colors hover:text-cream"
+                style={{ color: "rgba(247,242,232,0.28)" }}
               >
                 {BRAND.email}
               </a>
               <a
                 href={`tel:${BRAND.phone.replace(/\s/g, "")}`}
-                className="font-dmsans text-sm text-text-muted hover:text-cream transition-colors"
+                className="font-dmsans text-sm transition-colors hover:text-cream"
+                style={{ color: "rgba(247,242,232,0.28)" }}
               >
                 {BRAND.phone}
               </a>
-              <span className="font-dmsans text-sm text-text-muted">{BRAND.location}</span>
+              <span className="font-dmsans text-sm" style={{ color: "rgba(247,242,232,0.28)" }}>
+                {BRAND.location}
+              </span>
               <a
                 href="https://instagram.com/demaitrecoaching"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-dmsans text-sm text-gold hover:text-gold-soft transition-colors"
+                className="font-dmsans text-sm transition-colors"
+                style={{ color: "var(--gold)" }}
+                onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--gold-soft)")}
+                onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--gold)")}
               >
                 {BRAND.instagram}
               </a>
@@ -92,12 +103,18 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="bg-green-mid border-t border-green-soft">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="font-montserrat text-[11px] text-text-muted tracking-wide">
+      <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+        <div
+          style={{ maxWidth: 1360 }}
+          className="mx-auto px-6 md:px-14 py-5 flex flex-col sm:flex-row items-center justify-between gap-2"
+        >
+          <p
+            className="font-montserrat"
+            style={{ fontSize: 9, letterSpacing: "0.12em", color: "rgba(247,242,232,0.18)" }}
+          >
             © {new Date().getFullYear()} De Maître Coaching. {t.footer.copyright}
           </p>
-          <p className="font-cormorant italic text-text-muted text-sm">
+          <p className="font-cormorant italic text-sm" style={{ color: "rgba(247,242,232,0.18)" }}>
             {t.footer.tagline}
           </p>
         </div>
