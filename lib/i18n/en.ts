@@ -13,7 +13,7 @@ export const en = {
     links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Me?", ourGoals: "My Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
-    bookFreeCall: "Book a Free Call", getStarted: "Get Started", apply: "Apply Now",
+    bookFreeCall: "Request a Consultation", getStarted: "Get Started", apply: "Apply Now",
     whatsIncluded: "What's Included", pricing: "Pricing", faqSection: "FAQ", commonQuestions: "Common questions",
     noCommitment: "No commitment · 30 minutes · Free", choosePackage: "Choose your package",
     bookSession: "Book a session", bookFriend: "Book with a friend", applyTransformation: "Apply for transformation",
@@ -25,7 +25,7 @@ export const en = {
     h1: "Stop Guessing.", h1Italic: "Start Getting Results.",
     tagline: "Tailored coaching for people who take themselves seriously.",
     body: "Sam De Maître brings over a decade of coaching, a sport science degree, and a background as a national-level decathlete to every programme. Your goals, your schedule, your results.",
-    ctaPrimary: "Book a Free Call", ctaSecondary: "Explore Services", monogramSub: "De Maître",
+    ctaPrimary: "Request a Consultation", ctaSecondary: "Explore Services", monogramSub: "De Maître",
     statsClients: "Clients Trained", statsYears: "Years Experience", statsTailored: "Tailored to You",
     pillarsEyebrow: "The Method", pillarsHeading: "Four Pillars of Excellence",
     strengthTitle: "Strength", strengthBody: "Progressive overload programmes built around your goals, schedule, and available equipment.",
@@ -90,7 +90,7 @@ export const en = {
     addOnsTitle: "Add-ons",
     addOn1Title: "Bring a friend", addOn1Body: "Train 2-on-1 — each person pays 75% of the solo price",
     addOn2Title: "Single session", addOn2Body: "Pay per session, no commitment · Q350",
-    ctaHeading: "Questions about", ctaItalic: "which package?", ctaNote: "Book a free 30-minute discovery call",
+    ctaHeading: "Questions about", ctaItalic: "which package?", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   hybridCoaching: {
     eyebrow: "Guatemala City + Online", title: "Hybrid", titleItalic: "coaching",
@@ -107,7 +107,7 @@ export const en = {
     addOnsTitle: "Add-ons",
     addOn1Title: "Bring a friend", addOn1Body: "Train 2-on-1 — each person pays 75% of the solo price",
     addOn2Title: "Single session", addOn2Body: "Pay per session, no commitment · Q350",
-    ctaHeading: "Not sure which package is right for", ctaItalic: "you?", ctaNote: "Book a free 30-minute discovery call",
+    ctaHeading: "Not sure which package is right for", ctaItalic: "you?", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   onlineCoaching: {
     eyebrow: "Worldwide · Fully Remote", title: "Online", titleItalic: "coaching",
@@ -122,7 +122,7 @@ export const en = {
   },
   contact: {
     eyebrow: "Get in Touch", heading: "Let's talk about", headingItalic: "your goals.",
-    body: "Whether you're ready to commit to a program or just curious about what's possible, I would love to hear from you. Book a free 30-minute discovery call — no sales pitch, no pressure.",
+    body: "Whether you're ready to commit to a program or just curious about what's possible, I would love to hear from you. Request a consultation — takes less than 60 seconds, no obligation.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Location",
     locationValue: "Guatemala City, GT · Online worldwide", labelInstagram: "Instagram",
     formEyebrow: "Send a Message", formName: "Full Name", formNamePlaceholder: "Your name",
@@ -136,7 +136,7 @@ export const en = {
   faqPage: {
     eyebrow: "FAQ", heading: "Frequently asked", headingItalic: "questions.",
     body: "Everything you need to know before getting started. Can't find your answer here? Send a message and you'll hear back within 24 hours.",
-    ctaHeading: "Still have questions?", ctaItalic: "Let's talk.", ctaNote: "Free 30-minute call · No commitment",
+    ctaHeading: "Still have questions?", ctaItalic: "Let's talk.", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   faqSections: [
     {

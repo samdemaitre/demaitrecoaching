@@ -15,7 +15,7 @@ export const nl: Translations = {
     links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom ik?", ourGoals: "Mijn doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },
   common: {
-    bookFreeCall: "Boek een gratis gesprek", getStarted: "Begin nu", apply: "Aanmelden",
+    bookFreeCall: "Request a Consultation", getStarted: "Begin nu", apply: "Aanmelden",
     whatsIncluded: "Wat is inbegrepen", pricing: "Prijzen", faqSection: "FAQ", commonQuestions: "Veelgestelde vragen",
     noCommitment: "Geen verplichtingen · 30 minuten · Gratis", choosePackage: "Kies jouw pakket",
     bookSession: "Boek een sessie", bookFriend: "Boek met een vriend", applyTransformation: "Aanmelden voor transformatie",

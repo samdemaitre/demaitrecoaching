@@ -15,7 +15,7 @@ export const de: Translations = {
     links: { home: "Startseite", meetCoach: "Den Coach kennenlernen", whyUs: "Warum ich?", ourGoals: "Meine Ziele", personal: "Personal Training", hybrid: "Hybrid-Coaching", online: "Online-Coaching", faq: "FAQ", contact: "Kontakt" },
   },
   common: {
-    bookFreeCall: "Kostenloses Gespräch buchen", getStarted: "Loslegen", apply: "Jetzt bewerben",
+    bookFreeCall: "Request a Consultation", getStarted: "Loslegen", apply: "Jetzt bewerben",
     whatsIncluded: "Was enthalten ist", pricing: "Preise", faqSection: "FAQ", commonQuestions: "Häufige Fragen",
     noCommitment: "Keine Verpflichtung · 30 Minuten · Kostenlos", choosePackage: "Wähle dein Paket",
     bookSession: "Session buchen", bookFriend: "Mit einem Freund buchen", applyTransformation: "Transformation beantragen",

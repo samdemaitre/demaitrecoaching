@@ -15,7 +15,7 @@ export const fr: Translations = {
     links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi moi ?", ourGoals: "Mes Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
   },
   common: {
-    bookFreeCall: "Réserver un appel gratuit", getStarted: "Commencer", apply: "Postuler maintenant",
+    bookFreeCall: "Request a Consultation", getStarted: "Commencer", apply: "Postuler maintenant",
     whatsIncluded: "Ce qui est inclus", pricing: "Tarifs", faqSection: "FAQ", commonQuestions: "Questions fréquentes",
     noCommitment: "Sans engagement · 30 minutes · Gratuit", choosePackage: "Choisissez votre formule",
     bookSession: "Réserver une séance", bookFriend: "Réserver avec un ami", applyTransformation: "Postuler à la transformation",
@@ -92,7 +92,7 @@ export const fr: Translations = {
     addOnsTitle: "Options supplémentaires",
     addOn1Title: "Amenez un ami", addOn1Body: "Entraînez-vous en 2 pour 1 — chacun paie 75% du tarif individuel",
     addOn2Title: "Séance unique", addOn2Body: "Payez par séance, sans engagement · Q350",
-    ctaHeading: "Des questions sur", ctaItalic: "quelle formule choisir ?", ctaNote: "Réservez un appel découverte gratuit de 30 minutes",
+    ctaHeading: "Des questions sur", ctaItalic: "quelle formule choisir ?", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   hybridCoaching: {
     eyebrow: "Guatemala City + En Ligne", title: "Coaching", titleItalic: "hybride",
@@ -109,7 +109,7 @@ export const fr: Translations = {
     addOnsTitle: "Options supplémentaires",
     addOn1Title: "Amenez un ami", addOn1Body: "Entraînez-vous en 2 pour 1 — chacun paie 75% du tarif individuel",
     addOn2Title: "Séance unique", addOn2Body: "Payez par séance, sans engagement · Q350",
-    ctaHeading: "Pas sûr de quelle formule vous convient", ctaItalic: "le mieux ?", ctaNote: "Réservez un appel découverte gratuit de 30 minutes",
+    ctaHeading: "Pas sûr de quelle formule vous convient", ctaItalic: "le mieux ?", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   onlineCoaching: {
     eyebrow: "Mondial · 100% à Distance", title: "Coaching", titleItalic: "en ligne",
@@ -124,7 +124,7 @@ export const fr: Translations = {
   },
   contact: {
     eyebrow: "Nous Contacter", heading: "Parlons de", headingItalic: "vos objectifs.",
-    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, je serais ravi de vous entendre. Réservez un appel découverte gratuit de 30 minutes — sans discours de vente, sans pression.",
+    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, je serais ravi de vous entendre. Takes less than 60 seconds. No obligation — sans discours de vente, sans pression.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Localisation",
     locationValue: "Guatemala City, GT · En ligne dans le monde entier",
     labelInstagram: "Instagram",
@@ -139,7 +139,7 @@ export const fr: Translations = {
   faqPage: {
     eyebrow: "FAQ", heading: "Questions", headingItalic: "fréquentes.",
     body: "Tout ce que vous devez savoir avant de commencer. Vous ne trouvez pas votre réponse ici ? Envoyez un message et vous recevrez une réponse dans les 24 heures.",
-    ctaHeading: "Vous avez encore des questions ?", ctaItalic: "Parlons-en.", ctaNote: "Appel gratuit de 30 minutes · Sans engagement",
+    ctaHeading: "Vous avez encore des questions ?", ctaItalic: "Parlons-en.", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   faqSections: [
     {
