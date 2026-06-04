@@ -2,7 +2,7 @@ import type { Translations } from "./en";
 
 export const es: Translations = {
   nav: {
-    home: "Inicio", about: "Sobre mí", services: "Servicios", faq: "Preguntas", contact: "Contacto", bookCall: "Reservar llamada",
+    home: "Inicio", about: "Sobre mí", services: "Servicios", faq: "Preguntas", contact: "Contacto", bookCall: "Explore Coaching",
     dropdown: {
       about: { meetCoach: "Conoce al Coach", meetCoachSub: "Sam de Maître", whyUs: "¿Por qué yo?", whyUsSub: "Lo que me diferencia", ourGoals: "Mis Objetivos", ourGoalsSub: "Mi misión y visión" },
       services: { personal: "Entrenamiento Personal", personalSub: "Presencial · Ciudad de Guatemala", hybrid: "Coaching Híbrido", hybridSub: "Presencial + online", online: "Coaching Online", onlineSub: "Mundial · 100% remoto" },

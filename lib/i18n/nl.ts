@@ -2,7 +2,7 @@ import type { Translations } from "./en";
 
 export const nl: Translations = {
   nav: {
-    home: "Home", about: "Over ons", services: "Diensten", faq: "FAQ", contact: "Contact", bookCall: "Boek een gesprek",
+    home: "Home", about: "Over ons", services: "Diensten", faq: "FAQ", contact: "Contact", bookCall: "Explore Coaching",
     dropdown: {
       about: { meetCoach: "Maak kennis met de coach", meetCoachSub: "Sam de Maître", whyUs: "Waarom ik?", whyUsSub: "Wat mij onderscheidt", ourGoals: "Mijn doelen", ourGoalsSub: "Mijn missie & visie" },
       services: { personal: "Personal Training", personalSub: "Persoonlijk · Guatemala-Stad", hybrid: "Hybride Coaching", hybridSub: "Persoonlijk + online", online: "Online Coaching", onlineSub: "Wereldwijd · Volledig op afstand" },

@@ -2,7 +2,7 @@ import type { Translations } from "./en";
 
 export const de: Translations = {
   nav: {
-    home: "Startseite", about: "Über uns", services: "Leistungen", faq: "FAQ", contact: "Kontakt", bookCall: "Anruf buchen",
+    home: "Startseite", about: "Über uns", services: "Leistungen", faq: "FAQ", contact: "Kontakt", bookCall: "Explore Coaching",
     dropdown: {
       about: { meetCoach: "Den Coach kennenlernen", meetCoachSub: "Sam de Maître", whyUs: "Warum ich?", whyUsSub: "Was mich auszeichnet", ourGoals: "Meine Ziele", ourGoalsSub: "Meine Mission & Vision" },
       services: { personal: "Personal Training", personalSub: "Persönlich · Guatemala City", hybrid: "Hybrid-Coaching", hybridSub: "Persönlich + Online", online: "Online-Coaching", onlineSub: "Weltweit · Vollständig remote" },

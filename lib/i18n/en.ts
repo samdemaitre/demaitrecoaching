@@ -1,6 +1,6 @@
 export const en = {
   nav: {
-    home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Book a Call",
+    home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact", bookCall: "Explore Coaching",
     dropdown: {
       about: { meetCoach: "Meet the Coach", meetCoachSub: "Sam de Maître", whyUs: "Why Me?", whyUsSub: "What sets me apart", ourGoals: "My Goals", ourGoalsSub: "My mission & vision" },
       services: { personal: "Personal Training", personalSub: "In-person · Guatemala City", hybrid: "Hybrid Coaching", hybridSub: "In-person + online", online: "Online Coaching", onlineSub: "Worldwide · Fully remote" },
