@@ -27,11 +27,11 @@ export const nl: Translations = {
     ctaQuote: "Na twaalf jaar is wat mij nog steeds drijft niet de wetenschap — het is het moment waarop een klant beseft dat hij sterker is dan hij dacht.",
   },
   home: {
-    eyebrow: "Elite Personal Training",
-    h1: "Slimmer trainen.", h1Italic: "Beter leven.",
-    tagline: "Maatwerk programma's voor iedereen die klaar is om te verschijnen.",
-    body: "De Maître Coaching levert elite personal training in Guatemala-Stad en wereldwijd. Elk programma is gebouwd rond jouw doelen, jouw schema en jouw potentieel.",
-    ctaPrimary: "Begin jouw traject", ctaSecondary: "Bekijk diensten", monogramSub: "De Maître",
+    eyebrow: "Personal Training · Guatemala-Stad & Online",
+    h1: "Stop met gokken.", h1Italic: "Begin met resultaten.",
+    tagline: "Maatwerkcoaching voor mensen die hun resultaten serieus nemen.",
+    body: "Sam De Maître brengt ruim tien jaar coaching, een diploma sportwetenschappen en een achtergrond als tienkamper op nationaal niveau naar elk programma. Jouw doelen, jouw schema, jouw resultaten.",
+    ctaPrimary: "Vraag een Gesprek Aan", ctaSecondary: "Bekijk diensten", monogramSub: "De Maître",
     statsClients: "Klanten getraind", statsYears: "Jaar coaching", statsTailored: "Op maat gemaakt",
     statsEyebrow: "De cijfers", statsHeading: "Resultaten die", statsHeadingItalic: "voor zich spreken",
     statsIntro: "Ruim tien jaar coaching van gedreven mensen die geen genoegen nemen met minder — in Guatemala-Stad en wereldwijd.",
@@ -51,7 +51,7 @@ export const nl: Translations = {
   meetCoach: {
     eyebrow: "Maak kennis met de coach", heading: "Herbouwd. Hergeconcentreerd.", headingItalic: "Klaar om te coachen.",
     body1: "",
-    body2: "Hoi, mijn naam is Sam. Ik ben 36, oorspronkelijk uit België, en eerder dit jaar ben ik naar Guatemala verhuisd — aangetrokken door de mensen die ik het meeste liefheb, mijn vriendin en onze dochter, en eerlijk gezegd door het gevoel dat dit precies is waar ik nu moet zijn.",
+    body2: "Hoi, mijn naam is Sam. Ik ben 36, oorspronkelijk uit België, en vorig jaar ben ik definitief naar Guatemala verhuisd — na een paar jaar heen en weer reizen, aangetrokken door de mensen die ik het meeste liefheb, mijn vriendin en onze dochter, en eerlijk gezegd door het gevoel dat dit precies is waar ik moet zijn.",
     body3: "Ik werk al meer dan 10 jaar in fitness en krachtcoaching. Ik heb een bachelor Lichamelijke Opvoeding en Bewegingswetenschappen met een specialisatie in personal training, en ik heb mensen van alle niveaus gecoacht, van absolute beginners tot competitieve atleten. Maar de reden dat ik in dit vakgebied stapte, is niet alleen academisch — het is persoonlijk.",
     body4: "Ik heb 11 jaar op nationaal niveau geconcurreerd in de atletiek in België, voornamelijk in de tienkamp en het verspringen. De tienkamp bestaat uit tien onderdelen over twee dagen — het leert je dat je altijd meer kunt dan je denkt, en dat consistentie talent elke keer verslaat. Toen nam een blessure dat alles van me weg. Op dat moment voelde het alsof ik een groot deel van mijn identiteit verloor. Wat me erdoorheen hielp was krachttraining — en die ervaring van herbouwen, zowel fysiek als mentaal, neem ik mee in elke sessie met elke klant. Ik weet hoe het voelt om opnieuw te beginnen. Ik weet wat het kost om door te gaan. Die overgang bracht me naar powerlifting, dat vandaag nog steeds een groot deel van mijn leven is.",
     body5: "Buiten de sportschool is avontuur nooit ver weg. Ik heb drie jaar lang solo de wereld gereisd, bergen beklommen in de Andes en vrijgedoken naast wrakken in tropische wateren. Ik train hard, eet goed en probeer de dingen te leven die ik mijn klanten vraag te doen. Guatemala heeft me een nieuw thuis gegeven, een gezin om iets voor te bouwen, en een reden om hier iets te creëren waar ik écht trots op ben.",
@@ -62,7 +62,7 @@ export const nl: Translations = {
     cred1Title: "Bachelor in Lichamelijke Opvoeding & Sportwetenschappen", cred1Desc: "Specialisatie in Personal Training",
     cred2Title: "12+ jaar coaching", cred2Desc: "Training van klanten in België en internationaal",
     cred3Title: "400+ klanten", cred3Desc: "Meer dan 400 gedreven mensen geholpen hun lichaam te transformeren",
-    cred4Title: "Strength Without Limits", cred4Desc: "Van absolute beginner tot ervaren atleet — ik specialiseer me in mensen sterker maken en hun energie terugbrengen.",
+    cred4Title: "Kracht zonder limieten", cred4Desc: "Van absolute beginner tot ervaren atleet — ik specialiseer me in mensen sterker maken en hun energie terugbrengen.",
     photosEyebrow: "In beeld",
     photoComing: "Foto volgt binnenkort",
     photo1Caption: "Mijn decathlonjaren — nationaal niveau, België",
@@ -81,7 +81,7 @@ export const nl: Translations = {
     d3Title: "Een relatie, geen transactie", d3Body: "Ik bouw langetermijnpartnerschappen. Ik investeer in het begrijpen van jou als persoon — jouw mindset, jouw levensstijl, jouw druk — niet alleen jouw fitnessstatistieken.",
     d4Title: "Aandacht op luxeniveau", d4Body: "Je zult je hier nooit een nummer voelen. Elk bericht wordt beantwoord, elke check-in wordt serieus genomen en jouw programma evolueert voortdurend naarmate jij dat ook doet.",
     d5Title: "Resultaten die blijven", d5Body: "Ik bouw duurzame gewoontes, geen kortetermijnoplossingen. Het doel is een lichaam en levensstijl die je decennialang kunt volhouden — geen 12-wekentransformatie die vervaagt.",
-    d6Title: "Accountability die écht werkt", d6Body: "Echte verandering gebeurt niet zonder iemand in jouw hoek die de standaard hoog houdt. Ik houd je eerlijk — niet door druk, maar door een niveau van consistentie en follow-through dat het moeilijk maakt om het spoor bijster te raken.",
+    d6Title: "Verantwoording die écht werkt", d6Body: "Echte verandering gebeurt niet zonder iemand in jouw hoek die de standaard hoog houdt. Ik houd je eerlijk — niet door druk, maar door een niveau van consistentie en follow-through dat het moeilijk maakt om het spoor bijster te raken.",
     quote: "De meeste coaches verkopen je een programma. Ik bouw je een proces — één dat elk 12-wekenplan overleeft.",
     ctaHeading: "Klaar om het", ctaItalic: "verschil te ervaren?",
   },
@@ -110,7 +110,7 @@ export const nl: Translations = {
     addOnsTitle: "Extra opties",
     addOn1Title: "Vriend meenemen", addOn1Body: "Train 2-op-1 — ieder betaalt 75% van de solo prijs",
     addOn2Title: "Enkele sessie", addOn2Body: "Betaal per sessie, geen verplichtingen · Q350",
-    ctaHeading: "Vragen over", ctaItalic: "welk pakket?", ctaNote: "Boek een gratis kennismakingsgesprek van 30 minuten",
+    ctaHeading: "Vragen over", ctaItalic: "welk pakket?", ctaNote: "Duurt minder dan 60 seconden · Geen verplichtingen",
   },
   hybridCoaching: {
     eyebrow: "Guatemala-Stad + Online", title: "Hybride", titleItalic: "coaching",
@@ -127,7 +127,7 @@ export const nl: Translations = {
     addOnsTitle: "Extra opties",
     addOn1Title: "Vriend meenemen", addOn1Body: "Train 2-op-1 — ieder betaalt 75% van de solo prijs",
     addOn2Title: "Enkele sessie", addOn2Body: "Betaal per sessie, geen verplichtingen · Q350",
-    ctaHeading: "Niet zeker welk pakket het beste bij", ctaItalic: "jou past?", ctaNote: "Boek een gratis kennismakingsgesprek van 30 minuten",
+    ctaHeading: "Niet zeker welk pakket het beste bij", ctaItalic: "jou past?", ctaNote: "Duurt minder dan 60 seconden · Geen verplichtingen",
   },
   onlineCoaching: {
     eyebrow: "Wereldwijd · Volledig op afstand", title: "Online", titleItalic: "coaching",
@@ -142,7 +142,7 @@ export const nl: Translations = {
   },
   contact: {
     eyebrow: "Neem contact op", heading: "Laten we praten over", headingItalic: "jouw doelen.",
-    body: "Of je nu klaar bent om je te committeren aan een programma of gewoon nieuwsgierig bent naar wat mogelijk is, ik hoor graag van je. Boek een gratis kennismakingsgesprek van 30 minuten — geen verkooppraatje, geen druk.",
+    body: "Of je nu klaar bent om je te committeren aan een programma of gewoon nieuwsgierig bent naar wat mogelijk is, ik hoor graag van je. Vraag een gesprek aan — duurt minder dan 60 seconden, geen verplichtingen.",
     labelEmail: "E-mail", labelWhatsApp: "WhatsApp", labelLocation: "Locatie",
     locationValue: "Guatemala-Stad, GT · Online wereldwijd", labelInstagram: "Instagram",
     formEyebrow: "Stuur een bericht", formName: "Volledige naam", formNamePlaceholder: "Jouw naam",
@@ -157,7 +157,7 @@ export const nl: Translations = {
   faqPage: {
     eyebrow: "FAQ", heading: "Veelgestelde", headingItalic: "vragen.",
     body: "Alles wat je moet weten voordat je begint. Kun je je antwoord hier niet vinden? Stuur een bericht en je hoort binnen 24 uur terug.",
-    ctaHeading: "Nog vragen?", ctaItalic: "Laten we praten.", ctaNote: "Gratis gesprek van 30 minuten · Geen verplichtingen",
+    ctaHeading: "Nog vragen?", ctaItalic: "Laten we praten.", ctaNote: "Duurt minder dan 60 seconden · Geen verplichtingen",
   },
   faqSections: [
     {

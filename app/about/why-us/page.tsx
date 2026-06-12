@@ -65,12 +65,9 @@ export default function WhyUsPage() {
       {/* Quote */}
       <section className="bg-green-dark py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <blockquote className="font-cormorant italic text-2xl md:text-3xl text-cream leading-relaxed mb-6">
+          <blockquote className="font-cormorant italic text-2xl md:text-3xl text-cream leading-relaxed">
             &ldquo;{w.quote}&rdquo;
           </blockquote>
-          <p className="font-montserrat text-[10px] tracking-widest uppercase text-gold">
-            — Sam de Maître
-          </p>
         </div>
       </section>
 

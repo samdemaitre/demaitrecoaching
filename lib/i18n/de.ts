@@ -27,11 +27,11 @@ export const de: Translations = {
     ctaQuote: "Nach zwölf Jahren ist es nicht die Wissenschaft, die mich antreibt — es ist der Moment, in dem ein Klient merkt, dass er stärker ist, als er dachte.",
   },
   home: {
-    eyebrow: "Elite Personal Training",
-    h1: "Trainiere Smarter.", h1Italic: "Lebe Besser.",
-    tagline: "Maßgeschneiderte Programme für jeden, der bereit ist, aufzutauchen.",
-    body: "De Maître Coaching bietet Elite-Personal-Training in Guatemala City und weltweit. Jedes Programm wird rund um deine Ziele, deinen Zeitplan und dein Potenzial aufgebaut.",
-    ctaPrimary: "Starte deine Reise", ctaSecondary: "Leistungen ansehen", monogramSub: "De Maître",
+    eyebrow: "Personal Training · Guatemala City & Online",
+    h1: "Hör auf zu raten.", h1Italic: "Fang an, Ergebnisse zu sehen.",
+    tagline: "Maßgeschneidertes Coaching für Menschen, die ihre Ergebnisse ernst nehmen.",
+    body: "Sam De Maître bringt über ein Jahrzehnt Coaching, einen Abschluss in Sportwissenschaften und eine Vergangenheit als Zehnkämpfer auf nationalem Niveau in jedes Programm ein. Deine Ziele, dein Zeitplan, deine Ergebnisse.",
+    ctaPrimary: "Beratung anfragen", ctaSecondary: "Leistungen ansehen", monogramSub: "De Maître",
     statsClients: "Trainierte Klienten", statsYears: "Jahre Coaching", statsTailored: "100% Maßgeschneidert",
     statsEyebrow: "Die Zahlen", statsHeading: "Ergebnisse, die", statsHeadingItalic: "für sich sprechen",
     statsIntro: "Über ein Jahrzehnt Coaching für ambitionierte Menschen, die sich nicht mit weniger zufriedengeben — in Guatemala City und weltweit.",
@@ -51,7 +51,7 @@ export const de: Translations = {
   meetCoach: {
     eyebrow: "Den Coach kennenlernen", heading: "Neuaufgebaut. Neu fokussiert.", headingItalic: "Bereit zu coachen.",
     body1: "",
-    body2: "Hallo, ich heiße Sam. Ich bin 36, ursprünglich aus Belgien, und Anfang dieses Jahres bin ich nach Guatemala gezogen — hingezogen von den Menschen, die mir am meisten bedeuten, meiner Freundin und unserer Tochter, und ehrlich gesagt von dem Gefühl, dass dies genau der Ort ist, wo ich gerade sein soll.",
+    body2: "Hallo, ich heiße Sam. Ich bin 36, ursprünglich aus Belgien, und letztes Jahr bin ich endgültig nach Guatemala gezogen — nach ein paar Jahren des Hin- und Herreisens, hingezogen von den Menschen, die mir am meisten bedeuten, meiner Freundin und unserer Tochter, und ehrlich gesagt von dem Gefühl, dass dies genau der Ort ist, an dem ich sein soll.",
     body3: "Ich arbeite seit über 10 Jahren im Fitness- und Krafttraining. Ich habe einen Bachelor in Sportwissenschaften und Bewegungslehre mit Spezialisierung auf Personal Training und habe alles trainiert — von absoluten Anfängern bis zu Leistungssportlern. Aber der Grund, warum ich in dieses Feld eingestiegen bin, ist nicht nur akademisch — er ist persönlich.",
     body4: "Ich habe 11 Jahre lang auf nationalem Niveau in der Leichtathletik in Belgien gekämpft, hauptsächlich im Zehnkampf und im Weitsprung. Der Zehnkampf besteht aus zehn Disziplinen über zwei Tage — er lehrt dich, dass du immer mehr kannst als du denkst, und dass Beständigkeit Talent jedes Mal schlägt. Dann nahm eine Verletzung das alles von mir weg. Damals fühlte es sich an, als würde ich einen großen Teil meiner Identität verlieren. Was mich durchgebracht hat, war Krafttraining — und diese Erfahrung des Wiederaufbaus, körperlich wie mental, ist etwas, das ich in jede Einheit mit jedem Klienten einbringe. Ich weiß, wie es sich anfühlt, neu anzufangen. Ich weiß, was es braucht, weiterzumachen. Diese Wende führte mich zum Powerlifting, das noch heute ein großer Teil meines Lebens ist.",
     body5: "Außerhalb des Studios ist Abenteuer nie weit. Ich habe drei Jahre lang solo die Welt bereist, Berge in den Anden bestiegen und neben Schiffswracks in tropischen Gewässern freediviert. Ich trainiere hart, esse gut und versuche, die Dinge zu leben, die ich meinen Klienten bitte zu tun. Guatemala hat mir ein neues Zuhause gegeben, eine Familie, für die ich etwas aufbaue, und einen Grund, hier etwas zu schaffen, auf das ich wirklich stolz bin.",
@@ -62,7 +62,7 @@ export const de: Translations = {
     cred1Title: "Bachelor in Sportwissenschaft", cred1Desc: "Spezialisierung in Personal Training",
     cred2Title: "12+ Jahre Coaching", cred2Desc: "Training von Klienten in Belgien und international",
     cred3Title: "400+ Klienten", cred3Desc: "Über 400 ambitionierte Menschen transformiert",
-    cred4Title: "Strength Without Limits", cred4Desc: "Vom absoluten Anfänger bis zum erfahrenen Athleten — ich spezialisiere mich darauf, Menschen stärker zu machen und ihre Energie zurückzubringen.",
+    cred4Title: "Kraft ohne Grenzen", cred4Desc: "Vom absoluten Anfänger bis zum erfahrenen Athleten — ich spezialisiere mich darauf, Menschen stärker zu machen und ihre Energie zurückzubringen.",
     photosEyebrow: "In Bildern",
     photoComing: "Foto folgt in Kürze",
     photo1Caption: "Meine Zehnkampfjahre — nationales Niveau, Belgien",
@@ -110,7 +110,7 @@ export const de: Translations = {
     addOnsTitle: "Zusatzoptionen",
     addOn1Title: "Freund mitbringen", addOn1Body: "Trainiere 2-zu-1 — jeder zahlt 75% des Solo-Preises",
     addOn2Title: "Einzelne Session", addOn2Body: "Zahle pro Session, ohne Verpflichtung · Q350",
-    ctaHeading: "Fragen dazu,", ctaItalic: "welches Paket das richtige ist?", ctaNote: "Kostenloses 30-minütiges Erstgespräch buchen",
+    ctaHeading: "Fragen dazu,", ctaItalic: "welches Paket das richtige ist?", ctaNote: "Dauert weniger als 60 Sekunden · Keine Verpflichtung",
   },
   hybridCoaching: {
     eyebrow: "Guatemala City + Online", title: "Hybrid-", titleItalic: "Coaching",
@@ -127,7 +127,7 @@ export const de: Translations = {
     addOnsTitle: "Zusatzoptionen",
     addOn1Title: "Freund mitbringen", addOn1Body: "Trainiere 2-zu-1 — jeder zahlt 75% des Solo-Preises",
     addOn2Title: "Einzelne Session", addOn2Body: "Zahle pro Session, ohne Verpflichtung · Q350",
-    ctaHeading: "Nicht sicher, welches Paket das richtige für", ctaItalic: "dich ist?", ctaNote: "Kostenloses 30-minütiges Erstgespräch buchen",
+    ctaHeading: "Nicht sicher, welches Paket das richtige für", ctaItalic: "dich ist?", ctaNote: "Dauert weniger als 60 Sekunden · Keine Verpflichtung",
   },
   onlineCoaching: {
     eyebrow: "Weltweit · Vollständig Remote", title: "Online-", titleItalic: "Coaching",
@@ -142,7 +142,7 @@ export const de: Translations = {
   },
   contact: {
     eyebrow: "Kontakt aufnehmen", heading: "Lass uns über", headingItalic: "deine Ziele sprechen.",
-    body: "Ob du bereit bist, dich zu einem Programm zu verpflichten oder einfach neugierig bist, was möglich ist — ich würde mich freuen, von dir zu hören. Buche ein kostenloses 30-minütiges Erstgespräch — kein Verkaufsgespräch, kein Druck.",
+    body: "Ob du bereit bist, dich zu einem Programm zu verpflichten oder einfach neugierig bist, was möglich ist — ich würde mich freuen, von dir zu hören. Frag eine Beratung an — dauert weniger als 60 Sekunden, keine Verpflichtung.",
     labelEmail: "E-Mail", labelWhatsApp: "WhatsApp", labelLocation: "Standort",
     locationValue: "Guatemala City, GT · Online weltweit",
     labelInstagram: "Instagram",
@@ -158,7 +158,7 @@ export const de: Translations = {
   faqPage: {
     eyebrow: "FAQ", heading: "Häufig gestellte", headingItalic: "Fragen.",
     body: "Alles, was du vor dem Start wissen musst. Findest du deine Antwort hier nicht? Sende eine Nachricht und du erhältst innerhalb von 24 Stunden eine Antwort.",
-    ctaHeading: "Hast du noch Fragen?", ctaItalic: "Lass uns reden.", ctaNote: "Kostenloses 30-minütiges Gespräch · Keine Verpflichtung",
+    ctaHeading: "Hast du noch Fragen?", ctaItalic: "Lass uns reden.", ctaNote: "Dauert weniger als 60 Sekunden · Keine Verpflichtung",
   },
   faqSections: [
     {

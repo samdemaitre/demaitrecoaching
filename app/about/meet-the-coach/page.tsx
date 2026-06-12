@@ -98,16 +98,6 @@ export default function MeetTheCoachPage() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="flex flex-col gap-6"
           >
-            {/* Quote block */}
-            <div className="bg-green-dark rounded-2xl p-8">
-              <blockquote className="font-cormorant italic text-xl md:text-2xl text-cream leading-relaxed mb-4">
-                &ldquo;{mc.quote}&rdquo;
-              </blockquote>
-              <p className="font-montserrat text-[10px] tracking-widest uppercase text-gold">
-                {mc.quoteAttr}
-              </p>
-            </div>
-
             {/* Credentials */}
             <div className="flex flex-col gap-4">
               <h3 className="font-montserrat text-[11px] font-semibold tracking-[0.2em] uppercase text-gold">

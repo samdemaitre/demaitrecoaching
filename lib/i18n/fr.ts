@@ -27,11 +27,11 @@ export const fr: Translations = {
     ctaQuote: "Après douze ans, ce qui me motive encore, ce n'est pas la science — c'est le moment où un client réalise qu'il est plus fort qu'il ne le pensait.",
   },
   home: {
-    eyebrow: "Entraînement Personnel d'Élite",
-    h1: "Entraînez-vous Mieux.", h1Italic: "Vivez Mieux.",
-    tagline: "Des programmes sur mesure pour quiconque est prêt à se montrer.",
-    body: "De Maître Coaching offre un entraînement personnel d'élite à Guatemala City et dans le monde entier. Chaque programme est conçu autour de vos objectifs, votre emploi du temps et votre potentiel.",
-    ctaPrimary: "Commencez Votre Parcours", ctaSecondary: "Voir les Services", monogramSub: "De Maître",
+    eyebrow: "Entraînement Personnel · Guatemala City et En Ligne",
+    h1: "Arrêtez de Deviner.", h1Italic: "Commencez à Obtenir des Résultats.",
+    tagline: "Un coaching sur mesure pour ceux qui prennent leurs résultats au sérieux.",
+    body: "Sam De Maître apporte à chaque programme plus d'une décennie de coaching, un diplôme en sciences du sport et un parcours de décathlonien de niveau national. Vos objectifs, votre emploi du temps, vos résultats.",
+    ctaPrimary: "Demander une Consultation", ctaSecondary: "Voir les Services", monogramSub: "De Maître",
     statsClients: "Clients Entraînés", statsYears: "Années de Coaching", statsTailored: "100% Sur Mesure",
     statsEyebrow: "Les Chiffres", statsHeading: "Des résultats qui", statsHeadingItalic: "parlent d'eux-mêmes",
     statsIntro: "Plus d'une décennie de coaching auprès de personnes ambitieuses qui refusent de se contenter de moins — à Guatemala City et dans le monde entier.",
@@ -51,7 +51,7 @@ export const fr: Translations = {
   meetCoach: {
     eyebrow: "Rencontrer le Coach", heading: "Reconstruit. Recentré.", headingItalic: "Prêt à coacher.",
     body1: "",
-    body2: "Bonjour, je m'appelle Sam. J'ai 36 ans, je suis originaire de Belgique, et plus tôt cette année, j'ai déménagé au Guatemala — attiré ici par les personnes que j'aime le plus, ma compagne et notre fille, et honnêtement, par le sentiment que c'est exactement là où je dois être en ce moment.",
+    body2: "Bonjour, je m'appelle Sam. J'ai 36 ans, je suis originaire de Belgique, et l'an dernier je me suis installé définitivement au Guatemala — après quelques années d'allers-retours, attiré ici par les personnes que j'aime le plus, ma compagne et notre fille, et honnêtement, par le sentiment que c'est exactement là où je dois être.",
     body3: "Je travaille dans le fitness et le coaching de force depuis plus de 10 ans. J'ai une licence en Éducation Physique et Sciences du Mouvement avec une spécialisation en entraînement personnel, et j'ai coaché des personnes de tous niveaux, des débutants complets aux athlètes de compétition. Mais la raison pour laquelle je me suis lancé dans ce domaine n'est pas seulement académique — elle est personnelle.",
     body4: "J'ai passé 11 ans à concourir en athlétisme au niveau national en Belgique, principalement dans le décathlon et le saut en longueur. Le décathlon, c'est dix épreuves sur deux jours — il vous apprend que vous pouvez toujours faire plus que vous ne le pensez, et que la régularité bat le talent à chaque fois. Puis une blessure m'a tout pris. Sur le moment, c'était comme perdre une grande partie de mon identité. Ce qui m'a aidé à m'en sortir, c'est la musculation — et cette expérience de reconstruction, physique et mentale, est quelque chose que j'apporte dans chaque séance avec chaque client. Je sais ce que c'est de repartir de zéro. Je sais ce qu'il faut pour continuer. Cette transition m'a conduit vers le powerlifting, qui fait encore aujourd'hui une grande partie de ma vie.",
     body5: "En dehors de la salle, l'aventure n'est jamais loin. J'ai voyagé seul à travers le monde pendant trois ans, gravi des montagnes dans les Andes et pratiqué l'apnée à côté d'épaves dans des eaux tropicales. Je m'entraîne dur, je mange bien, et j'essaie de vivre ce que je demande à mes clients de faire. Le Guatemala m'a offert un nouveau foyer, une famille pour laquelle construire quelque chose, et une raison de créer quelque chose ici dont je suis vraiment fier.",
@@ -62,7 +62,7 @@ export const fr: Translations = {
     cred1Title: "Licence en Éducation Physique et Sciences du Sport", cred1Desc: "Spécialisation en Entraînement Personnel",
     cred2Title: "12+ Ans de Coaching", cred2Desc: "Entraînement de clients en Belgique et à l'international",
     cred3Title: "400+ Clients", cred3Desc: "Plus de 400 individus ambitieux transformés",
-    cred4Title: "Strength Without Limits", cred4Desc: "Du débutant complet à l'athlète aguerri — je me spécialise dans le renforcement des personnes et la récupération de leur énergie.",
+    cred4Title: "Force Sans Limites", cred4Desc: "Du débutant complet à l'athlète aguerri — je me spécialise dans le renforcement des personnes et la récupération de leur énergie.",
     photosEyebrow: "En Images",
     photoComing: "Photo à venir",
     photo1Caption: "Mes années de décathlon — niveau national, Belgique",
@@ -81,7 +81,7 @@ export const fr: Translations = {
     d3Title: "Une Relation, Pas une Transaction", d3Body: "Je construis des partenariats à long terme. J'investis dans votre compréhension en tant que personne — votre mentalité, votre mode de vie, vos pressions — pas seulement vos métriques physiques.",
     d4Title: "Une Attention de Niveau Luxe", d4Body: "Vous ne vous sentirez jamais comme un numéro ici. Chaque message reçoit une réponse, chaque bilan est pris au sérieux et votre programme évolue continuellement avec vous.",
     d5Title: "Des Résultats Durables", d5Body: "Je construis des habitudes durables, pas des solutions à court terme. L'objectif est un corps et un mode de vie que vous pouvez maintenir pendant des décennies — pas une transformation de 12 semaines qui s'estompe.",
-    d6Title: "Une Accountability qui Fonctionne Vraiment", d6Body: "Le vrai changement ne se produit pas sans quelqu'un dans votre coin qui maintient le niveau. Je vous garde honnête — non pas par la pression, mais par un niveau de cohérence et de suivi qui rend difficile de sortir du droit chemin.",
+    d6Title: "Une Responsabilisation qui Fonctionne Vraiment", d6Body: "Le vrai changement ne se produit pas sans quelqu'un dans votre coin qui maintient le niveau. Je vous garde honnête — non pas par la pression, mais par un niveau de cohérence et de suivi qui rend difficile de sortir du droit chemin.",
     quote: "La plupart des coachs vous vendent un programme. Je vous construis un processus — un qui dure plus longtemps que n'importe quel plan de 12 semaines.",
     ctaHeading: "Prêt à faire l'expérience de la", ctaItalic: "différence ?",
   },
@@ -110,7 +110,7 @@ export const fr: Translations = {
     addOnsTitle: "Options supplémentaires",
     addOn1Title: "Amenez un ami", addOn1Body: "Entraînez-vous en 2 pour 1 — chacun paie 75% du tarif individuel",
     addOn2Title: "Séance unique", addOn2Body: "Payez par séance, sans engagement · Q350",
-    ctaHeading: "Des questions sur", ctaItalic: "quelle formule choisir ?", ctaNote: "Takes less than 60 seconds. No obligation",
+    ctaHeading: "Des questions sur", ctaItalic: "quelle formule choisir ?", ctaNote: "Cela prend moins de 60 secondes · Sans engagement",
   },
   hybridCoaching: {
     eyebrow: "Guatemala City + En Ligne", title: "Coaching", titleItalic: "hybride",
@@ -127,7 +127,7 @@ export const fr: Translations = {
     addOnsTitle: "Options supplémentaires",
     addOn1Title: "Amenez un ami", addOn1Body: "Entraînez-vous en 2 pour 1 — chacun paie 75% du tarif individuel",
     addOn2Title: "Séance unique", addOn2Body: "Payez par séance, sans engagement · Q350",
-    ctaHeading: "Pas sûr de quelle formule vous convient", ctaItalic: "le mieux ?", ctaNote: "Takes less than 60 seconds. No obligation",
+    ctaHeading: "Pas sûr de quelle formule vous convient", ctaItalic: "le mieux ?", ctaNote: "Cela prend moins de 60 secondes · Sans engagement",
   },
   onlineCoaching: {
     eyebrow: "Mondial · 100% à Distance", title: "Coaching", titleItalic: "en ligne",
@@ -142,7 +142,7 @@ export const fr: Translations = {
   },
   contact: {
     eyebrow: "Nous Contacter", heading: "Parlons de", headingItalic: "vos objectifs.",
-    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, je serais ravi de vous entendre. Takes less than 60 seconds. No obligation — sans discours de vente, sans pression.",
+    body: "Que vous soyez prêt à vous engager dans un programme ou simplement curieux de ce qui est possible, je serais ravi de vous entendre. Demandez une consultation — cela prend moins de 60 secondes, sans engagement.",
     labelEmail: "Email", labelWhatsApp: "WhatsApp", labelLocation: "Localisation",
     locationValue: "Guatemala City, GT · En ligne dans le monde entier",
     labelInstagram: "Instagram",
@@ -158,7 +158,7 @@ export const fr: Translations = {
   faqPage: {
     eyebrow: "FAQ", heading: "Questions", headingItalic: "fréquentes.",
     body: "Tout ce que vous devez savoir avant de commencer. Vous ne trouvez pas votre réponse ici ? Envoyez un message et vous recevrez une réponse dans les 24 heures.",
-    ctaHeading: "Vous avez encore des questions ?", ctaItalic: "Parlons-en.", ctaNote: "Takes less than 60 seconds. No obligation",
+    ctaHeading: "Vous avez encore des questions ?", ctaItalic: "Parlons-en.", ctaNote: "Cela prend moins de 60 secondes · Sans engagement",
   },
   faqSections: [
     {

@@ -42,12 +42,6 @@ export default function LakeBand() {
           </em>
           &rdquo;
         </blockquote>
-        <p
-          className="font-montserrat font-semibold uppercase"
-          style={{ fontSize: 9, letterSpacing: "0.3em", color: "rgba(247,242,232,0.4)" }}
-        >
-          — Sam De Maître · De Maître Coaching
-        </p>
         <div className="w-14 h-px opacity-60" style={{ background: "var(--gold)" }} />
       </div>
 
