@@ -84,7 +84,7 @@ export default function Navbar() {
         borderBottom: "1px solid rgba(184,149,62,0.16)",
       }}
     >
-      <div className="mx-auto px-14 flex items-center justify-between" style={{ maxWidth: 1360, height: 72 }}>
+      <div className="mx-auto px-6 lg:px-10 xl:px-14 flex items-center justify-between gap-6" style={{ maxWidth: 1360, height: 72 }}>
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
           <span className="font-cormorant text-text font-normal leading-none" style={{ fontSize: 19 }}>
@@ -93,17 +93,17 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav ref={navRef} className="hidden md:flex items-center gap-10">
+        <nav ref={navRef} className="hidden md:flex items-center gap-5 lg:gap-8 xl:gap-10">
           {NAV.map((link) => {
             if (!link.children) {
               return (
                 <Link
                   key={link.key}
                   href={link.href}
-                  className={`font-montserrat font-medium tracking-[0.2em] uppercase transition-colors ${
+                  className={`font-montserrat font-medium tracking-[0.2em] uppercase whitespace-nowrap transition-colors ${
                     isActive(link.href) ? "text-gold" : "text-text-soft hover:text-gold"
                   }`}
-                  style={{ fontSize: 10 }}
+                  style={{ fontSize: 11 }}
                 >
                   {link.label}
                 </Link>
@@ -123,10 +123,10 @@ export default function Navbar() {
                 <button
                   onClick={() => setOpenDropdown(isOpen ? null : link.key)}
                   aria-expanded={isOpen}
-                  className={`flex items-center gap-1 font-montserrat font-medium tracking-[0.2em] uppercase transition-colors ${
+                  className={`flex items-center gap-1 font-montserrat font-medium tracking-[0.2em] uppercase whitespace-nowrap transition-colors ${
                     active ? "text-gold" : "text-text-soft hover:text-gold"
                   }`}
-                  style={{ fontSize: 10 }}
+                  style={{ fontSize: 11 }}
                 >
                   {link.label}
                   <Caret open={isOpen} />
@@ -168,15 +168,16 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop right side: Language switcher + CTA */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-3 lg:gap-4 shrink-0">
           <LanguageSwitcher />
           <Link
             href="/contact"
-            className="font-montserrat font-semibold tracking-[0.16em] uppercase text-text rounded-full transition-all duration-200 hover:bg-gold hover:text-white"
+            className="font-montserrat font-semibold tracking-[0.16em] uppercase whitespace-nowrap text-text rounded-full transition-all duration-200 hover:bg-gold hover:text-white px-4 lg:px-7"
             style={{
-              fontSize: 10,
+              fontSize: 11,
               border: "1.5px solid var(--gold)",
-              padding: "11px 28px",
+              paddingTop: 11,
+              paddingBottom: 11,
             }}
           >
             {t.nav.bookCall}

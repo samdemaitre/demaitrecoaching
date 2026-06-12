@@ -65,7 +65,7 @@ export default function OnlineCoachingPage() {
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase bg-green-dark text-cream rounded-full py-3 hover:bg-green-mid transition-colors mt-2">
-                {t.common.getStarted}
+                {t.common.bookFreeCall}
               </Link>
             </div>
           </div>

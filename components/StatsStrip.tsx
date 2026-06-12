@@ -1,32 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const STAT_CARDS = [
-  {
-    value: "400",
-    suffix: "+",
-    label: "Clients Trained",
-    desc: "Driven individuals in Guatemala City and worldwide who've transformed their bodies — and kept the results.",
-    accent: "var(--gold)",
-  },
-  {
-    value: "12",
-    suffix: "",
-    label: "Years of Coaching",
-    desc: "A decade-plus of evidence-based coaching, backed by a BSc in Physical Education and Movement Science.",
-    accent: "var(--terr)",
-  },
-  {
-    value: "100",
-    suffix: "%",
-    label: "Tailored to You",
-    desc: "Every programme is written from scratch around your goals, your life, and your schedule. Zero templates.",
-    accent: "var(--ink)",
-  },
-];
+import { useLanguage } from "@/lib/i18n/context";
 
 export default function StatsStrip() {
+  const { t } = useLanguage();
+
+  const STAT_CARDS = [
+    {
+      value: "400",
+      suffix: "+",
+      label: t.home.statsClients,
+      desc: t.home.statsClientsDesc,
+      accent: "var(--gold)",
+    },
+    {
+      value: "12",
+      suffix: "+",
+      label: t.home.statsYears,
+      desc: t.home.statsYearsDesc,
+      accent: "var(--terr)",
+    },
+    {
+      value: "100",
+      suffix: "%",
+      label: t.home.statsTailored,
+      desc: t.home.statsTailoredDesc,
+      accent: "var(--ink)",
+    },
+  ];
+
   return (
     <>
       <section className="bg-cream2 py-20 md:py-24 px-6 md:px-14">
@@ -35,17 +38,17 @@ export default function StatsStrip() {
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-14">
             <div>
               <p className="font-montserrat text-[10px] font-semibold tracking-[0.3em] uppercase text-gold mb-2">
-                The Numbers
+                {t.home.statsEyebrow}
               </p>
               <h2
                 className="font-cormorant font-normal text-text"
                 style={{ fontSize: "clamp(36px, 4vw, 50px)" }}
               >
-                Results that <em className="italic text-gold">speak for themselves</em>
+                {t.home.statsHeading} <em className="italic text-gold">{t.home.statsHeadingItalic}</em>
               </h2>
             </div>
             <p className="font-dmsans text-sm text-text-soft leading-[1.7] max-w-xs">
-              Over a decade of coaching driven individuals who refuse to settle — in Guatemala City and across the world.
+              {t.home.statsIntro}
             </p>
           </div>
 

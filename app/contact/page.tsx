@@ -10,7 +10,7 @@ export default function ContactPage() {
 
   const contactItems = [
     { label: c.labelEmail, value: BRAND.email, href: `mailto:${BRAND.email}` },
-    { label: c.labelWhatsApp, value: BRAND.phone, href: `https://wa.me/50255550000` },
+    { label: c.labelWhatsApp, value: BRAND.phone, href: `https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(t.common.whatsappMessage)}` },
     { label: c.labelLocation, value: c.locationValue, href: null },
     { label: c.labelInstagram, value: BRAND.instagram, href: "https://instagram.com/demaitrecoaching" },
   ];

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "@/lib/i18n/context";
+import { BRAND } from "@/lib/constants";
 
 interface FormData {
   name: string;
@@ -16,15 +17,34 @@ export default function ContactForm() {
   const { t } = useLanguage();
   const c = t.contact;
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
   const {
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
   } = useForm<FormData>();
 
-  const onSubmit = async () => {
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
+  const onSubmit = async (data: FormData) => {
+    setSubmitError(false);
+    try {
+      const res = await fetch(`https://formsubmit.co/ajax/${BRAND.email}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          service: data.service,
+          message: data.message,
+          _subject: `Nueva consulta web — ${data.name}`,
+          _template: "table",
+          _captcha: "false",
+        }),
+      });
+      if (!res.ok) throw new Error(`FormSubmit responded ${res.status}`);
+      setSubmitted(true);
+    } catch {
+      setSubmitError(true);
+    }
   };
 
   const inputClass =
@@ -124,6 +144,9 @@ export default function ContactForm() {
             >
               {isSubmitting ? c.formSubmitting : c.formSubmit}
             </button>
+            {submitError && (
+              <p className="font-dmsans text-sm text-red-500 text-center">{c.formError}</p>
+            )}
           </motion.form>
         )}
       </AnimatePresence>

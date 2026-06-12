@@ -1,15 +1,21 @@
 "use client";
 
+import Image from "next/image";
+import { useLanguage } from "@/lib/i18n/context";
+
 export default function LakeBand() {
+  const { t } = useLanguage();
+
   return (
     <div className="relative overflow-hidden" style={{ height: 520 }}>
       {/* Background image with dark overlay */}
       <div className="absolute inset-0">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/images/20220804054144_IMG_0024.JPG"
           alt="Lake Atitlán, Guatemala"
-          className="w-full h-full object-cover"
+          fill
+          sizes="100vw"
+          className="object-cover"
           style={{ objectPosition: "center 35%", filter: "contrast(1.08) saturate(0.8)" }}
         />
         <div
@@ -30,10 +36,9 @@ export default function LakeBand() {
           className="font-cormorant font-light italic leading-[1.3] tracking-tight"
           style={{ fontSize: "clamp(26px, 3.2vw, 44px)", color: "var(--cream)", letterSpacing: "-0.01em" }}
         >
-          &ldquo;The best programmes don&rsquo;t just change your body —<br />
-          they change{" "}
+          &ldquo;{t.home.lakeQuote}{" "}
           <em className="not-italic" style={{ color: "var(--gold)" }}>
-            what you believe you&rsquo;re capable of.
+            {t.home.lakeQuoteItalic}
           </em>
           &rdquo;
         </blockquote>
@@ -53,7 +58,7 @@ export default function LakeBand() {
           className="font-montserrat font-semibold uppercase"
           style={{ fontSize: 8, letterSpacing: "0.28em", color: "rgba(247,242,232,0.3)" }}
         >
-          Guatemala City · Guatemala
+          {t.home.lakeLocation}
         </span>
       </div>
     </div>

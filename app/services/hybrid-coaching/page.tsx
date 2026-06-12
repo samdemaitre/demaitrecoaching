@@ -56,7 +56,7 @@ export default function HybridCoachingPage() {
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase border border-gold text-gold rounded-full py-3 hover:bg-gold hover:text-cream transition-all duration-200 mt-2">
-                {t.common.getStarted}
+                {t.common.bookFreeCall}
               </Link>
             </div>
 
@@ -82,7 +82,7 @@ export default function HybridCoachingPage() {
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full py-3 hover:bg-gold-soft transition-colors mt-2">
-                {t.common.getStarted}
+                {t.common.bookFreeCall}
               </Link>
             </div>
 

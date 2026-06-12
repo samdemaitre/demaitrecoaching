@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/i18n/context";
 
@@ -94,12 +95,14 @@ export default function HeroSection() {
                 />
 
                 {/* Portrait */}
-                <div className="w-full overflow-hidden rounded-sm" style={{ aspectRatio: "4/5" }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                <div className="relative w-full overflow-hidden rounded-sm" style={{ aspectRatio: "4/5" }}>
+                  <Image
                     src="/images/IMG_4818.jpg"
                     alt="Sam De Maître — Elite Fitness Coach"
-                    className="w-full h-full object-cover"
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100vw, 420px"
+                    className="object-cover"
                     style={{ objectPosition: "center 25%", filter: "contrast(1.05) saturate(0.88)" }}
                   />
                 </div>
@@ -119,7 +122,7 @@ export default function HeroSection() {
                 }}
               >
                 <span className="font-cormorant font-light text-gold" style={{ fontSize: 32, lineHeight: 1 }}>12+</span>
-                <span className="font-montserrat font-semibold uppercase text-text-muted" style={{ fontSize: 9, letterSpacing: "0.18em" }}>Years Coaching</span>
+                <span className="font-montserrat font-semibold uppercase text-text-muted" style={{ fontSize: 9, letterSpacing: "0.18em" }}>{t.home.statsYears}</span>
               </motion.div>
 
               {/* Floating credential — right */}
@@ -136,7 +139,7 @@ export default function HeroSection() {
                 }}
               >
                 <span className="font-cormorant font-light text-gold" style={{ fontSize: 32, lineHeight: 1 }}>400+</span>
-                <span className="font-montserrat font-semibold uppercase text-text-muted" style={{ fontSize: 9, letterSpacing: "0.18em" }}>Clients Trained</span>
+                <span className="font-montserrat font-semibold uppercase text-text-muted" style={{ fontSize: 9, letterSpacing: "0.18em" }}>{t.home.statsClients}</span>
               </motion.div>
             </div>
           </motion.div>

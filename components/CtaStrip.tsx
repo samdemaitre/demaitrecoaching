@@ -38,7 +38,7 @@ export default function CtaStrip({ heading, note }: CtaStripProps) {
                 className="font-montserrat font-semibold uppercase mb-4"
                 style={{ fontSize: 10, letterSpacing: "0.3em", color: "rgba(184,149,62,0.6)" }}
               >
-                Ready to start?
+                {t.common.readyToStart}
               </p>
               <h3
                 className="font-cormorant font-light text-cream leading-[1.05]"
@@ -81,7 +81,7 @@ export default function CtaStrip({ heading, note }: CtaStripProps) {
                     (e.currentTarget as HTMLElement).style.color = "rgba(247,242,232,0.45)";
                   }}
                 >
-                  See Services →
+                  {t.common.seeServices} →
                 </Link>
               </div>
               <p
@@ -99,7 +99,7 @@ export default function CtaStrip({ heading, note }: CtaStripProps) {
                 className="font-cormorant italic leading-[1.55]"
                 style={{ fontSize: 22, color: "rgba(247,242,232,0.45)" }}
               >
-                &ldquo;Twelve years in, the thing that still drives me isn&rsquo;t the science — it&rsquo;s the moment a client realises they&rsquo;re stronger than they thought they were.&rdquo;
+                &ldquo;{t.common.ctaQuote}&rdquo;
               </blockquote>
               <span
                 className="font-montserrat uppercase block mt-4"

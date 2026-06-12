@@ -60,12 +60,12 @@ export default function PersonalTrainingPage() {
               </div>
 
               <ul className="flex flex-col gap-3 flex-1">
-                {[p.card1F1, p.card1F2, p.card1F3, p.card1F4, p.card1F5].map((f) => (
+                {[p.card1F1, p.card1F2, p.card1F3, p.card1F4].map((f) => (
                   <Feature key={f} text={f} />
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase border border-gold text-gold rounded-full py-3 hover:bg-gold hover:text-cream transition-all duration-200 mt-2">
-                {t.common.getStarted}
+                {t.common.bookFreeCall}
               </Link>
             </div>
 
@@ -92,12 +92,12 @@ export default function PersonalTrainingPage() {
               </div>
 
               <ul className="flex flex-col gap-3 flex-1">
-                {[p.card2F1, p.card2F2, p.card2F3, p.card2F4, p.card2F5].map((f) => (
+                {[p.card2F1, p.card2F2, p.card2F3, p.card2F4].map((f) => (
                   <Feature key={f} text={f} light />
                 ))}
               </ul>
               <Link href="/contact" className="block text-center font-montserrat text-xs font-semibold tracking-widest uppercase bg-gold text-green-dark rounded-full py-3 hover:bg-gold-soft transition-colors mt-2">
-                {t.common.getStarted}
+                {t.common.bookFreeCall}
               </Link>
             </div>
 

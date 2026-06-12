@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Montserrat, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { LanguageProvider } from "@/lib/i18n/context";
 
 const cormorant = Cormorant_Garamond({
@@ -29,24 +30,62 @@ const dmsans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://demaitrecoaching.com"),
   title: {
-    default: "De Maître Coaching | Elite Personal Training Guatemala City",
+    default: "De Maître Coaching | Entrenamiento Personal en Ciudad de Guatemala",
     template: "%s | De Maître Coaching",
   },
   description:
-    "Luxury personal training in Guatemala City. Tailored programmes for driven individuals. In-person, hybrid, and online coaching with Samuel de Maître.",
+    "Entrenamiento personal a medida en Ciudad de Guatemala y coaching online en todo el mundo. Programas presenciales, híbridos y online con Sam de Maître — más de 12 años de experiencia.",
   keywords: [
-    "personal training Guatemala City",
-    "luxury fitness coaching",
+    "entrenador personal Ciudad de Guatemala",
+    "entrenamiento personal Guatemala",
+    "coaching online fitness",
     "De Maître Coaching",
-    "online personal trainer",
+    "personal trainer Guatemala City",
     "hybrid coaching Guatemala",
   ],
   openGraph: {
     siteName: "De Maître Coaching",
-    locale: "en_US",
+    title: "De Maître Coaching | Entrenamiento Personal en Ciudad de Guatemala",
+    description:
+      "Entrenamiento personal a medida en Ciudad de Guatemala y coaching online en todo el mundo. Más de 12 años de experiencia.",
+    locale: "es_GT",
+    alternateLocale: ["en_US", "nl_BE", "fr_BE", "de_DE"],
     type: "website",
+    images: [
+      {
+        url: "/images/IMG_4818.jpg",
+        width: 840,
+        height: 1050,
+        alt: "Sam de Maître — Entrenador Personal en Ciudad de Guatemala",
+      },
+    ],
   },
+};
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HealthClub",
+  name: "De Maître Coaching",
+  description:
+    "Entrenamiento personal a medida en Ciudad de Guatemala y coaching online en todo el mundo.",
+  url: "https://demaitrecoaching.com",
+  image: "https://demaitrecoaching.com/images/IMG_4818.jpg",
+  email: "sam@demaitrecoaching.com",
+  telephone: "+50230502334",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Ciudad de Guatemala",
+    addressCountry: "GT",
+  },
+  founder: {
+    "@type": "Person",
+    name: "Samuel de Maître",
+  },
+  sameAs: ["https://instagram.com/demaitrecoaching"],
+  priceRange: "Q350 - Q1,950",
+  areaServed: ["Ciudad de Guatemala", "Worldwide (online)"],
 };
 
 export default function RootLayout({
@@ -56,14 +95,19 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${cormorant.variable} ${montserrat.variable} ${dmsans.variable}`}
     >
       <body className="font-dmsans antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+        />
         <LanguageProvider>
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <WhatsAppButton />
         </LanguageProvider>
       </body>
     </html>

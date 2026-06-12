@@ -5,7 +5,7 @@ import { en, nl, es, fr, de, type Language, type Translations } from "./index";
 
 const TRANSLATIONS: Record<Language, Translations> = { en, nl, es, fr, de };
 const STORAGE_KEY = "demaitre-lang";
-const DEFAULT_LANG: Language = "en";
+const DEFAULT_LANG: Language = "es";
 
 interface LanguageContextValue {
   lang: Language;
