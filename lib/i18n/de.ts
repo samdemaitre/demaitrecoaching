@@ -121,7 +121,7 @@ export const de: Translations = {
     card1F1: "4 persönliche Sessions / Monat", card1F2: "Programm alle 2 Wochen aktualisiert",
     card1F3: "Ernährung monatlich angepasst", card1F4: "WhatsApp + wöchentlicher Check-in", card1F5: "Monatlicher Fortschrittsbericht", card1F6: "App-basiertes Tracking",
     card2Title: "3 Monate Hybrid", card2Subtitle: "Bestes Angebot — 3 Monate Commitment",
-    card2Total: "Q4.050 gesamt", card2Save: "Spare Q300",
+    card2Total: "Q3.900 gesamt", card2Save: "Spare Q450",
     card2F1: "4 persönliche Sessions / Monat", card2F2: "Programm alle 2 Wochen aktualisiert",
     card2F3: "Ernährung monatlich angepasst", card2F4: "WhatsApp + wöchentlicher Check-in", card2F5: "Monatlicher Fortschrittsbericht", card2F6: "App-basiertes Tracking", card2F7: "Zahlung in 3 monatlichen Raten",
     addOnsTitle: "Zusatzoptionen",
@@ -134,7 +134,9 @@ export const de: Translations = {
     tagline: "Vollständiger Coaching-Support, trainiere überall.",
     body: "Entfernung ist kein Hindernis. Online-Coaching liefert ein personalisiertes Programm, kompetente Ernährungsberatung und regelmäßige Check-ins — wo auch immer du auf der Welt bist.",
     includes: ["Individuelles Trainingsprogramm", "Ernährungsrichtlinien", "Wöchentliche Video-Check-ins", "24/7 Nachrichtensupport"],
-    cardTitle: "Online-Coaching", cardSubtitle: "Alles, was du brauchst, ohne Sessions",
+    card1Title: "1 Monat online", card1Subtitle: "Volle Flexibilität, Monat für Monat",
+    card2Title: "3 Monate online", card2Subtitle: "Bestes Preis-Leistungs-Verhältnis — 3 Monate",
+    card2Total: "Q2.550 gesamt", card2Save: "Spare Q300",
     cardF1: "Keine persönlichen Sessions", cardF2: "Programm alle 2 Wochen aktualisiert",
     cardF3: "Ernährung monatlich angepasst", cardF4: "24/7 Nachrichtenunterstützung",
     cardF5: "Wöchentliche Video-Check-ins", cardF6: "App-basiertes Tracking",
@@ -164,7 +166,7 @@ export const de: Translations = {
     {
       title: "Für den Einstieg",
       items: [
-        { q: "Welches Paket ist das richtige für mich?", a: "Wenn du neu im strukturierten Training bist oder außerhalb Guatemalas lebst, ist Online-Coaching ein großartiger Einstiegspunkt — keine persönlichen Sessions erforderlich, alles remote für Q850/Monat. Wenn du persönliche Sessions in Guatemala City möchtest, wähle Personal Training — 1 Monat für Flexibilität oder 3 Monate für einen günstigeren Preis und echte Ergebnisse. Wenn du das Beste aus beiden Welten möchtest, ist Hybrid-Coaching die richtige Wahl. Nicht sicher? Sende eine Nachricht und wir finden es gemeinsam heraus." },
+        { q: "Welches Paket ist das richtige für mich?", a: "Wenn du neu im strukturierten Training bist oder außerhalb Guatemalas lebst, ist Online-Coaching ein großartiger Einstiegspunkt — keine persönlichen Sessions erforderlich, alles remote ab Q850/Monat. Wenn du persönliche Sessions in Guatemala City möchtest, wähle Personal Training — 1 Monat für Flexibilität oder 3 Monate für einen günstigeren Preis und echte Ergebnisse. Wenn du das Beste aus beiden Welten möchtest, ist Hybrid-Coaching die richtige Wahl. Nicht sicher? Sende eine Nachricht und wir finden es gemeinsam heraus." },
         { q: "In welchen Sprachen coachst du?", a: "Das Coaching wird vollständig auf Englisch oder Niederländisch durchgeführt. Ich habe auch ein gutes Verständnis von Spanisch, Französisch und Deutsch, also wenn du dich in einer dieser Sprachen wohler fühlst, melde dich gerne — ich werde mein Bestes tun, um zu helfen.", langPills: true },
         { q: "Benötige ich vorherige Trainingserfahrung?", a: "Nein. Alle Programme werden rund um dein aktuelles Fitnessniveau aufgebaut, egal ob du absoluter Anfänger bist oder nach einer langen Pause zurückkommst. Die erste Session oder der Onboarding-Anruf wird immer genutzt, um zu beurteilen, wo du stehst und realistische Ziele zu setzen." },
         { q: "Wie fange ich an?", a: "Melde dich über das Kontaktformular oder WhatsApp. Wir werden einen kurzen Einführungsanruf haben, um über deine Ziele zu sprechen, das richtige Paket auszuwählen und deine erste Session oder dein Startdatum zu buchen. Der gesamte Prozess dauert weniger als 15 Minuten." },
@@ -184,7 +186,7 @@ export const de: Translations = {
       items: [
         { q: "Wie funktioniert Online-Coaching im Alltag konkret?", a: "Du erhältst zu Beginn jedes Zyklus ein personalisiertes Trainingsprogramm, trainierst nach deinem eigenen Zeitplan und checkst wöchentlich per WhatsApp oder einer kurzen Sprachnachricht ein. Dein Programm wird alle zwei Wochen basierend auf deinem Fortschritt überprüft und aktualisiert. Du hast während festgelegter Stunden direkten Zugang für Fragen, Formüberprüfungen oder Anpassungen." },
         { q: "Was ist der Unterschied zwischen Online- und Hybrid-Coaching?", a: "Online-Coaching ist vollständig remote — du trainierst unabhängig mit einem Programm und wöchentlichen Check-ins. Hybrid fügt 4 persönliche Sessions pro Monat hinzu, sodass du praktisches Technik-Coaching, Echtzeit-Feedback und eine stärkere Verantwortlichkeitsstruktur zusätzlich zu allem erhältst, was Online-Coaching umfasst." },
-        { q: "Was ist der Unterschied zwischen einem 1-Monats- und einem 3-Monats-Paket?", a: "Der Hauptunterschied liegt in Commitment und Preis. Das 1-Monats-Paket bietet volle Flexibilität — Sessions sind vorausbezahlt und 30 Tage gültig, ohne langfristige Verpflichtung. Das 3-Monats-Paket sichert dir einen günstigeren Monatspreis (Q150/Monat weniger für Personal Training, Q100/Monat weniger für Hybrid) und Sessions, die 90 Tage gültig sind. Wenn du bereit bist, in einen ernsthaften Prozess zu investieren, ist das 3-Monats-Paket der bessere Wert." },
+        { q: "Was ist der Unterschied zwischen einem 1-Monats- und einem 3-Monats-Paket?", a: "Der Hauptunterschied liegt in Commitment und Preis. Das 1-Monats-Paket bietet volle Flexibilität — Sessions sind vorausbezahlt und 30 Tage gültig, ohne langfristige Verpflichtung. Das 3-Monats-Paket sichert dir einen günstigeren Monatspreis (Q150/Monat weniger für Personal Training und Hybrid, Q100/Monat weniger für Online) und Sessions, die 90 Tage gültig sind. Wenn du bereit bist, in einen ernsthaften Prozess zu investieren, ist das 3-Monats-Paket der bessere Wert." },
         { q: "Welche Ausrüstung benötige ich für Online-Coaching?", a: "Das hängt von deinen Zielen und dem ab, worauf du Zugang hast. Programme können für ein vollständiges Fitnessstudio, ein Heimstudio oder minimale Ausrüstung geschrieben werden. Teile mir einfach deine Situation beim Onboarding mit und das Programm wird darauf aufgebaut." },
       ],
     },
@@ -200,7 +202,7 @@ export const de: Translations = {
       items: [
         { q: "Wie bezahle ich?", a: "Die Zahlung erfolgt per Banküberweisung (Banrural, BAC oder ähnlich), Tigo Money oder bar. Alle Pakete werden vor der ersten Session oder dem Startdatum im Voraus bezahlt. Du erhältst eine Bestätigung, sobald die Zahlung eingegangen ist." },
         { q: "Kann ich mein monatliches Paket pausieren oder kündigen?", a: "Du kannst mit 7 Tagen Vorankündigung vor deinem nächsten Abrechnungsdatum kündigen. Das Pausieren aus medizinischen Gründen oder Notfällen kann fallweise arrangiert werden." },
-        { q: "Gibt es Rabatte?", a: "Das Freund-mitbringen-Angebot ist der Hauptrabatt — beide Personen sparen 25% gegenüber dem Solo-Preis, gültig für Personal Training und Hybrid. Die 3-Monats-Pakete sind ebenfalls günstiger als monatlich zu zahlen: Q150/Monat weniger für Personal Training, Q100/Monat weniger für Hybrid. Empfehlungsrabatte können verfügbar sein — frage beim Anmelden danach." },
+        { q: "Gibt es Rabatte?", a: "Das Freund-mitbringen-Angebot ist der Hauptrabatt — beide Personen sparen 25% gegenüber dem Solo-Preis, gültig für Personal Training und Hybrid. Die 3-Monats-Pakete sind ebenfalls günstiger als monatlich zu zahlen: Q150/Monat weniger für Personal Training und Hybrid, Q100/Monat weniger für Online. Empfehlungsrabatte können verfügbar sein — frage beim Anmelden danach." },
       ],
     },
   ],

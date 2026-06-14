@@ -121,7 +121,7 @@ export const es: Translations = {
     card1F1: "4 sesiones presenciales / mes", card1F2: "Programa actualizado cada 2 semanas",
     card1F3: "Nutrición ajustada mensualmente", card1F4: "WhatsApp + check-in semanal", card1F5: "Informe mensual de progreso", card1F6: "Seguimiento por aplicación",
     card2Title: "3 meses híbrido", card2Subtitle: "Mejor valor — comprométete con 3 meses",
-    card2Total: "Q4.050 en total", card2Save: "Ahorra Q300",
+    card2Total: "Q3.900 en total", card2Save: "Ahorra Q450",
     card2F1: "4 sesiones presenciales / mes", card2F2: "Programa actualizado cada 2 semanas",
     card2F3: "Nutrición ajustada mensualmente", card2F4: "WhatsApp + check-in semanal", card2F5: "Informe mensual de progreso", card2F6: "Seguimiento por aplicación", card2F7: "Pago en 3 cuotas mensuales",
     addOnsTitle: "Extras",
@@ -134,7 +134,9 @@ export const es: Translations = {
     tagline: "Soporte de coaching completo, entrena desde cualquier lugar.",
     body: "La distancia no es un obstáculo. El coaching online ofrece un programa personalizado, orientación nutricional experta y check-ins regulares — dondequiera que estés en el mundo.",
     includes: ["Programa de Entrenamiento Personalizado", "Directrices Nutricionales", "Check-ins Semanales por Vídeo", "Soporte por Mensajes 24/7"],
-    cardTitle: "Coaching online", cardSubtitle: "Todo lo que necesitas, sin sesiones",
+    card1Title: "1 mes online", card1Subtitle: "Flexibilidad total, mes a mes",
+    card2Title: "3 meses online", card2Subtitle: "Mejor valor — comprométete con 3 meses",
+    card2Total: "Q2.550 en total", card2Save: "Ahorra Q300",
     cardF1: "Sin sesiones presenciales", cardF2: "Programa actualizado cada 2 semanas",
     cardF3: "Nutrición ajustada mensualmente", cardF4: "Soporte por mensajes 24/7",
     cardF5: "Videollamadas semanales de seguimiento", cardF6: "Seguimiento por aplicación",
@@ -164,7 +166,7 @@ export const es: Translations = {
     {
       title: "Para empezar",
       items: [
-        { q: "¿Qué paquete es el adecuado para mí?", a: "Si eres nuevo en el entrenamiento estructurado o vives fuera de Guatemala, el coaching online es un excelente punto de partida — sin sesiones presenciales, todo a distancia por Q850/mes. Si quieres sesiones presenciales en Ciudad de Guatemala, opta por el entrenamiento personal — 1 mes para flexibilidad o 3 meses para un precio más bajo y resultados reales. Si quieres lo mejor de ambos mundos, el coaching híbrido es la opción. ¿No estás seguro? Envía un mensaje y lo averiguaremos juntos." },
+        { q: "¿Qué paquete es el adecuado para mí?", a: "Si eres nuevo en el entrenamiento estructurado o vives fuera de Guatemala, el coaching online es un excelente punto de partida — sin sesiones presenciales, todo a distancia desde Q850/mes. Si quieres sesiones presenciales en Ciudad de Guatemala, opta por el entrenamiento personal — 1 mes para flexibilidad o 3 meses para un precio más bajo y resultados reales. Si quieres lo mejor de ambos mundos, el coaching híbrido es la opción. ¿No estás seguro? Envía un mensaje y lo averiguaremos juntos." },
         { q: "¿En qué idiomas realizas el coaching?", a: "El coaching se realiza completamente en inglés o neerlandés. También tengo un buen entendimiento del español, francés y alemán, así que si te sientes más cómodo en uno de esos idiomas, no dudes en contactarme — haré todo lo posible para ayudarte.", langPills: true },
         { q: "¿Necesito experiencia previa en entrenamiento?", a: "No. Todos los programas se construyen en torno a tu nivel de forma física actual, ya seas un principiante completo o estés regresando después de un largo descanso. La primera sesión o llamada de incorporación siempre se utiliza para evaluar dónde estás y establecer objetivos realistas." },
         { q: "¿Cómo empiezo?", a: "Contáctame a través del formulario de contacto o WhatsApp. Tendremos una breve llamada introductoria para hablar sobre tus objetivos, elegir el paquete adecuado y reservar tu primera sesión o fecha de inicio. Todo el proceso lleva menos de 15 minutos." },
@@ -184,7 +186,7 @@ export const es: Translations = {
       items: [
         { q: "¿Cómo funciona el coaching online día a día?", a: "Recibes un programa de entrenamiento personalizado al inicio de cada ciclo, entrenas según tu propio horario y realizas un check-in semanal vía WhatsApp o una nota de voz corta. Tu programa se revisa y actualiza cada dos semanas según tu progreso. Tienes acceso directo durante horas establecidas para preguntas, revisiones de técnica o ajustes." },
         { q: "¿Cuál es la diferencia entre el coaching online y el híbrido?", a: "El coaching online es completamente remoto — entrenas de forma independiente con un programa y check-ins semanales. El híbrido añade 4 sesiones presenciales al mes, por lo que obtienes coaching técnico práctico, retroalimentación en tiempo real y una estructura de responsabilidad más sólida, además de todo lo que incluye el coaching online." },
-        { q: "¿Cuál es la diferencia entre el paquete de 1 mes y el de 3 meses?", a: "La principal diferencia es el compromiso y el precio. El paquete de 1 mes ofrece total flexibilidad — las sesiones son prepagadas y válidas durante 30 días sin obligación a largo plazo. El paquete de 3 meses garantiza un precio mensual más bajo (Q150/mes menos para presencial, Q100/mes menos para híbrido) y sesiones válidas durante 90 días. Si estás listo para invertir en un proceso serio, el paquete de 3 meses es la mejor opción." },
+        { q: "¿Cuál es la diferencia entre el paquete de 1 mes y el de 3 meses?", a: "La principal diferencia es el compromiso y el precio. El paquete de 1 mes ofrece total flexibilidad — las sesiones son prepagadas y válidas durante 30 días sin obligación a largo plazo. El paquete de 3 meses garantiza un precio mensual más bajo (Q150/mes menos para presencial e híbrido, Q100/mes menos para online) y sesiones válidas durante 90 días. Si estás listo para invertir en un proceso serio, el paquete de 3 meses es la mejor opción." },
         { q: "¿Qué equipamiento necesito para el coaching online?", a: "Depende de tus objetivos y de lo que tengas disponible. Los programas pueden escribirse para un gimnasio completo, un gimnasio en casa o con equipamiento mínimo. Solo indícame tu configuración durante la incorporación y el programa se construirá en torno a ella." },
       ],
     },
@@ -200,7 +202,7 @@ export const es: Translations = {
       items: [
         { q: "¿Cómo pago?", a: "El pago se acepta mediante transferencia bancaria (Banrural, BAC o similar), Tigo Money o efectivo. Todos los paquetes se pagan por adelantado antes de la primera sesión o fecha de inicio. Recibirás una confirmación una vez recibido el pago." },
         { q: "¿Puedo pausar o cancelar mi paquete mensual?", a: "Puedes cancelar con 7 días de aviso antes de tu próxima fecha de facturación. La pausa por razones médicas o emergencias puede gestionarse caso por caso." },
-        { q: "¿Hay descuentos disponibles?", a: "La oferta de traer a un amigo es el principal descuento — ambas personas ahorran un 25% respecto al precio individual, aplicable a los paquetes presenciales e híbridos. Los paquetes de 3 meses también tienen un precio inferior al de pagar mes a mes: Q150/mes menos para presencial, Q100/mes menos para híbrido. Pueden estar disponibles descuentos por referidos — pregunta sobre ellos cuando te inscribas." },
+        { q: "¿Hay descuentos disponibles?", a: "La oferta de traer a un amigo es el principal descuento — ambas personas ahorran un 25% respecto al precio individual, aplicable a los paquetes presenciales e híbridos. Los paquetes de 3 meses también tienen un precio inferior al de pagar mes a mes: Q150/mes menos para presencial e híbrido, Q100/mes menos para online. Pueden estar disponibles descuentos por referidos — pregunta sobre ellos cuando te inscribas." },
       ],
     },
   ],

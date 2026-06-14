@@ -121,7 +121,7 @@ export const fr: Translations = {
     card1F1: "4 séances en personne / mois", card1F2: "Programme mis à jour toutes les 2 semaines",
     card1F3: "Nutrition ajustée mensuellement", card1F4: "WhatsApp + bilan hebdomadaire", card1F5: "Rapport de progrès mensuel", card1F6: "Suivi via application",
     card2Title: "3 mois hybride", card2Subtitle: "Meilleure valeur — s'engager pour 3 mois",
-    card2Total: "Q4 050 au total", card2Save: "Économisez Q300",
+    card2Total: "Q3 900 au total", card2Save: "Économisez Q450",
     card2F1: "4 séances en personne / mois", card2F2: "Programme mis à jour toutes les 2 semaines",
     card2F3: "Nutrition ajustée mensuellement", card2F4: "WhatsApp + bilan hebdomadaire", card2F5: "Rapport de progrès mensuel", card2F6: "Suivi via application", card2F7: "Payé en 3 mensualités",
     addOnsTitle: "Options supplémentaires",
@@ -134,7 +134,9 @@ export const fr: Translations = {
     tagline: "Un soutien coaching complet, entraînez-vous où que vous soyez.",
     body: "La distance n'est pas un obstacle. Le coaching en ligne offre un programme personnalisé, des conseils nutritionnels experts et des bilans réguliers — où que vous soyez dans le monde.",
     includes: ["Programme d'Entraînement Personnalisé", "Directives Nutritionnelles", "Bilans Vidéo Hebdomadaires", "Support Messages 24h/24"],
-    cardTitle: "Coaching en ligne", cardSubtitle: "Tout ce qu'il vous faut, sans séances",
+    card1Title: "1 mois en ligne", card1Subtitle: "Flexibilité totale, mois par mois",
+    card2Title: "3 mois en ligne", card2Subtitle: "Meilleure valeur — engagez-vous sur 3 mois",
+    card2Total: "Q2 550 au total", card2Save: "Économisez Q300",
     cardF1: "Pas de séances en personne", cardF2: "Programme mis à jour toutes les 2 semaines",
     cardF3: "Nutrition ajustée mensuellement", cardF4: "Assistance par message 24h/24",
     cardF5: "Bilans vidéo hebdomadaires", cardF6: "Suivi via application",
@@ -164,7 +166,7 @@ export const fr: Translations = {
     {
       title: "Pour commencer",
       items: [
-        { q: "Quelle formule me convient le mieux ?", a: "Si vous débutez dans l'entraînement structuré ou résidez hors du Guatemala, le coaching en ligne est un excellent point de départ — aucune séance en personne requise, tout à distance pour Q850/mois. Si vous souhaitez des séances en personne à Guatemala City, optez pour l'entraînement personnel — 1 mois pour la flexibilité ou 3 mois pour un tarif réduit et de vrais résultats. Si vous voulez le meilleur des deux mondes, le coaching hybride est fait pour vous. Pas sûr ? Envoyez un message et nous le déterminerons ensemble." },
+        { q: "Quelle formule me convient le mieux ?", a: "Si vous débutez dans l'entraînement structuré ou résidez hors du Guatemala, le coaching en ligne est un excellent point de départ — aucune séance en personne requise, tout à distance à partir de Q850/mois. Si vous souhaitez des séances en personne à Guatemala City, optez pour l'entraînement personnel — 1 mois pour la flexibilité ou 3 mois pour un tarif réduit et de vrais résultats. Si vous voulez le meilleur des deux mondes, le coaching hybride est fait pour vous. Pas sûr ? Envoyez un message et nous le déterminerons ensemble." },
         { q: "Dans quelles langues pratiquez-vous le coaching ?", a: "Le coaching est dispensé entièrement en anglais ou en néerlandais. J'ai également une bonne compréhension de l'espagnol, du français et de l'allemand, donc si vous êtes plus à l'aise dans l'une de ces langues, n'hésitez pas à me contacter — je ferai de mon mieux pour vous aider.", langPills: true },
         { q: "Ai-je besoin d'une expérience préalable en entraînement ?", a: "Non. Tous les programmes sont construits autour de votre niveau de forme physique actuel, que vous soyez un débutant complet ou que vous repreniez après une longue pause. La première séance ou l'appel d'intégration est toujours utilisé pour évaluer où vous en êtes et fixer des objectifs réalistes." },
         { q: "Comment est-ce que je commence ?", a: "Contactez-nous via le formulaire de contact ou WhatsApp. Nous aurons un bref appel introductif pour parler de vos objectifs, choisir la bonne formule et réserver votre première séance ou date de début. Tout le processus prend moins de 15 minutes." },
@@ -184,7 +186,7 @@ export const fr: Translations = {
       items: [
         { q: "Comment fonctionne concrètement le coaching en ligne au quotidien ?", a: "Vous recevez un programme d'entraînement personnalisé au début de chaque cycle, vous vous entraînez selon votre propre emploi du temps et faites un bilan hebdomadaire via WhatsApp ou un bref message vocal. Votre programme est révisé et mis à jour toutes les deux semaines en fonction de vos progrès. Vous avez un accès direct pendant des heures définies pour vos questions, la vérification de votre technique ou des ajustements." },
         { q: "Quelle est la différence entre le coaching en ligne et le coaching hybride ?", a: "Le coaching en ligne est entièrement à distance — vous vous entraînez de manière indépendante avec un programme et des bilans hebdomadaires. Le coaching hybride ajoute 4 séances en personne par mois, ce qui vous permet d'obtenir un coaching technique pratique, des retours en temps réel et une structure de responsabilisation plus solide en plus de tout ce qu'inclut le coaching en ligne." },
-        { q: "Quelle est la différence entre une formule 1 mois et 3 mois ?", a: "La principale différence est l'engagement et le prix. La formule 1 mois offre une flexibilité totale — les séances sont prépayées et valables 30 jours sans obligation à long terme. La formule 3 mois garantit un tarif mensuel réduit (Q150/mois de moins pour le personnel, Q100/mois de moins pour l'hybride) avec des séances valables 90 jours. Si vous êtes prêt à investir dans un vrai processus, la formule 3 mois est le meilleur rapport qualité-prix." },
+        { q: "Quelle est la différence entre une formule 1 mois et 3 mois ?", a: "La principale différence est l'engagement et le prix. La formule 1 mois offre une flexibilité totale — les séances sont prépayées et valables 30 jours sans obligation à long terme. La formule 3 mois garantit un tarif mensuel réduit (Q150/mois de moins pour le personnel et l'hybride, Q100/mois de moins pour le coaching en ligne) avec des séances valables 90 jours. Si vous êtes prêt à investir dans un vrai processus, la formule 3 mois est le meilleur rapport qualité-prix." },
         { q: "De quel équipement ai-je besoin pour le coaching en ligne ?", a: "Cela dépend de vos objectifs et de ce dont vous disposez. Les programmes peuvent être conçus pour une salle de sport complète, une salle de sport à domicile ou avec un équipement minimal. Indiquez-moi simplement votre configuration lors de l'intégration et le programme sera construit autour de celle-ci." },
       ],
     },
@@ -200,7 +202,7 @@ export const fr: Translations = {
       items: [
         { q: "Comment est-ce que je paie ?", a: "Le paiement est accepté par virement bancaire (Banrural, BAC ou similaire), Tigo Money ou espèces. Toutes les formules sont prépayées avant la première séance ou la date de début. Vous recevrez une confirmation une fois le paiement reçu." },
         { q: "Puis-je suspendre ou annuler ma formule mensuelle ?", a: "Vous pouvez annuler avec 7 jours de préavis avant votre prochaine date de facturation. La suspension pour des raisons médicales ou des urgences peut être organisée au cas par cas." },
-        { q: "Y a-t-il des réductions disponibles ?", a: "L'offre « amenez un ami » est la principale réduction — les deux personnes économisent 25% par rapport au tarif individuel, applicable aux formules personnelles et hybrides. Les formules 3 mois sont également moins chères qu'un paiement mois par mois : Q150/mois de moins pour le personnel, Q100/mois de moins pour l'hybride. Des remises de parrainage peuvent être disponibles — renseignez-vous à ce sujet lors de votre inscription." },
+        { q: "Y a-t-il des réductions disponibles ?", a: "L'offre « amenez un ami » est la principale réduction — les deux personnes économisent 25% par rapport au tarif individuel, applicable aux formules personnelles et hybrides. Les formules 3 mois sont également moins chères qu'un paiement mois par mois : Q150/mois de moins pour le personnel et l'hybride, Q100/mois de moins pour le coaching en ligne. Des remises de parrainage peuvent être disponibles — renseignez-vous à ce sujet lors de votre inscription." },
       ],
     },
   ],

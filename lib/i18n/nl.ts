@@ -121,7 +121,7 @@ export const nl: Translations = {
     card1F1: "4 persoonlijke sessies / maand", card1F2: "Programma elke 2 weken bijgewerkt",
     card1F3: "Voeding maandelijks aangepast", card1F4: "WhatsApp + wekelijkse check-in", card1F5: "Maandelijks voortgangsrapport", card1F6: "Voortgang via app bijhouden",
     card2Title: "3 maanden hybride", card2Subtitle: "Beste waarde — commit aan 3 maanden",
-    card2Total: "Q4.050 totaal", card2Save: "Bespaar Q300",
+    card2Total: "Q3.900 totaal", card2Save: "Bespaar Q450",
     card2F1: "4 persoonlijke sessies / maand", card2F2: "Programma elke 2 weken bijgewerkt",
     card2F3: "Voeding maandelijks aangepast", card2F4: "WhatsApp + wekelijkse check-in", card2F5: "Maandelijks voortgangsrapport", card2F6: "Voortgang via app bijhouden", card2F7: "Betaald in 3 maandelijkse termijnen",
     addOnsTitle: "Extra opties",
@@ -134,7 +134,9 @@ export const nl: Translations = {
     tagline: "Volledige coaching ondersteuning, train overal.",
     body: "Afstand is geen belemmering. Online coaching levert een gepersonaliseerd programma, deskundige voedingsbegeleiding en regelmatige check-ins — waar je ook bent in de wereld.",
     includes: ["Maatwerk trainingsprogramma", "Voedingsrichtlijnen", "Wekelijkse video check-ins", "24/7 berichtondersteuning"],
-    cardTitle: "Online coaching", cardSubtitle: "Alles wat je nodig hebt, geen sessies",
+    card1Title: "1 maand online", card1Subtitle: "Volledige flexibiliteit, maand per maand",
+    card2Title: "3 maanden online", card2Subtitle: "Beste waarde — commit voor 3 maanden",
+    card2Total: "Q2.550 totaal", card2Save: "Bespaar Q300",
     cardF1: "Geen persoonlijke sessies", cardF2: "Programma elke 2 weken bijgewerkt",
     cardF3: "Voeding maandelijks aangepast", cardF4: "24/7 berichtenondersteuning",
     cardF5: "Wekelijkse video check-ins", cardF6: "Voortgang via app bijhouden",
@@ -163,7 +165,7 @@ export const nl: Translations = {
     {
       title: "Aan de slag",
       items: [
-        { q: "Welk pakket is het beste voor mij?", a: "Als je geen ervaring hebt met gestructureerd trainen of buiten Guatemala woont, is online coaching een uitstekend startpunt — geen persoonlijke sessies vereist, alles op afstand voor Q850/maand. Als je hands-on sessies in Guatemala-Stad wilt, kies dan voor persoonlijke training — 1 maand voor flexibiliteit of 3 maanden voor een lager tarief en echte resultaten. Als je het beste van beide werelden wilt, is hybride coaching de juiste keuze. Niet zeker? Stuur een berichtje en we zoeken het samen uit." },
+        { q: "Welk pakket is het beste voor mij?", a: "Als je geen ervaring hebt met gestructureerd trainen of buiten Guatemala woont, is online coaching een uitstekend startpunt — geen persoonlijke sessies vereist, alles op afstand vanaf Q850/maand. Als je hands-on sessies in Guatemala-Stad wilt, kies dan voor persoonlijke training — 1 maand voor flexibiliteit of 3 maanden voor een lager tarief en echte resultaten. Als je het beste van beide werelden wilt, is hybride coaching de juiste keuze. Niet zeker? Stuur een berichtje en we zoeken het samen uit." },
         { q: "In welke talen geef je coaching?", a: "Coaching vindt volledig plaats in het Engels of Nederlands. Ik heb ook een redelijk begrip van Spaans, Frans en Duits, dus als je je in een van die talen meer op je gemak voelt, neem dan gerust contact op — ik doe mijn best om te helpen.", langPills: true },
         { q: "Heb ik al trainingservaring nodig?", a: "Nee. Alle programma's worden opgebouwd rond jouw huidige fitnessniveau, of je nu een absolute beginner bent of na een lange pauze terugkeert. De eerste sessie of kennismakingsgesprek wordt altijd gebruikt om te beoordelen waar je staat en realistische doelen te stellen." },
         { q: "Hoe begin ik?", a: "Neem contact op via het contactformulier of WhatsApp. We hebben een kort kennismakingsgesprek over je doelen, kiezen het juiste pakket en plannen je eerste sessie of startdatum. Het hele proces duurt minder dan 15 minuten." },
@@ -183,7 +185,7 @@ export const nl: Translations = {
       items: [
         { q: "Hoe werkt online coaching in de praktijk?", a: "Je ontvangt aan het begin van elke cyclus een gepersonaliseerd trainingsprogramma, traint op jouw eigen schema en checkt wekelijks in via WhatsApp of een kort voicebericht. Je programma wordt elke twee weken beoordeeld en bijgewerkt op basis van jouw voortgang. Je hebt directe toegang tijdens vaste uren voor vragen, techniek-checks of aanpassingen." },
         { q: "Wat is het verschil tussen online en hybride coaching?", a: "Online coaching is volledig op afstand — je traint zelfstandig met een programma en wekelijkse check-ins. Hybride voegt 4 persoonlijke sessies per maand toe, zodat je techniekcoaching op locatie, real-time feedback en een sterkere verantwoordingsstructuur krijgt bovenop alles wat online coaching inhoudt." },
-        { q: "Wat is het verschil tussen een 1-maands- en 3-maandspakket?", a: "Het belangrijkste verschil is commitment en prijs. Het 1-maandspakket biedt volledige flexibiliteit — sessies zijn vooruitbetaald en 30 dagen geldig zonder langetermijnverplichting. Het 3-maandspakket biedt een lager maandtarief (Q150/maand minder voor persoonlijk, Q100/maand minder voor hybride) en sessies die 90 dagen geldig zijn. Als je klaar bent om te investeren in een serieus traject, is het 3-maandspakket de betere keuze." },
+        { q: "Wat is het verschil tussen een 1-maands- en 3-maandspakket?", a: "Het belangrijkste verschil is commitment en prijs. Het 1-maandspakket biedt volledige flexibiliteit — sessies zijn vooruitbetaald en 30 dagen geldig zonder langetermijnverplichting. Het 3-maandspakket biedt een lager maandtarief (Q150/maand minder voor persoonlijk en hybride, Q100/maand minder voor online) en sessies die 90 dagen geldig zijn. Als je klaar bent om te investeren in een serieus traject, is het 3-maandspakket de betere keuze." },
         { q: "Welke uitrusting heb ik nodig voor online coaching?", a: "Dat hangt af van je doelen en wat je beschikbaar hebt. Programma's kunnen worden geschreven voor een volledig fitnesscentrum, een thuisgym of minimale uitrusting. Laat het gewoon weten bij de intake en het programma wordt erop afgestemd." },
       ],
     },
@@ -199,7 +201,7 @@ export const nl: Translations = {
       items: [
         { q: "Hoe betaal ik?", a: "Betaling is mogelijk via overschrijving (Banrural, BAC of vergelijkbaar), Tigo Money of contant geld. Alle pakketten worden vooraf betaald voor de eerste sessie of startdatum. Je ontvangt een bevestiging zodra de betaling is ontvangen." },
         { q: "Kan ik mijn maandelijks pakket pauzeren of annuleren?", a: "Je kunt opzeggen met 7 dagen opzegtermijn vóór je volgende factuurdatum. Pauzeren om medische redenen of noodgevallen kan geval per geval worden geregeld." },
-        { q: "Zijn er kortingen beschikbaar?", a: "De 'breng een vriend mee' deal is de belangrijkste korting — beide personen besparen 25% ten opzichte van het solo tarief, zowel voor persoonlijke als hybride pakketten. De 3-maandspakketten zijn ook lager geprijsd dan maand-tot-maand betalen: Q150/maand minder voor persoonlijk, Q100/maand minder voor hybride. Verwijzingskortingen zijn mogelijk beschikbaar — vraag ernaar bij inschrijving." },
+        { q: "Zijn er kortingen beschikbaar?", a: "De 'breng een vriend mee' deal is de belangrijkste korting — beide personen besparen 25% ten opzichte van het solo tarief, zowel voor persoonlijke als hybride pakketten. De 3-maandspakketten zijn ook lager geprijsd dan maand-tot-maand betalen: Q150/maand minder voor persoonlijk en hybride, Q100/maand minder voor online. Verwijzingskortingen zijn mogelijk beschikbaar — vraag ernaar bij inschrijving." },
       ],
     },
   ],

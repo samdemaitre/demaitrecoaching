@@ -71,7 +71,7 @@ export default function HybridCoachingPage() {
               </div>
               <div>
                 <div className="flex items-end gap-1">
-                  <span className="font-cormorant text-4xl font-medium text-gold">Q1,350</span>
+                  <span className="font-cormorant text-4xl font-medium text-gold">Q1,300</span>
                   <span className="font-montserrat text-xs text-gold-soft/70 mb-1.5">{t.common.perMonth}</span>
                 </div>
                 <p className="font-dmsans text-xs text-gold-soft/60 mt-1">{h.card2Total} · {h.card2Save}</p>

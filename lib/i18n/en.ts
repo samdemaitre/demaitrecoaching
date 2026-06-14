@@ -119,7 +119,7 @@ export const en = {
     card1F1: "4 in-person sessions / month", card1F2: "Programme updated every 2 weeks",
     card1F3: "Nutrition adjusted monthly", card1F4: "WhatsApp + weekly check-in", card1F5: "Monthly progress report", card1F6: "App-based tracking",
     card2Title: "3-month hybrid", card2Subtitle: "Best value — commit to 3 months",
-    card2Total: "Q4,050 total", card2Save: "Save Q300",
+    card2Total: "Q3,900 total", card2Save: "Save Q450",
     card2F1: "4 in-person sessions / month", card2F2: "Programme updated every 2 weeks",
     card2F3: "Nutrition adjusted monthly", card2F4: "WhatsApp + weekly check-in", card2F5: "Monthly progress report", card2F6: "App-based tracking", card2F7: "Paid in 3 monthly instalments",
     addOnsTitle: "Add-ons",
@@ -132,7 +132,9 @@ export const en = {
     tagline: "Full coaching support, train anywhere.",
     body: "Distance is no barrier. Online coaching delivers a personalised program, expert nutrition guidance, and regular check-ins — wherever you are in the world.",
     includes: ["Custom Training Program", "Nutrition Guidelines", "Weekly Video Check-ins", "24/7 Message Support"],
-    cardTitle: "Online coaching", cardSubtitle: "Everything you need, no sessions",
+    card1Title: "1-month online", card1Subtitle: "Full flexibility, month to month",
+    card2Title: "3-month online", card2Subtitle: "Best value — commit to 3 months",
+    card2Total: "Q2,550 total", card2Save: "Save Q300",
     cardF1: "No in-person sessions", cardF2: "Program updated every 2 weeks",
     cardF3: "Nutrition adjusted monthly", cardF4: "24/7 message support",
     cardF5: "Weekly video check-ins", cardF6: "App-based tracking",
@@ -161,7 +163,7 @@ export const en = {
     {
       title: "Getting started",
       items: [
-        { q: "Which package is right for me?", a: "If you're new to structured training or based outside Guatemala, online coaching is a great starting point — no in-person requirement, everything delivered remotely at Q850/month. If you want hands-on sessions in Guatemala City, go for in-person training — choose 1-month for flexibility or 3-month to lock in a lower rate and commit to real results. If you want both face-to-face sessions and daily remote support, hybrid coaching is the one. Not sure? Send a message and we'll figure it out together." },
+        { q: "Which package is right for me?", a: "If you're new to structured training or based outside Guatemala, online coaching is a great starting point — no in-person requirement, everything delivered remotely from Q850/month. If you want hands-on sessions in Guatemala City, go for in-person training — choose 1-month for flexibility or 3-month to lock in a lower rate and commit to real results. If you want both face-to-face sessions and daily remote support, hybrid coaching is the one. Not sure? Send a message and we'll figure it out together." },
         { q: "What languages do you coach in?", a: "Coaching is conducted fully in English or Dutch. I also have a decent understanding of Spanish, French, and German, so if you're more comfortable in one of those languages feel free to reach out — I'll do my best to help.", langPills: true },
         { q: "Do I need prior training experience?", a: "No. All programs are built around your current fitness level, whether you're a complete beginner or coming back after a long break. The first session or onboarding call is always used to assess where you are and set realistic goals." },
         { q: "How do I get started?", a: "Reach out via the contact form or WhatsApp. We'll have a short intro call to talk about your goals, pick the right package, and book your first session or start date. The whole process takes less than 15 minutes." },
@@ -181,7 +183,7 @@ export const en = {
       items: [
         { q: "How does online coaching actually work day-to-day?", a: "You receive a personalised workout program at the start of each cycle, train on your own schedule, and check in weekly via WhatsApp or a short voice note. Your program is reviewed and updated every two weeks based on your progress. You have direct access during set hours for questions, form checks, or adjustments." },
         { q: "What's the difference between online and hybrid coaching?", a: "Online coaching is fully remote — you train independently with a program and weekly check-ins. Hybrid adds 4 in-person sessions per month, so you get hands-on technique coaching, real-time feedback, and a stronger accountability structure on top of everything online coaching includes." },
-        { q: "What's the difference between a 1-month and 3-month package?", a: "The main difference is commitment and price. The 1-month package gives you full flexibility — sessions are prepaid and valid for 30 days with no long-term obligation. The 3-month package locks in a lower monthly rate (Q150/month less for in-person, Q100/month less for hybrid) and gives you 90 days to use your sessions. If you're ready to invest in a proper process, the 3-month option is the better value." },
+        { q: "What's the difference between a 1-month and 3-month package?", a: "The main difference is commitment and price. The 1-month package gives you full flexibility — sessions are prepaid and valid for 30 days with no long-term obligation. The 3-month package locks in a lower monthly rate (Q150/month less for in-person and hybrid, Q100/month less for online) and gives you 90 days to use your sessions. If you're ready to invest in a proper process, the 3-month option is the better value." },
         { q: "What equipment do I need for online coaching?", a: "It depends on your goals and what you have access to. Programs can be written for a full gym, a home gym, or minimal equipment. Just let me know your setup during onboarding and the program will be built around it." },
       ],
     },
@@ -197,7 +199,7 @@ export const en = {
       items: [
         { q: "How do I pay?", a: "Payment is accepted via bank transfer (Banrural, BAC, or similar), Tigo Money, or cash. All packages are prepaid before the first session or start date. You'll receive a confirmation once payment is received." },
         { q: "Can I pause or cancel my monthly package?", a: "You can cancel with 7 days notice before your next billing date. Pausing for medical reasons or emergencies can be arranged on a case-by-case basis." },
-        { q: "Are there any discounts available?", a: "The bring-a-friend deal is the main discount — both people save 25% compared to the solo rate, and it applies to both in-person and hybrid packages. The 3-month packages are also priced lower than paying month-by-month: Q150/month less for in-person, Q100/month less for hybrid. Referral discounts may be available — ask about them when you sign up." },
+        { q: "Are there any discounts available?", a: "The bring-a-friend deal is the main discount — both people save 25% compared to the solo rate, and it applies to both in-person and hybrid packages. The 3-month packages are also priced lower than paying month-by-month: Q150/month less for in-person and hybrid, Q100/month less for online. Referral discounts may be available — ask about them when you sign up." },
       ],
     },
   ],
