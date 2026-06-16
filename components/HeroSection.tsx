@@ -97,13 +97,13 @@ export default function HeroSection() {
                 {/* Portrait */}
                 <div className="relative w-full overflow-hidden rounded-sm" style={{ aspectRatio: "4/5" }}>
                   <Image
-                    src="/images/IMG_4818.jpg"
+                    src="/images/hero-sam.jpg"
                     alt="Sam De Maître — Elite Fitness Coach"
                     fill
                     priority
                     sizes="(max-width: 768px) 100vw, 420px"
                     className="object-cover"
-                    style={{ objectPosition: "center 25%", filter: "contrast(1.05) saturate(0.88)" }}
+                    style={{ objectPosition: "center 30%" }}
                   />
                 </div>
               </div>

@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/IMG_4818.jpg",
-        width: 840,
-        height: 1050,
+        url: "/images/hero-sam.jpg",
+        width: 1200,
+        height: 960,
         alt: "Sam de Maître — Entrenador Personal en Ciudad de Guatemala",
       },
     ],
@@ -71,7 +71,7 @@ const localBusinessJsonLd = {
   description:
     "Entrenamiento personal a medida en Ciudad de Guatemala y coaching online en todo el mundo.",
   url: "https://demaitrecoaching.com",
-  image: "https://demaitrecoaching.com/images/IMG_4818.jpg",
+  image: "https://demaitrecoaching.com/images/hero-sam.jpg",
   email: "sam@demaitrecoaching.com",
   telephone: "+50230502334",
   address: {
