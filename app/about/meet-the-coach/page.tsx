@@ -161,6 +161,7 @@ export default function MeetTheCoachPage() {
         quote={mc.testimonialQuote}
         author={mc.testimonialAuthor}
         title={mc.testimonialRole}
+        image="/images/testimonial-els.jpg"
       />
 
       <CtaStrip
