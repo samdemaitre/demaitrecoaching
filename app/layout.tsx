@@ -56,8 +56,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/hero-sam.jpg",
-        width: 1200,
-        height: 960,
+        width: 1800,
+        height: 1440,
         alt: "Sam de Maître — Entrenador Personal en Ciudad de Guatemala",
       },
     ],

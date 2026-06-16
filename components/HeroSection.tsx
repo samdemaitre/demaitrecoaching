@@ -103,7 +103,7 @@ export default function HeroSection() {
                     priority
                     sizes="(max-width: 768px) 100vw, 420px"
                     className="object-cover"
-                    style={{ objectPosition: "center 30%" }}
+                    style={{ objectPosition: "22% 30%" }}
                   />
                 </div>
               </div>
