@@ -8,7 +8,7 @@ export const en = {
   },
   footer: {
     navigate: "Navigate", getInTouch: "Get in Touch",
-    description: "Elite personal training in Guatemala City and online worldwide. Programs built for driven individuals who demand results.",
+    description: "Personal training in Guatemala City and online worldwide. Programs built for driven individuals who demand results.",
     tagline: "Tailored Training. Elevated Life.", copyright: "All rights reserved.",
     links: { home: "Home", meetCoach: "Meet the Coach", whyUs: "Why Me?", ourGoals: "My Goals", personal: "Personal Training", hybrid: "Hybrid Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },

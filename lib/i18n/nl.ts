@@ -10,7 +10,7 @@ export const nl: Translations = {
   },
   footer: {
     navigate: "Navigeer", getInTouch: "Neem contact op",
-    description: "Elite personal training in Guatemala-Stad en online wereldwijd. Programma's gebouwd voor gedreven individuen die resultaten eisen.",
+    description: "Personal training in Guatemala-Stad en online wereldwijd. Programma's gebouwd voor gedreven individuen die resultaten eisen.",
     tagline: "Maatwerk Training. Verheven Leven.", copyright: "Alle rechten voorbehouden.",
     links: { home: "Home", meetCoach: "Maak kennis met de coach", whyUs: "Waarom ik?", ourGoals: "Mijn doelen", personal: "Personal Training", hybrid: "Hybride Coaching", online: "Online Coaching", faq: "FAQ", contact: "Contact" },
   },

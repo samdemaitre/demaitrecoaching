@@ -10,7 +10,7 @@ export const de: Translations = {
   },
   footer: {
     navigate: "Navigation", getInTouch: "Kontakt aufnehmen",
-    description: "Elite-Personal-Training in Guatemala City und weltweit online. Programme für ambitionierte Menschen, die Ergebnisse fordern.",
+    description: "Personal Training in Guatemala City und weltweit online. Programme für ambitionierte Menschen, die Ergebnisse fordern.",
     tagline: "Maßgeschneidertes Training. Ein Leben auf höherem Niveau.", copyright: "Alle Rechte vorbehalten.",
     links: { home: "Startseite", meetCoach: "Den Coach kennenlernen", whyUs: "Warum ich?", ourGoals: "Meine Ziele", personal: "Personal Training", hybrid: "Hybrid-Coaching", online: "Online-Coaching", faq: "FAQ", contact: "Kontakt" },
   },

@@ -10,7 +10,7 @@ export const es: Translations = {
   },
   footer: {
     navigate: "Navegar", getInTouch: "Contacto",
-    description: "Personal training de élite en Ciudad de Guatemala y online en todo el mundo. Programas creados para personas ambiciosas que exigen resultados.",
+    description: "Personal training en Ciudad de Guatemala y online en todo el mundo. Programas creados para personas ambiciosas que exigen resultados.",
     tagline: "Entrenamiento a Medida. Vida Elevada.", copyright: "Todos los derechos reservados.",
     links: { home: "Inicio", meetCoach: "Conoce al Coach", whyUs: "¿Por qué yo?", ourGoals: "Mis Objetivos", personal: "Personal Training", hybrid: "Coaching Híbrido", online: "Coaching Online", faq: "Preguntas", contact: "Contacto" },
   },

@@ -10,7 +10,7 @@ export const fr: Translations = {
   },
   footer: {
     navigate: "Navigation", getInTouch: "Nous contacter",
-    description: "Entraînement personnel d'élite à Guatemala City et en ligne dans le monde entier. Des programmes conçus pour des individus ambitieux qui exigent des résultats.",
+    description: "Entraînement personnel à Guatemala City et en ligne dans le monde entier. Des programmes conçus pour des individus ambitieux qui exigent des résultats.",
     tagline: "Entraînement sur Mesure. Vie Élevée.", copyright: "Tous droits réservés.",
     links: { home: "Accueil", meetCoach: "Rencontrer le Coach", whyUs: "Pourquoi moi ?", ourGoals: "Mes Objectifs", personal: "Entraînement Personnel", hybrid: "Coaching Hybride", online: "Coaching en Ligne", faq: "FAQ", contact: "Contact" },
   },
