@@ -9,7 +9,9 @@ import Anthropic from "@anthropic-ai/sdk";
 import type { ClientWeek, Narratives } from "./types";
 import type { ComputedWeek } from "./rules";
 
-const MODEL = process.env.WEEKLY_REVIEW_MODEL || "claude-opus-4-8";
+// Haiku 4.5: fast + capable for short brand-voice phrasing. This runs synchronously
+// inside the check-in request, so latency matters; override with WEEKLY_REVIEW_MODEL.
+const MODEL = process.env.WEEKLY_REVIEW_MODEL || "claude-haiku-4-5";
 
 const SYSTEM = `You are the voice of De Maître Coaching writing a client's weekly review dashboard.
 
@@ -72,7 +74,7 @@ export async function generateNarratives(week: ClientWeek, computed: ComputedWee
   if (!process.env.ANTHROPIC_API_KEY) return null;
 
   try {
-    const client = new Anthropic({ timeout: 9000, maxRetries: 1 });
+    const client = new Anthropic({ timeout: 12000, maxRetries: 0 });
     const facts = buildFacts(week, computed);
 
     const message = await client.messages.create({

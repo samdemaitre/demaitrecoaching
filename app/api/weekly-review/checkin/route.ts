@@ -4,6 +4,9 @@ import { computeWeek } from "@/lib/weekly-review/rules";
 import { generateNarratives } from "@/lib/weekly-review/narratives";
 import type { Goal, Status } from "@/lib/weekly-review/types";
 
+// Give the serverless function room for the (best-effort) Claude narrative call.
+export const maxDuration = 30;
+
 const STATUSES: Status[] = ["green", "amber", "red"];
 const GOALS: Goal[] = ["fatloss", "muscle", "leanbulk", "recomp"];
 const numOrU = (v: unknown): number | undefined => (typeof v === "number" && Number.isFinite(v) ? v : undefined);
