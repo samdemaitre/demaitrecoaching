@@ -209,7 +209,7 @@ export const en = {
     {
       title: "Payment",
       items: [
-        { q: "How do I pay?", a: "Payment is accepted via bank transfer (Banrural, BAC, or similar), Tigo Money, or cash. All packages are prepaid before the first session or start date. You'll receive a confirmation once payment is received." },
+        { q: "How do I pay?", a: "Payment is accepted via bank transfer (Banrural, BAC, or similar) or cash. All packages are prepaid before the first session or start date. You'll receive a confirmation once payment is received." },
         { q: "Can I pause or cancel my monthly package?", a: "You can cancel with 7 days notice before your next billing date. Pausing for medical reasons or emergencies can be arranged on a case-by-case basis." },
         { q: "Are there any discounts available?", a: "The bring-a-friend deal is the main discount — both people save 25% compared to the solo rate, and it applies to both in-person and hybrid packages. The 3-month packages are also priced lower than paying month-by-month: Q150/month less for in-person and hybrid, Q100/month less for online. Referral discounts may be available — ask about them when you sign up." },
       ],

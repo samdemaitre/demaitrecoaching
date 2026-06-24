@@ -212,7 +212,7 @@ export const fr: Translations = {
     {
       title: "Paiement",
       items: [
-        { q: "Comment est-ce que je paie ?", a: "Le paiement est accepté par virement bancaire (Banrural, BAC ou similaire), Tigo Money ou espèces. Toutes les formules sont prépayées avant la première séance ou la date de début. Vous recevrez une confirmation une fois le paiement reçu." },
+        { q: "Comment est-ce que je paie ?", a: "Le paiement est accepté par virement bancaire (Banrural, BAC ou similaire) ou espèces. Toutes les formules sont prépayées avant la première séance ou la date de début. Vous recevrez une confirmation une fois le paiement reçu." },
         { q: "Puis-je suspendre ou annuler ma formule mensuelle ?", a: "Vous pouvez annuler avec 7 jours de préavis avant votre prochaine date de facturation. La suspension pour des raisons médicales ou des urgences peut être organisée au cas par cas." },
         { q: "Y a-t-il des réductions disponibles ?", a: "L'offre « amenez un ami » est la principale réduction — les deux personnes économisent 25% par rapport au tarif individuel, applicable aux formules personnelles et hybrides. Les formules 3 mois sont également moins chères qu'un paiement mois par mois : Q150/mois de moins pour le personnel et l'hybride, Q100/mois de moins pour le coaching en ligne. Des remises de parrainage peuvent être disponibles — renseignez-vous à ce sujet lors de votre inscription." },
       ],

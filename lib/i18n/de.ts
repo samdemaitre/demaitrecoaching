@@ -212,7 +212,7 @@ export const de: Translations = {
     {
       title: "Zahlung",
       items: [
-        { q: "Wie bezahle ich?", a: "Die Zahlung erfolgt per Banküberweisung (Banrural, BAC oder ähnlich), Tigo Money oder bar. Alle Pakete werden vor der ersten Session oder dem Startdatum im Voraus bezahlt. Du erhältst eine Bestätigung, sobald die Zahlung eingegangen ist." },
+        { q: "Wie bezahle ich?", a: "Die Zahlung erfolgt per Banküberweisung (Banrural, BAC oder ähnlich) oder bar. Alle Pakete werden vor der ersten Session oder dem Startdatum im Voraus bezahlt. Du erhältst eine Bestätigung, sobald die Zahlung eingegangen ist." },
         { q: "Kann ich mein monatliches Paket pausieren oder kündigen?", a: "Du kannst mit 7 Tagen Vorankündigung vor deinem nächsten Abrechnungsdatum kündigen. Das Pausieren aus medizinischen Gründen oder Notfällen kann fallweise arrangiert werden." },
         { q: "Gibt es Rabatte?", a: "Das Freund-mitbringen-Angebot ist der Hauptrabatt — beide Personen sparen 25% gegenüber dem Solo-Preis, gültig für Personal Training und Hybrid. Die 3-Monats-Pakete sind ebenfalls günstiger als monatlich zu zahlen: Q150/Monat weniger für Personal Training und Hybrid, Q100/Monat weniger für Online. Empfehlungsrabatte können verfügbar sein — frage beim Anmelden danach." },
       ],

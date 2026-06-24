@@ -212,7 +212,7 @@ export const es: Translations = {
     {
       title: "Pago",
       items: [
-        { q: "¿Cómo pago?", a: "El pago se acepta mediante transferencia bancaria (Banrural, BAC o similar), Tigo Money o efectivo. Todos los paquetes se pagan por adelantado antes de la primera sesión o fecha de inicio. Recibirás una confirmación una vez recibido el pago." },
+        { q: "¿Cómo pago?", a: "El pago se acepta mediante transferencia bancaria (Banrural, BAC o similar) o efectivo. Todos los paquetes se pagan por adelantado antes de la primera sesión o fecha de inicio. Recibirás una confirmación una vez recibido el pago." },
         { q: "¿Puedo pausar o cancelar mi paquete mensual?", a: "Puedes cancelar con 7 días de aviso antes de tu próxima fecha de facturación. La pausa por razones médicas o emergencias puede gestionarse caso por caso." },
         { q: "¿Hay descuentos disponibles?", a: "La oferta de traer a un amigo es el principal descuento — ambas personas ahorran un 25% respecto al precio individual, aplicable a los paquetes presenciales e híbridos. Los paquetes de 3 meses también tienen un precio inferior al de pagar mes a mes: Q150/mes menos para presencial e híbrido, Q100/mes menos para online. Pueden estar disponibles descuentos por referidos — pregunta sobre ellos cuando te inscribas." },
       ],

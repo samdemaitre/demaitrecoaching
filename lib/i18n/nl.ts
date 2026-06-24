@@ -211,7 +211,7 @@ export const nl: Translations = {
     {
       title: "Betaling",
       items: [
-        { q: "Hoe betaal ik?", a: "Betaling is mogelijk via overschrijving (Banrural, BAC of vergelijkbaar), Tigo Money of contant geld. Alle pakketten worden vooraf betaald voor de eerste sessie of startdatum. Je ontvangt een bevestiging zodra de betaling is ontvangen." },
+        { q: "Hoe betaal ik?", a: "Betaling is mogelijk via overschrijving (Banrural, BAC of vergelijkbaar) of contant geld. Alle pakketten worden vooraf betaald voor de eerste sessie of startdatum. Je ontvangt een bevestiging zodra de betaling is ontvangen." },
         { q: "Kan ik mijn maandelijks pakket pauzeren of annuleren?", a: "Je kunt opzeggen met 7 dagen opzegtermijn vóór je volgende factuurdatum. Pauzeren om medische redenen of noodgevallen kan geval per geval worden geregeld." },
         { q: "Zijn er kortingen beschikbaar?", a: "De 'breng een vriend mee' deal is de belangrijkste korting — beide personen besparen 25% ten opzichte van het solo tarief, zowel voor persoonlijke als hybride pakketten. De 3-maandspakketten zijn ook lager geprijsd dan maand-tot-maand betalen: Q150/maand minder voor persoonlijk en hybride, Q100/maand minder voor online. Verwijzingskortingen zijn mogelijk beschikbaar — vraag ernaar bij inschrijving." },
       ],
