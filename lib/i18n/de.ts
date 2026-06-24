@@ -24,6 +24,7 @@ export const de: Translations = {
     whatsappCta: "Per WhatsApp schreiben",
     whatsappMessage: "Hallo Sam! Ich interessiere mich für dein Coaching und hätte gerne mehr Informationen.",
     readyToStart: "Bereit anzufangen?", seeServices: "Leistungen ansehen",
+    exploreOther: "Weitere Leistungen entdecken", learnMore: "Mehr erfahren",
     ctaQuote: "Nach zwölf Jahren ist es nicht die Wissenschaft, die mich antreibt — es ist der Moment, in dem ein Klient merkt, dass er stärker ist, als er dachte.",
   },
   home: {
@@ -40,8 +41,10 @@ export const de: Translations = {
     statsTailoredDesc: "Jedes Programm wird von Grund auf rund um deine Ziele, dein Leben und deinen Zeitplan geschrieben. Null Vorlagen.",
     lakeQuote: "Die besten Programme verändern nicht nur deinen Körper — sie verändern",
     lakeQuoteItalic: "was du dir zutraust.",
-    lakeLocation: "Guatemala City · Guatemala",
+    lakeLocation: "Volcán San Pedro · Atitlán-See",
     pillarsEyebrow: "Die Methode", pillarsHeading: "Vier Säulen der Exzellenz",
+    servicesEyebrow: "Die Optionen", servicesHeading: "Drei Wege, mit mir", servicesHeadingItalic: "zu trainieren",
+    servicesIntro: "Ob du persönliche Sessions in Guatemala City, vollständig remotes Coaching oder das Beste aus beidem möchtest — es gibt einen Weg, der um dein Leben herum aufgebaut ist.",
     strengthTitle: "Kraft", strengthBody: "Progressive Überlastungsprogramme, die rund um deine Ziele, deinen Zeitplan und deine verfügbare Ausrüstung aufgebaut werden.",
     nutritionTitle: "Ernährung", nutritionBody: "Praktische, nachhaltige Ernährungsberatung, die zu deinem Lebensstil passt — ohne extreme Diäten.",
     accountabilityTitle: "Verantwortlichkeit", accountabilityBody: "Regelmäßige Check-ins, Fortschrittsverfolgung und konstante Unterstützung, um dich auf Kurs zu halten.",
@@ -51,7 +54,7 @@ export const de: Translations = {
   meetCoach: {
     eyebrow: "Den Coach kennenlernen", heading: "Neuaufgebaut. Neu fokussiert.", headingItalic: "Bereit zu coachen.",
     body1: "",
-    body2: "Hallo, ich heiße Sam. Ich bin 36, ursprünglich aus Belgien, und letztes Jahr bin ich endgültig nach Guatemala gezogen — nach ein paar Jahren des Hin- und Herreisens, hingezogen von den Menschen, die mir am meisten bedeuten, meiner Freundin und unserer Tochter, und ehrlich gesagt von dem Gefühl, dass dies genau der Ort ist, an dem ich sein soll.",
+    body2: "Hallo, ich heiße Sam. Ich bin 36, ursprünglich aus Belgien, und letztes Jahr bin ich endgültig nach Guatemala gezogen — nach ein paar Jahren des Hin- und Herreisens, hingezogen von den Menschen, die mir am meisten bedeuten, meiner Familie, und ehrlich gesagt von dem Gefühl, dass dies genau der Ort ist, an dem ich sein soll.",
     body3: "Ich arbeite seit über 10 Jahren im Fitness- und Krafttraining. Ich habe einen Bachelor in Sportwissenschaften und Bewegungslehre mit Spezialisierung auf Personal Training und habe alles trainiert — von absoluten Anfängern bis zu Leistungssportlern. Aber der Grund, warum ich in dieses Feld eingestiegen bin, ist nicht nur akademisch — er ist persönlich.",
     body4: "Ich habe 11 Jahre lang auf nationalem Niveau in der Leichtathletik in Belgien gekämpft, hauptsächlich im Zehnkampf und im Weitsprung. Der Zehnkampf besteht aus zehn Disziplinen über zwei Tage — er lehrt dich, dass du immer mehr kannst als du denkst, und dass Beständigkeit Talent jedes Mal schlägt. Dann nahm eine Verletzung das alles von mir weg. Damals fühlte es sich an, als würde ich einen großen Teil meiner Identität verlieren. Was mich durchgebracht hat, war Krafttraining — und diese Erfahrung des Wiederaufbaus, körperlich wie mental, ist etwas, das ich in jede Einheit mit jedem Klienten einbringe. Ich weiß, wie es sich anfühlt, neu anzufangen. Ich weiß, was es braucht, weiterzumachen. Diese Wende führte mich zum Powerlifting, das noch heute ein großer Teil meines Lebens ist.",
     body5: "Außerhalb des Studios ist Abenteuer nie weit. Ich habe drei Jahre lang solo die Welt bereist, Berge in den Anden bestiegen und neben Schiffswracks in tropischen Gewässern freediviert. Ich trainiere hart, esse gut und versuche, die Dinge zu leben, die ich meinen Klienten bitte zu tun. Guatemala hat mir ein neues Zuhause gegeben, eine Familie, für die ich etwas aufbaue, und einen Grund, hier etwas zu schaffen, auf das ich wirklich stolz bin.",
@@ -163,6 +166,15 @@ export const de: Translations = {
     ctaHeading: "Hast du noch Fragen?", ctaItalic: "Lass uns reden.", ctaNote: "Dauert weniger als 60 Sekunden · Keine Verpflichtung",
   },
   faqSections: [
+    {
+      title: "Personal Training in Guatemala",
+      items: [
+        { q: "Bietest du Personal Training in Guatemala City an?", a: "Ja. Persönliches Personal Training ist in ganz Guatemala City und Umgebung verfügbar — in deinem Fitnessstudio, zu Hause oder im Freien. Jede Session ist 1-zu-1, oder 2-zu-1, wenn du einen Freund mitbringst, und vollständig auf deine Ziele zugeschnitten. Wenn du außerhalb der Stadt wohnst, bietet dir Online-Coaching dieselbe fachkundige Programmgestaltung aus der Ferne." },
+        { q: "Was kostet ein Personal Trainer in Guatemala City?", a: "Persönliches Personal Training beginnt bei Q1.200/Monat für 4 Sessions, mit günstigeren Preisen pro Session bei den 8-Session- und 3-Monats-Paketen, und Einzelsessions für Q350. Online-Coaching beginnt bei Q850/Monat und Hybrid-Coaching bei Q1.300/Monat. Alle Preise findest du auf der jeweiligen Leistungsseite." },
+        { q: "Bietest du Online-Coaching außerhalb Guatemalas an?", a: "Ja. Online-Coaching ist vollständig remote und weltweit verfügbar. Du erhältst ein personalisiertes Trainingsprogramm, Ernährungsrichtlinien, wöchentliche Video-Check-ins und 24/7 Nachrichtensupport — egal wo du bist." },
+        { q: "Kann ich mit einem englisch- oder niederländischsprachigen Personal Trainer in Guatemala trainieren?", a: "Ja. Das Coaching wird fließend auf Englisch und Niederländisch durchgeführt — in Guatemala City selten — und ich verstehe auch Spanisch, Französisch und Deutsch, sodass du in der Sprache trainieren kannst, in der du dich am wohlsten fühlst." },
+      ],
+    },
     {
       title: "Für den Einstieg",
       items: [

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import ServiceHero from "@/components/ServiceHero";
+import ServiceCrossLinks from "@/components/ServiceCrossLinks";
 import FaqAccordion from "@/components/FaqAccordion";
 import CtaStrip from "@/components/CtaStrip";
 import { useLanguage } from "@/lib/i18n/context";
@@ -111,6 +112,9 @@ export default function HybridCoachingPage() {
 
         </div>
       </section>
+
+      {/* ── Other services ────────────────────────────────────────────────── */}
+      <ServiceCrossLinks current="hybrid" />
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-20 px-6 bg-cream">

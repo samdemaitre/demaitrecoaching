@@ -24,6 +24,7 @@ export const nl: Translations = {
     whatsappCta: "Chat via WhatsApp",
     whatsappMessage: "Hoi Sam! Ik ben geïnteresseerd in je coaching en wil graag meer informatie.",
     readyToStart: "Klaar om te beginnen?", seeServices: "Bekijk diensten",
+    exploreOther: "Ontdek andere diensten", learnMore: "Meer weten",
     ctaQuote: "Na twaalf jaar is wat mij nog steeds drijft niet de wetenschap — het is het moment waarop een klant beseft dat hij sterker is dan hij dacht.",
   },
   home: {
@@ -40,8 +41,10 @@ export const nl: Translations = {
     statsTailoredDesc: "Elk programma wordt vanaf nul geschreven rond jouw doelen, jouw leven en jouw schema. Nul sjablonen.",
     lakeQuote: "De beste programma's veranderen niet alleen je lichaam — ze veranderen",
     lakeQuoteItalic: "wat je gelooft dat je kunt.",
-    lakeLocation: "Guatemala-Stad · Guatemala",
+    lakeLocation: "Volcán San Pedro · Atitlánmeer",
     pillarsEyebrow: "De methode", pillarsHeading: "Vier pijlers van uitmuntendheid",
+    servicesEyebrow: "De Opties", servicesHeading: "Drie manieren om", servicesHeadingItalic: "met mij te trainen",
+    servicesIntro: "Of je nu persoonlijke sessies in Guatemala-Stad wilt, volledig online coaching of het beste van beide — er is een traject opgebouwd rond jouw leven.",
     strengthTitle: "Kracht", strengthBody: "Progressive overload programma's opgebouwd rond jouw doelen, schema en beschikbare uitrusting.",
     nutritionTitle: "Voeding", nutritionBody: "Praktische, duurzame voedingsbegeleiding die past bij jouw levensstijl — geen extreme diëten.",
     accountabilityTitle: "Verantwoording", accountabilityBody: "Regelmatige check-ins, voortgangsregistratie en constante ondersteuning om je op koers te houden.",
@@ -51,7 +54,7 @@ export const nl: Translations = {
   meetCoach: {
     eyebrow: "Maak kennis met de coach", heading: "Herbouwd. Hergeconcentreerd.", headingItalic: "Klaar om te coachen.",
     body1: "",
-    body2: "Hoi, mijn naam is Sam. Ik ben 36, oorspronkelijk uit België, en vorig jaar ben ik definitief naar Guatemala verhuisd — na een paar jaar heen en weer reizen, aangetrokken door de mensen die ik het meeste liefheb, mijn vriendin en onze dochter, en eerlijk gezegd door het gevoel dat dit precies is waar ik moet zijn.",
+    body2: "Hoi, mijn naam is Sam. Ik ben 36, oorspronkelijk uit België, en vorig jaar ben ik definitief naar Guatemala verhuisd — na een paar jaar heen en weer reizen, aangetrokken door de mensen die ik het meeste liefheb, mijn familie, en eerlijk gezegd door het gevoel dat dit precies is waar ik moet zijn.",
     body3: "Ik werk al meer dan 10 jaar in fitness en krachtcoaching. Ik heb een bachelor Lichamelijke Opvoeding en Bewegingswetenschappen met een specialisatie in personal training, en ik heb mensen van alle niveaus gecoacht, van absolute beginners tot competitieve atleten. Maar de reden dat ik in dit vakgebied stapte, is niet alleen academisch — het is persoonlijk.",
     body4: "Ik heb 11 jaar op nationaal niveau geconcurreerd in de atletiek in België, voornamelijk in de tienkamp en het verspringen. De tienkamp bestaat uit tien onderdelen over twee dagen — het leert je dat je altijd meer kunt dan je denkt, en dat consistentie talent elke keer verslaat. Toen nam een blessure dat alles van me weg. Op dat moment voelde het alsof ik een groot deel van mijn identiteit verloor. Wat me erdoorheen hielp was krachttraining — en die ervaring van herbouwen, zowel fysiek als mentaal, neem ik mee in elke sessie met elke klant. Ik weet hoe het voelt om opnieuw te beginnen. Ik weet wat het kost om door te gaan. Die overgang bracht me naar powerlifting, dat vandaag nog steeds een groot deel van mijn leven is.",
     body5: "Buiten de sportschool is avontuur nooit ver weg. Ik heb drie jaar lang solo de wereld gereisd, bergen beklommen in de Andes en vrijgedoken naast wrakken in tropische wateren. Ik train hard, eet goed en probeer de dingen te leven die ik mijn klanten vraag te doen. Guatemala heeft me een nieuw thuis gegeven, een gezin om iets voor te bouwen, en een reden om hier iets te creëren waar ik écht trots op ben.",
@@ -162,6 +165,15 @@ export const nl: Translations = {
     ctaHeading: "Nog vragen?", ctaItalic: "Laten we praten.", ctaNote: "Duurt minder dan 60 seconden · Geen verplichtingen",
   },
   faqSections: [
+    {
+      title: "Personal training in Guatemala",
+      items: [
+        { q: "Bied je personal training aan in Guatemala-Stad?", a: "Ja. Persoonlijke personal training is beschikbaar in heel Guatemala-Stad en omgeving — in jouw sportschool, thuis of buiten. Elke sessie is 1-op-1, of 2-op-1 als je een vriend meeneemt, en volledig opgebouwd rond jouw doelen. Woon je buiten de stad, dan biedt online coaching je dezelfde deskundige programmering op afstand." },
+        { q: "Wat kost een personal trainer in Guatemala-Stad?", a: "Persoonlijke personal training begint vanaf Q1.200/maand voor 4 sessies, met lagere tarieven per sessie bij de 8-sessie- en 3-maandspakketten, en losse sessies voor Q350. Online coaching begint vanaf Q850/maand en hybride coaching vanaf Q1.300/maand. Alle prijzen staan op elke dienstpagina." },
+        { q: "Bied je online coaching aan buiten Guatemala?", a: "Ja. Online coaching is volledig op afstand en wereldwijd beschikbaar. Je krijgt een gepersonaliseerd trainingsprogramma, voedingsrichtlijnen, wekelijkse video check-ins en 24/7 berichtondersteuning — waar je ook bent." },
+        { q: "Kan ik trainen met een Engels- of Nederlandstalige personal trainer in Guatemala?", a: "Ja. De coaching wordt vloeiend in het Engels en Nederlands gegeven — zeldzaam in Guatemala-Stad — en ik versta ook Spaans, Frans en Duits, zodat je kunt trainen in de taal waarin je je het prettigst voelt." },
+      ],
+    },
     {
       title: "Aan de slag",
       items: [

@@ -24,6 +24,7 @@ export const fr: Translations = {
     whatsappCta: "Discuter sur WhatsApp",
     whatsappMessage: "Bonjour Sam ! Votre coaching m'intéresse et j'aimerais en savoir plus.",
     readyToStart: "Prêt à commencer ?", seeServices: "Voir les Services",
+    exploreOther: "Découvrez d'autres services", learnMore: "En savoir plus",
     ctaQuote: "Après douze ans, ce qui me motive encore, ce n'est pas la science — c'est le moment où un client réalise qu'il est plus fort qu'il ne le pensait.",
   },
   home: {
@@ -40,8 +41,10 @@ export const fr: Translations = {
     statsTailoredDesc: "Chaque programme est écrit à partir de zéro autour de vos objectifs, votre vie et votre emploi du temps. Zéro modèle.",
     lakeQuote: "Les meilleurs programmes ne changent pas seulement votre corps — ils changent",
     lakeQuoteItalic: "ce que vous croyez être capable d'accomplir.",
-    lakeLocation: "Guatemala City · Guatemala",
+    lakeLocation: "Volcán San Pedro · Lac Atitlán",
     pillarsEyebrow: "La Méthode", pillarsHeading: "Quatre Piliers d'Excellence",
+    servicesEyebrow: "Les Options", servicesHeading: "Trois façons de", servicesHeadingItalic: "s'entraîner avec moi",
+    servicesIntro: "Que vous vouliez des séances en présentiel à Guatemala City, un coaching 100% à distance ou le meilleur des deux — il existe une voie construite autour de votre vie.",
     strengthTitle: "Force", strengthBody: "Des programmes de surcharge progressive construits autour de vos objectifs, votre emploi du temps et votre équipement disponible.",
     nutritionTitle: "Nutrition", nutritionBody: "Des conseils nutritionnels pratiques et durables qui s'adaptent à votre style de vie — sans régimes extrêmes.",
     accountabilityTitle: "Responsabilité", accountabilityBody: "Des bilans réguliers, un suivi des progrès et un soutien constant pour vous maintenir sur la bonne voie.",
@@ -51,7 +54,7 @@ export const fr: Translations = {
   meetCoach: {
     eyebrow: "Rencontrer le Coach", heading: "Reconstruit. Recentré.", headingItalic: "Prêt à coacher.",
     body1: "",
-    body2: "Bonjour, je m'appelle Sam. J'ai 36 ans, je suis originaire de Belgique, et l'an dernier je me suis installé définitivement au Guatemala — après quelques années d'allers-retours, attiré ici par les personnes que j'aime le plus, ma compagne et notre fille, et honnêtement, par le sentiment que c'est exactement là où je dois être.",
+    body2: "Bonjour, je m'appelle Sam. J'ai 36 ans, je suis originaire de Belgique, et l'an dernier je me suis installé définitivement au Guatemala — après quelques années d'allers-retours, attiré ici par les personnes que j'aime le plus, ma famille, et honnêtement, par le sentiment que c'est exactement là où je dois être.",
     body3: "Je travaille dans le fitness et le coaching de force depuis plus de 10 ans. J'ai une licence en Éducation Physique et Sciences du Mouvement avec une spécialisation en entraînement personnel, et j'ai coaché des personnes de tous niveaux, des débutants complets aux athlètes de compétition. Mais la raison pour laquelle je me suis lancé dans ce domaine n'est pas seulement académique — elle est personnelle.",
     body4: "J'ai passé 11 ans à concourir en athlétisme au niveau national en Belgique, principalement dans le décathlon et le saut en longueur. Le décathlon, c'est dix épreuves sur deux jours — il vous apprend que vous pouvez toujours faire plus que vous ne le pensez, et que la régularité bat le talent à chaque fois. Puis une blessure m'a tout pris. Sur le moment, c'était comme perdre une grande partie de mon identité. Ce qui m'a aidé à m'en sortir, c'est la musculation — et cette expérience de reconstruction, physique et mentale, est quelque chose que j'apporte dans chaque séance avec chaque client. Je sais ce que c'est de repartir de zéro. Je sais ce qu'il faut pour continuer. Cette transition m'a conduit vers le powerlifting, qui fait encore aujourd'hui une grande partie de ma vie.",
     body5: "En dehors de la salle, l'aventure n'est jamais loin. J'ai voyagé seul à travers le monde pendant trois ans, gravi des montagnes dans les Andes et pratiqué l'apnée à côté d'épaves dans des eaux tropicales. Je m'entraîne dur, je mange bien, et j'essaie de vivre ce que je demande à mes clients de faire. Le Guatemala m'a offert un nouveau foyer, une famille pour laquelle construire quelque chose, et une raison de créer quelque chose ici dont je suis vraiment fier.",
@@ -163,6 +166,15 @@ export const fr: Translations = {
     ctaHeading: "Vous avez encore des questions ?", ctaItalic: "Parlons-en.", ctaNote: "Cela prend moins de 60 secondes · Sans engagement",
   },
   faqSections: [
+    {
+      title: "Personal training au Guatemala",
+      items: [
+        { q: "Proposez-vous du personal training à Guatemala City ?", a: "Oui. Le personal training en présentiel est disponible dans tout Guatemala City et ses environs — dans votre salle de sport, à domicile ou en plein air. Chaque séance est en 1 pour 1, ou 2 pour 1 si vous amenez un ami, et entièrement construite autour de vos objectifs. Si vous habitez hors de la ville, le coaching en ligne vous offre la même programmation experte à distance." },
+        { q: "Combien coûte un coach personnel à Guatemala City ?", a: "Le personal training en présentiel commence à Q1 200/mois pour 4 séances, avec des tarifs à la séance plus bas sur les formules 8 séances et 3 mois, et des séances uniques à Q350. Le coaching en ligne commence à Q850/mois et le coaching hybride à Q1 300/mois. Tous les tarifs figurent sur chaque page de service." },
+        { q: "Proposez-vous du coaching en ligne hors du Guatemala ?", a: "Oui. Le coaching en ligne est entièrement à distance et disponible dans le monde entier. Vous recevez un programme d'entraînement personnalisé, des directives nutritionnelles, des bilans vidéo hebdomadaires et un support par message 24h/24 — où que vous soyez." },
+        { q: "Puis-je m'entraîner avec un coach anglophone ou néerlandophone au Guatemala ?", a: "Oui. Le coaching est dispensé couramment en anglais et en néerlandais — rare à Guatemala City — et je comprends aussi l'espagnol, le français et l'allemand, vous pouvez donc vous entraîner dans la langue où vous êtes le plus à l'aise." },
+      ],
+    },
     {
       title: "Pour commencer",
       items: [

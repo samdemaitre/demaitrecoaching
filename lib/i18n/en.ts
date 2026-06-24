@@ -22,6 +22,7 @@ export const en = {
     whatsappCta: "Chat on WhatsApp",
     whatsappMessage: "Hi Sam! I'm interested in your coaching and would like to know more.",
     readyToStart: "Ready to start?", seeServices: "See Services",
+    exploreOther: "Explore other services", learnMore: "Learn more",
     ctaQuote: "Twelve years in, the thing that still drives me isn't the science — it's the moment a client realises they're stronger than they thought they were.",
   },
   home: {
@@ -38,8 +39,10 @@ export const en = {
     statsTailoredDesc: "Every programme is written from scratch around your goals, your life, and your schedule. Zero templates.",
     lakeQuote: "The best programmes don't just change your body — they change",
     lakeQuoteItalic: "what you believe you're capable of.",
-    lakeLocation: "Guatemala City · Guatemala",
+    lakeLocation: "Volcán San Pedro · Lake Atitlán",
     pillarsEyebrow: "The Method", pillarsHeading: "Four Pillars of Excellence",
+    servicesEyebrow: "The Options", servicesHeading: "Three ways to", servicesHeadingItalic: "train with me",
+    servicesIntro: "Whether you want hands-on sessions in Guatemala City, fully remote coaching, or the best of both — there's a path built around your life.",
     strengthTitle: "Strength", strengthBody: "Progressive overload programmes built around your goals, schedule, and available equipment.",
     nutritionTitle: "Nutrition", nutritionBody: "Practical, sustainable nutrition guidance that fits your lifestyle — no extreme dieting.",
     accountabilityTitle: "Accountability", accountabilityBody: "Regular check-ins, progress tracking, and constant support to keep you on track.",
@@ -49,7 +52,7 @@ export const en = {
   meetCoach: {
     eyebrow: "Meet the Coach", heading: "Rebuilt. Refocused.", headingItalic: "Ready to coach.",
     body1: "",
-    body2: "Hi, my name is Sam. I'm 36, originally from Belgium, and last year I made the move to Guatemala permanently — after a couple of years of going back and forth, drawn here by the people I love most, my girlfriend and our daughter, and honestly, by a feeling that this is exactly where I'm supposed to be.",
+    body2: "Hi, my name is Sam. I'm 36, originally from Belgium, and last year I made the move to Guatemala permanently — after a couple of years of going back and forth, drawn here by the people I love most, my family, and honestly, by a feeling that this is exactly where I'm supposed to be.",
     body3: "I've been working in fitness and strength coaching for over 10 years. I have a Bachelor's degree in Physical Education and Sport Science with a specialisation in personal training, and I've coached everyone from complete beginners to competitive athletes. But the reason I got into this field isn't just academic — it's personal.",
     body4: "I spent 11 years competing in track and field at a national level in Belgium, primarily in the decathlon and long jump. The decathlon is ten events across two days — it teaches you that you can always do more than you think, and that consistency beats talent every time. Then an injury took that away from me. At the time it felt like losing a big part of my identity. What pulled me through was strength training — and that experience of rebuilding, both physically and mentally, is something I carry into every session with every client. I know what it feels like to start over. I know what it takes to keep going. That transition led me into powerlifting, which is still a big part of my life today.",
     body5: "Outside the gym, adventure is never far away. I've solo travelled the world for three years, climbed mountains in the Andes, and freedived next to shipwrecks in tropical waters. I train hard, I eat well, and I try to live the things I ask my clients to do. Guatemala has given me a new home, a family to build something for, and a reason to create something here that I'm truly proud of.",
@@ -160,6 +163,15 @@ export const en = {
     ctaHeading: "Still have questions?", ctaItalic: "Let's talk.", ctaNote: "Takes less than 60 seconds. No obligation",
   },
   faqSections: [
+    {
+      title: "Personal training in Guatemala",
+      items: [
+        { q: "Do you offer personal training in Guatemala City?", a: "Yes. In-person personal training is available across Guatemala City and the surrounding area — at your gym, at home, or outdoors. Every session is 1-on-1, or 2-on-1 if you bring a friend, and built entirely around your goals. If you're based outside the city, online coaching gives you the same expert programming remotely." },
+        { q: "How much does a personal trainer cost in Guatemala City?", a: "In-person personal training starts at Q1,200/month for 4 sessions, with lower per-session rates on the 8-session and 3-month packages, and single sessions at Q350. Online coaching starts at Q850/month and hybrid coaching at Q1,300/month. Full pricing is listed on each service page." },
+        { q: "Do you offer online personal training outside Guatemala?", a: "Yes. Online coaching is fully remote and available worldwide. You get a personalised training program, nutrition guidelines, weekly video check-ins, and 24/7 message support — wherever you are in the world." },
+        { q: "Can I train with an English- or Dutch-speaking personal trainer in Guatemala?", a: "Yes. Coaching is delivered fluently in English and Dutch — rare in Guatemala City — and I also understand Spanish, French, and German, so you can train in the language you're most comfortable in." },
+      ],
+    },
     {
       title: "Getting started",
       items: [

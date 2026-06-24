@@ -12,7 +12,7 @@ export default function LakeBand() {
       <div className="absolute inset-0">
         <Image
           src="/images/20220804054144_IMG_0024.JPG"
-          alt="Lake Atitlán, Guatemala"
+          alt="Sam de Maître on Volcán San Pedro, Lake Atitlán, Guatemala"
           fill
           sizes="100vw"
           className="object-cover"

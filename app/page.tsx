@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import StatsStrip from "@/components/StatsStrip";
 import LakeBand from "@/components/LakeBand";
 import PillarsSection from "@/components/PillarsSection";
+import ServicesPreview from "@/components/ServicesPreview";
 import CtaStrip from "@/components/CtaStrip";
 import { useLanguage } from "@/lib/i18n/context";
 
@@ -15,6 +16,7 @@ export default function HomePage() {
       <StatsStrip />
       <LakeBand />
       <PillarsSection />
+      <ServicesPreview />
       <CtaStrip
         heading={
           <>
