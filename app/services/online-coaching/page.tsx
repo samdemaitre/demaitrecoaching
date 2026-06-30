@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import ServiceHero from "@/components/ServiceHero";
 import ServiceCrossLinks from "@/components/ServiceCrossLinks";
@@ -8,8 +9,18 @@ import CtaStrip from "@/components/CtaStrip";
 import { useLanguage } from "@/lib/i18n/context";
 
 export default function OnlineCoachingPage() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const o = t.onlineCoaching;
+  const isDutch = lang === "nl";
+
+  // Dutch page shows euro pricing by default with a toggle to quetzales.
+  // Every other language always shows quetzales and never renders the toggle.
+  const [currency, setCurrency] = useState<"eur" | "gtq">("eur");
+  const showEur = isDutch && currency === "eur";
+
+  const card1Price = showEur ? "€110" : "Q950";
+  const card2Price = showEur ? "€99" : "Q850";
+  const card2Meta = showEur ? "€297 totaal · Bespaar €33" : `${o.card2Total} · ${o.card2Save}`;
 
   const features: { text: string; negative?: boolean }[] = [
     { text: o.cardF1, negative: true },
@@ -38,6 +49,22 @@ export default function OnlineCoachingPage() {
             <h2 className="font-cormorant text-4xl md:text-5xl font-medium text-text mt-3">{t.common.choosePackage}</h2>
           </div>
 
+          {/* ── Currency toggle (Dutch only) ── */}
+          {isDutch && (
+            <div className="text-center mb-10 -mt-6">
+              <button
+                type="button"
+                onClick={() => setCurrency((c) => (c === "eur" ? "gtq" : "eur"))}
+                className="inline-flex items-center gap-2 font-montserrat text-[11px] font-semibold tracking-widest uppercase border border-gold text-gold rounded-full px-5 py-2.5 hover:bg-gold hover:text-cream transition-all duration-200"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                </svg>
+                {currency === "eur" ? "Prijzen in quetzales" : "Prijzen in euro"}
+              </button>
+            </div>
+          )}
+
           {/* ── Two cards ── */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
 
@@ -48,7 +75,7 @@ export default function OnlineCoachingPage() {
                 <p className="font-dmsans text-sm text-text-muted mt-1">{o.card1Subtitle}</p>
               </div>
               <div className="flex items-end gap-1">
-                <span className="font-cormorant text-4xl font-medium text-gold">Q950</span>
+                <span className="font-cormorant text-4xl font-medium text-gold">{card1Price}</span>
                 <span className="font-montserrat text-xs text-text-muted mb-1.5">{t.common.perMonth}</span>
               </div>
               <ul className="flex flex-col gap-3 flex-1">
@@ -83,10 +110,10 @@ export default function OnlineCoachingPage() {
               </div>
               <div>
                 <div className="flex items-end gap-1">
-                  <span className="font-cormorant text-4xl font-medium text-gold">Q850</span>
+                  <span className="font-cormorant text-4xl font-medium text-gold">{card2Price}</span>
                   <span className="font-montserrat text-xs text-gold-soft/70 mb-1.5">{t.common.perMonth}</span>
                 </div>
-                <p className="font-dmsans text-xs text-gold-soft/60 mt-1">{o.card2Total} · {o.card2Save}</p>
+                <p className="font-dmsans text-xs text-gold-soft/60 mt-1">{card2Meta}</p>
               </div>
               <ul className="flex flex-col gap-3 flex-1">
                 {features.map(({ text, negative }) => (
